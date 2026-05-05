@@ -15,8 +15,14 @@ ENV/
 
 # Node
 node_modules/
-dist/
-build/
 
 # Environment
 .env
+
+# PyInstaller – binários compilados e artefactos de build
+dist/
+build/
+
+# Imagens geradas e relatório Word compilado
+material/projecto/relatório/img_code/
+material/projecto/relatório/Relatorio_Factor_Z_Codigo.docx
