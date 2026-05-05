@@ -1,0 +1,632 @@
+
+
+=== PAGE 1 ===
+ENGENHARIA DE RESERVATÓRIOS I
+3º ANO – 2º SEMESTRE
+2025 - 2026
+1
+Docente: Prof. Dr. Geraldo A. R. Ramos
+1
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+
+
+=== PAGE 2 ===
+Introdução à Engenharia de Reservatórios 1
+1.1. Sistema de Produção;
+1.2. Engenharia de Reservatórios: funções e objectivos;
+1.2. História da engenharia de reservatórios;
+1.3. Tipos de reservatórios definidos pelo diagramas de fases;
+1.4. Mecanismos de produção de reservatórios.
+1.5. Consolidação da Aula
+1.6. Tarefas
+2
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+
+
+=== PAGE 3 ===
+Objectivo Geral e Específicos
+Injection 
+3
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+Objectivo Geral
+Analisar os princípios fundamentais da Engenharia de Reservatórios, abrangendo sistemas de produção,
+funcções e objectivos da disciplina, evolução histórica, classificação de reservatórios segundo diagramas
+de fases e mecanismos de produção, visando a capacitação para integração de informações e apoio à
+tomada de decisão técnica em campos petrolíferos.
+Objectivos Específicos
+Descrever os componentes e a estrutura de um sistema de produção de hidrocarbonetos.
+Explicar
+as
+principais
+funcções
+e
+objetivos
+da
+Engenharia
+de
+Reservatórios
+na
+exploração
+e
+desenvolvimento de campos petrolíferos.
+Relatar a evolução histórica da disciplina, destacando marcos tecnológicos e metodológicos.
+Classificar os tipos de reservatórios com base em diagramas de fases, diferenciando óleo, gás e
+condensado.
+Comparar os principais mecanismos de produção de reservatórios, incluindo drive por pressão, expansão de
+gás, influxo de água e outros processos naturais
+
+
+=== PAGE 4 ===
+Sistema de Produção
+Injection 
+4
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+Campo de actuação do 
+Engenheiro de Reservatórios
+
+
+=== PAGE 5 ===
+Sistema de Produção
+
+Sistema de produção é o conjunto de equipamentos destinados a promover a coleta, a
+separação, tratamento, estocagem, escoamento dos fluidos produzidos e movimentados no
+campo de petróleo ou gás natural;
+
+Com este sistema os fluídos que estão armazenados no reservatório são produzidos até à superfície,
+em três etapas:
+Ilustração das três etapas de sistema de produção
+Recuperação
+Elevação
+Escoamento 
+Fluxo de fluidos de reservatório até 
+ao fundo do poço.
+Fluxo de fluidos do fundo do poço 
+até à superfície (Topo de Poço). Este 
+pode ser natural ou artificial.
+Fluxo do topo do poço, passando
+pelo regulador de fluxo e indo até
+ao separador.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+5
+
+
+=== PAGE 6 ===
+Injection 
+6
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+Sistema de Produção
+Para armazenamento ou acumulação do fluido produzido, além da presença da rocha
+reservatório é necessário a existência de um sistema petrolífero composto de elementos seguintes:
+Armadilha ou "trapa" - arranjo estrutural-geométrico (dobras, falhas
+ou fraturas) de rochas que permite a acumulação de petróleo, isto é,
+barreira interna ou externa que impede a sua migração;
+Rocha Geradora - rocha que gera o petróleo a partir de matéria
+orgânica;
+Rocha Selante - rocha que mantém o petróleo em profundidade, dada suas características de
+porosidade e permeabilidade, e permite a preservação do óleo;
+Migração - processo que mobiliza o petróleo de sua zona de geração até a rocha reservatório;
+Sincronismo - fenômeno que faz com que todos os factores presentes na formação de um sistema
+petrolífero ocorra em uma escala de tempo geológico adequada. Uma causa comum do insucesso nas
+pesquisas exploratórias no mundo inteiro deve-se à ausência de sincronismo.
+
+
+=== PAGE 7 ===
+Sistema de Produção
+Soterramento - processo de aprofundamento da rocha rica
+em
+matéria
+orgânica
+(>
+2%),
+que
+vai
+converter
+o
+querogênio em óleo, condensado ou gás termoquímico,
+pelo aumento da temperatura e da pressão, principalmente
+na etapa de catagênese.
+NOTA:
+Querogênio é a parte insolúvel da matéria orgânica modificada por
+acções geológicas. O querogênio é formado a partir dos lipídios,
+proteínas e carboidratos, dos seres vivos, e se transforma em
+petróleo ou gás natural.
+Catagênese é um processo em que, com o aumento da pressão o
+querogênio se altera e a maioria do petróleo é formado. Durante essa
+fase as moléculas maiores dividem-se em moléculas menores e mais
+simples, por craqueamento.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+7
+
+
+=== PAGE 8 ===
+ENHENHARIA DE 
+RESERVATÓRIOS
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+8
+
+
+=== PAGE 9 ===
+Engenharia de Reservatórios
+ENGENHARIA
+É a aplicação do conhecimento científico, econômico, social e prático, com o intuito de
+inventar, desenhar, construir, manter e melhorar estruturas, máquinas, aparelhos, sistemas,
+materiais e processos.
+É também profissão em que se adquire e se aplicam os conhecimentos matemáticos e
+técnicos na criação, aperfeiçoamento e implementação de utilidades que realizem uma
+função ou objectivo.
+RESERVATÓRIO
+Configuração geológica dotada de propriedades específicas, armazenadora de petróleo
+ou gás em subsuperfície;
+Rocha porosa e permeável, portadora de hidrocarbonetos.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+9
+
+
+=== PAGE 10 ===
+Engenharia de Reservatórios - DEFINIÇÃO
+
+É o ramo da engenharia de petróleo aplicada
+aos processos de exploração e produção de
+reservatórios
+de
+Petróleo
+e
+gás,
+visando
+maximizar o factor de recuperação.
+Ramo da Engenharia de Petróleo que estuda o fluxo
+dos fluidos ( hidrocarbonetos ) no interior das rochas
+porosas .
+A Engenharia de Reservatórios é uma actividade multidisciplinar que engloba
+conhecimentos de várias especialidades como:
+Física, química, geologia, engenharia, Matemática, ciência da computação, etc.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+10
+
+
+=== PAGE 11 ===
+RELAÇÃO COM OUTRAS DISCIPLINAS
+Trabalha em conjunto com geólogos, geofísicos e petrofísicos para definir
+as características de reservatório e prever o seu desempenho futuro;
+Engenharia de 
+Reservatórios
+Eng. Produção
+Geofísicos
+Eng. Perfuração e 
+Completação
+Geólogos
+Petrofísicos
+Eng. Ambiente
+Eng. Processos/ Instalações
+Engenheiro de Reservatórios, aplica princípios científicos, económicos e ambientais para 
+maximizar a recuperação total de hidrocarbonetos.
+Trabalha com os engenheiros de perfuração
+para projectar poços de produção ou de
+injecção;
+Trabalha com os engenheiros de produção e
+de processos/Instalações para optimizar a
+produção,
+desenho
+e
+optimização
+das
+instalações petrolíferas;
+Trabalha com os engenheiros de ambiente
+e usa as considerações ambientais para
+projectar planos de campos petrolíferas;
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+Economistas
+11
+
+
+=== PAGE 12 ===
+Funções Principais de um Engenheiro de Reservatórios
+O papel de um engenheiro de reservatórios é fundamental e central na engenharia de
+petróleo.
+Ele reúne todos os dados geológicos, petrofísicos, laboratoriais, de campo e de testes
+de poços disponíveis para entender o potencial físico do reservatório.
+Entre outras funções de um Engenheiro de reservatórios
+Avaliação do reservatório.
+Planeamento e optimização do desenvolvimento.
+Previsão de produção.
+Estimativa de reservas.
+Construção de modelos numéricos de reservatórios.
+Análise e interpretação de Teste de poços.
+Gestão de campo.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+OBS: Todos esses trabalhos exigem um conhecimento profundo das propriedades da rocha e do 
+fluido
+12
+
+
+=== PAGE 13 ===
+Funções Principais de um Engenheiro de Reservatórios
+Para
+tal,
+Engenheiro
+de
+Reservatório
+necessita
+também
+de
+compreender
+as
+instalações
+e
+constrangimentos económicos e comerciais, de modo a proporcionar e optimizar um plano de
+desenvolvimento viável e económico.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+Engenheiro de 
+Reservatórios
+Restrições 
+Económicas e 
+Comerciais
+Testes de Poços
+Dados Petrofísicos
+Dados Geológicos e 
+Sísmicos
+Dados de 
+Laboratórios
+Restrições de 
+Instalações
+13
+
+
+=== PAGE 14 ===
+OBJECTIVOS PRIMORDIAIS DA  ENGENHARIA RESERVATÓRIOS
+
+Planear o desenvolvimento de um campo de
+petróleo, prever seu desempenho
+durante toda a
+sua vida produtiva, analisar seu comportamento e
+propor
+correções para otimizar seu desempenho.
+
+Desenvolver e produzir campos de petróleo de modo a obter a máxima
+lucratividade das operações, ou, a depender do ambiente econômico -
+sociocultural, o máximo factor de recuperação. Chamemos a isso “recuperação
+óptima”.
+ENGENHARIA DE RESERVATÓRIOS - I                                              
+GERALDO RAMOS, BSc, MSc, PhD
+14
+
+
+=== PAGE 15 ===
+FERRAMENTAS DE TRABALHO DO ENGENHEIRO DE 
+RESERVATÓRIOS
+
+Geologia de subsuperfície;
+
+Matemática aplicada e modelos computacionais;
+
+Leis básicas da física e da química relacionadas ao
+comportamento de fluidos em rochas reservatório.
+
+Experiência e prática.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+15
+
+
+=== PAGE 16 ===
+Área de actuação de um Engenheiro de Reservatórios
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+A recuperação desses fluidos do reservatório é através da:
+Recuperação Primária (Escopo de ERI)
+Recuperação Secundária/Convencional
+Recuperação Terciária 
+16
+
+
+=== PAGE 17 ===
+Tipos de Recuperação de Hidrocarbonetos
+ENGENHARIA DE RESERVATÓRIOS - I                                             
+GERALDO RAMOS, BSc, MSc, PhD
+17
+
+
+=== PAGE 18 ===
+Tipos de Reservatórios
+ENGENHARIA DE RESERVATÓRIOS - I                                             
+GERALDO RAMOS, BSc, MSc, PhD
+18
+
+
+=== PAGE 19 ===
+Tipos de Reservatórios
+A
+depender
+da
+composição
+e
+das
+condições de pressão e temperatura na
+subsuperfície, uma acumulação de petróleo
+pode
+se
+apresentar
+totalmente
+líquida,
+totalmente
+gasosa,
+ou
+com
+uma
+parte
+líquida e uma parte gasosa em equilíbrio.
+Os tipos de reservatório são definidos com
+base nas posições relativas da temperatura
+e pressão iniciais do reservatório, o envelope
+da fase de fluido e a pressão e temperatura
+do separador.
+Para
+compreender
+a
+classificação
+dos
+reservatórios são necessários os conceitos
+sobre: ponto de bolha, ponto de orvalho e
+pressão de saturação.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+19
+
+
+=== PAGE 20 ===
+Tipos de Reservatórios
+Para um óleo com pressão P1 e temperatura T1 esta
+100
+%
+no
+estado
+líquido.
+Mantida
+a
+pressão
+constante e aumentando-se a temperatura até o
+ponto 3, temos o ponto de bolha.
+Qualquer aumento de temperatura os compostos
+mais leves tendem de passar para a fase gasosa.
+Aumentando a temperatura para o ponto 2, 75%
+permanece no estado líquido e 25% no estado
+gasoso ( temos duas fases).
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+20
+
+
+=== PAGE 21 ===
+Tipos de Reservatórios
+Nas partes internas das curvas teremos sempre 2 fases.
+Aumentando a temperatura, até o ponto crítico, ainda
+teremos duas fases.
+Ao ultrapassar o ponto crítico temos só gás. No ponto 4 só
+há a fase gasosa se resfriarmos a partir do ponto 4 até o
+ponto crítico, chega-se ao PONTO DE ORVALHO, ou seja,
+liquefação das fracções mais pesadas.
+Continuando a reduzir a temperatura, teremos duas fases.
+ENGENHARIA DE RESERVATÓRIOS - I                                         
+GERALDO RAMOS, BSc, MSc, PhD
+21
+
+
+=== PAGE 22 ===
+Classificação de Reservatórios
+Reservatório de óleo: de acordo com a posição que ocupa no diagrama de fases pode ser de óleo
+saturado ou subsaturado. Saturado é quando o gás começa a separar-se do óleo (ponto 1). No ponto
+“R” diz-se subsaturado.
+
+Óleo de alta contração – Óleo leve
+
+Óleo de média contração - Black-oil
+
+Óleo de baixa contração - Óleo pesado
+ENGENHARIA DE RESERVATÓRIOS - I                                                   
+GERALDO RAMOS, BSc, MSc, PhD
+22
+
+
+=== PAGE 23 ===
+Classificação de Reservatórios
+Reservatório de gás: É quando o fluido se encontra no
+estado
+gasoso
+nas
+condições
+do
+reservatório.
+No
+diagrama de fases está a direita do ponto de orvalho.
+O gás pode ser: húmido, seco ou retrógado.
+Se o gás na superfície ao ser separado dos pesados
+gerar certa quantidade de líquidos é chamado de
+gás húmido. Se não gerar líquido é gás seco.
+O gás é retrógado quando pela queda da pressão
+uma parte do gás se transforma em condensado
+no reservatório. Continuando a queda de pressão
+essa parte volta para o estado gasoso.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+23
+
+
+=== PAGE 24 ===
+Classificação de Reservatórios
+RESERVATÓRIO DE ÓLEO E GÁS:
+Uma mistura de hidrocarbonetos em que se
+econtra na fase líquida e o restante na fase
+gasosa;
+As duas fases inicialmente se econtram em
+equilíbrio entre si;
+Além do gás livre, tem também uma certa
+quantidade de gás dissolvido no óleo.
+Quando este reservatório é classificado como reservatório de gás?
+O reservatório é classificado como reservatório de gás, quando a quantidade de gás for 
+maior que a de líquido de tal maneira que o interesse econômico principal seja gás.
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+24
+
+
+=== PAGE 25 ===
+Consolidação da aula
+25
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+1. O sistema de produção de um campo petrolífero é definido como:
+SIM
+NÃO
+A) Conjunto de equipamentos e processos que permite extrair, separar, transportar e comercializar os hidrocarbonetos
+B) Apenas os poços perfurados no reservatório
+C) Somente as unidades de separação de óleo, água e gás
+D) Exclusivamente a infraestrutura de transporte de petróleo
+E) Apenas a perfuração de poços exploratórios
+2. Qual das seguintes não é uma função principal da Engenharia de Reservatórios?
+SIM
+NÃO
+A) Estimar o volume de hidrocarbonetos inicialmente no reservatório
+B) Planejar a recuperação econômica e técnica do campo
+C) Desenvolver tecnologias de perfuração de poços
+D) Analisar o desempenho de produção dos reservatórios
+E) Apoiar decisões estratégicas de desenvolvimento do campo
+3. Um reservatório definido como “undersaturated oil reservoir” no diagrama de fases apresenta:
+SIM
+NÃO
+A) Pressão do reservatório abaixo da pressão de saturação
+B) Pressão do reservatório acima da pressão de saturação
+C) Formação de gás livre em todas as regiões do reservatório
+D) Saturação irreductível de água igual a zero
+E) Exclusivamente gás condensado
+
+
+=== PAGE 26 ===
+Consolidação da aula
+26
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+4. O principal objetivo da Engenharia de Reservatórios é:
+SIM
+NÃO
+A) Maximizar a eficiência de extração de hidrocarbonetos
+B) Construir dutos de transporte
+C) Perfuração de poços exploratórios
+D) Refinar petróleo bruto
+E) Analisar preços internacionais do petróleo
+5. Qual das alternativas melhor descreve um gas-cap reservoir?:
+SIM
+NÃO
+A) Reservatório que contém gás sobre um óleo saturado
+B) Reservatório saturado com apenas óleo leve
+C) Reservatório com gás dissolvido em óleo sob pressão crítica
+D) Reservatório exclusivamente de água
+E) Reservatório com óleo condensado e saturado de água
+6. Em um sistema de produção, o poço produtor tem como principal função:
+SIM
+NÃO
+A) Extração de fluidos do reservatório
+B) Separação de óleo, água e gás
+C) Transporte de hidrocarbonetos por dutos
+D) Medição de volume de produção no tanque de armazenamento
+E) Aumentar a pressão do reservatório por injeção
+
+
+=== PAGE 27 ===
+Consolidação da aula
+27
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+7. Um condensate reservoir caracteriza-se por:
+SIM
+NÃO
+A) Ter óleo que forma gás ao ser produzido à superfície
+B) Ter apenas água e gás
+C) Ser um reservatório saturado de óleo leve sem gás
+D) Ter pressão abaixo da pressão de bolha
+E) Possuir saturação irreductível de gás igual a zero
+8. Uma das principais funções da Engenharia de Reservatórios é apoiar decisões de desenvolvimento do campo porque:
+SIM
+NÃO
+A) Permite estimar recuperação econômica e técnica, influenciando planeamento
+B) Constrói a rede de dutos
+C) Refina o petróleo bruto
+D) Mede preços de mercado
+E) Realiza perfuração de poços exploratórios
+9. O que diferencia um reservatório saturado de óleo de um subsaturado?
+SIM
+NÃO
+A) Saturaturado possui pressão acima da pressão de saturação, podendo liberar gás livre
+B) Subsaturado contém gás livre em excesso
+C) Saturaturado não possui óleo
+D) Subsaturado é totalmente gasoso
+E) Saturaturado é apenas água
+
+
+=== PAGE 28 ===
+Consolidação da aula
+28
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+10. Entre as funções de um sistema de produção, qual é essencial para manter a pressão do reservatório?
+SIM
+NÃO
+A) Injeção de água ou gás
+B) Separação de óleo, água e gás
+C) Transporte de hidrocarbonetos
+D) Armazenamento temporário em tanques
+E) Medição de vazão na superfície
+
+
+=== PAGE 29 ===
+TAREFA
+1. Explique o conceito de sistema de produção em campos petrolíferos e descreva os seus 
+principais componentes.
+2. Qual a importância da Engenharia de Reservatórios na indústria do petróleo e quais são 
+suas funções principais?
+3. Explique a diferença entre um reservatório “undersaturated” e um “saturated” usando 
+diagramas de fases.
+4. Explique como a história da Engenharia de Reservatórios influenciou os métodos 
+modernos de produção.
+5. Discuta como o conhecimento do sistema de produção e tipos de reservatórios 
+influencia o planejamento de desenvolvimento de um campo petrolífero.
+6. Fundamentar as questões correctas e incorrectas dos exercícios de consolidação.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+29
+
+
+=== PAGE 30 ===
+BIBLIOGRAFIA
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+1 - ROSA, A. J.; CARVALHO, R. D. S.; XAVIER, J. A. D. Engenharia de Reservatórios de Petróleo. 1ª. ed.
+Rio de Janeiro: Interciência, 2006, 808 p..
+2 - DAKE, L. P. Engenharia de Reservatórios: fundamentos. 1ª. ed. Rio de Janeiro: Elsevier, 2014, 488 p..
+3 - MCCAIN, W. D. The Properties of Petroleum Fluids. 2nd. ed. Tulsa: PennWell Books, 1990. 548 p..
+4 - AHMED, T. H. Reservoir Engineering Handbook. 3rd. ed. Burlington, MA, USA: Gulf Professional
+Publishing, Elsevier, 2010. 1376 p.
+5-Terry, R. E., Rogers, J. B., & Craft, B. C. (2015). Applied petroleum reservoir engineering. Pearson
+Education.
+6. Alyafei, Nayef. "Fundamentals of Reservoir Rock Properties." (2019).
+7 - Ramos, G. Indústria do Petróleo para Não-Enegeiros. Editora DOIS03, 2023
+30
+
+
+=== PAGE 31 ===
+MUITO OBRIGADA!
+31
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD

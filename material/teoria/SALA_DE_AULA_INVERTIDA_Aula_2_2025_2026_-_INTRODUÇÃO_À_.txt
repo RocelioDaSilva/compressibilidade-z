@@ -1,0 +1,609 @@
+
+
+=== PAGE 1 ===
+ENGENHARIA DE RESERVATÓRIOS I
+3º ANO – 2º SEMESTRE
+2025 - 2026
+1
+Docente: Prof. Dr. Geraldo A. R. Ramos
+1
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+
+
+=== PAGE 2 ===
+Introdução à Engenharia de Reservatórios 1
+1.1. Sistema de Produção;
+1.2. Engenharia de Reservatórios: funções e objectivos;
+1.2. História da engenharia de reservatórios;
+1.3. Tipos de reservatórios definidos pelo diagramas de fases;
+1.4. Mecanismos de produção de reservatórios.
+1.5. Consolidação da Aula
+1.6. Tarefas
+2
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+
+
+=== PAGE 3 ===
+FLUÍDOS 
+PRODUZIDOS E 
+RELAÇÕES
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+3
+
+
+=== PAGE 4 ===
+Fluídos Produzidos
+
+Na fase de produção, um reservatório
+típico apresenta:
+Uma vazão de produção de óleo;
+Uma vazão de produção de gás
+Uma vazão de produção de água.
+
+As
+vazões
+dos
+fluídos
+são
+sempre
+medidas nas condições- padrão.
+Condições Padrão:
+EUA 14,7 psia (1 atm) e 15,56 ̊C (60 oF)
+Brasil 1 atm (1,033 kgf/ cm2) e 20 oC (67,99 oF)
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+4
+
+
+=== PAGE 5 ===
+Fluídos Produzidos - Relações
+Existem algumas relações na engenharia de petróleo que são utilizadas como 
+indicadores. Os  mais utilizados são RGO, RAO, RGLe BSW.
+
+RGO (Razão Gás/Óleo) - Quociente entre as vazões instantâneas de gás e
+de óleo, medidas em condições-padrão.
+
+RAO (Razão Água/Óleo) - Quociente entre as vazões instantâneas de
+água e de óleo, medidas em condições-padrão.
+
+BSW (Basic Sediments and Water) - Quociente entre a vazão de água
+mais os sedimentos que estão sendo produzidos a vazão total de líquidos
+e sedimentos
+
+RGL (Razão Gás/Líquido) - Quociente entre as vazões instantâneas de gás
+e de vazão total de Líquido produzido (normalmente óleo e gás),
+medidas em condições-padrão.
+BSW medida de quantidade de água e sedimentos na amostra de óleo
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+5
+
+
+=== PAGE 6 ===
+Fluídos Produzidos - Relações
+As relações dos fluidos produzidos são indicadores para determinar o tipo de reservatórios:
+Tipo de Reservatório
+m3 std/ m3 std
+Óleo
+RGL ≤ 900
+Gás Condensado
+900 < RGL < 18 000
+Gás Seco
+RGL > 18 000
+Tipo de Reservatório
+scf/bbl
+Óleo Pesado
+GOR ≤ 300
+Óleo Leve
+300 < GOR ≤ 100.000
+Gás Condensado
+100.000 < GOR 
+≤1.000.000
+Gás Seco
+GOR > 1.000.000
+Fonte: Environment Protection Agency (EPA), 2016
+Fonte: Rosa et al, 2011
+1 bbl = 5,615 ft3 = 0,159 m3
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+6
+
+
+=== PAGE 7 ===
+Origem da Água Produzida
+
+Água injectada é a água do mar usada em
+explorações petrolíferas, com o objectivo
+de manter a pressão do reservatório
+suficientemente
+alta,
+permitindo
+a
+elevação do petróleo do poço até a
+superfície. Esse processo é conhecido
+como recuperação secundária do óleo.
+
+Aquífero é a zona saturada em água, que
+fica localizada abaixo do contacto óleo-
+água. Essa água é produzida em virtude
+de seus movimentos dentro da parte
+saturada em óleo.
+Água produzida é a oriunda da mistura da água injectada com a água originalmente 
+presente no próprio reservatório (água conata + água do aquífero).
+Água da formação é a água retida nos intertícios de uma rocha sedimentar desde a
+sua formação. O mesmo que a água congênita ou água fóssil.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+7
+
+
+=== PAGE 8 ===
+Origem da Água Produzida
+Aquitardo é uma formação geológica de natureza relativamente impermeável e
+semiconfinante, que transmite água com velocidade muito menor que a de um
+aquífero.
+Zona de transição é a interface entre um aquífero e uma acumulação de
+hidrocarboneto, na qual os fluidos nos poros da camada de rocha vão percorrer
+toda a água até a região altamente saturada de óleo (saturação de água residual),
+dependendo das pressões capilares e da altura acima do nível de água livre.
+Água dissolvida na fase de hidrocarbonetos: nas condições típicas do
+reservatório, a água é solúvel tanto no gás quanto no óleo. Em consequência das
+mudanças da pressão e da temperatura durante a produção de hidrocarbonetos,
+a água pode condensar ou evaporar.
+Qual é a divergência entre água conata e de formação?:
+Água de formação ou intersticial, a água que ocupa os volumes porosos ou
+os interstícios de uma rocha, mas, não necessariamente, desde a sua
+origem.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+8
+
+
+=== PAGE 9 ===
+Origem da Água Produzida
+Água juvenil é a água que é proveniente do interior da crosta terrestre e
+nunca entrou em contacto com a atmosfera.
+Água lívre é a parte da água produzida, que embora flui juntamente com o
+óleo, forma camada contínua, não se encontrando dispersa sob forma de
+gotículas, no seio do óleo.
+Água residual é a água que se encontra nos poros da rocha-reservatório e
+que não pode ser retirada devido a um valor mínimo de saturação,
+conhecido como saturação irredutível de água.
+Água
+meteórica
+é
+a
+água
+que
+penetrou
+nas
+rochas
+em
+tempos
+geologicamente recentes.
+ENGENHARIA DE RESERVATÓRIOS - I                                             
+GERALDO RAMOS, BSc, MSc, PhD
+9
+
+
+=== PAGE 10 ===
+Origem da Água Produzida
+BRINE: Com relação à salinidade das águas, as salmouras (brine) são classificadas
+como águas que apresentam uma salinidade maior do que a salinidade média da
+água do mar, isto é, maior do que 35.000 mg/L de sólidos dissolvidos totais (SDT).
+Água salgada que preenche os poros de uma formação.
+SALOBRA/SALOBRE: àgua com salinidade inferior à da água do mar, ou que
+contém mais sais minerais do que a água doce.
+1 mg/L = 1 ppm (part per million = parte por milhão por peso)
+
+ppm é o termo de concentração para definir a quantidade da substância em razão de massa.
+
+Ppm é usado para medir a concentração de um contaminante
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+10
+
+
+=== PAGE 11 ===
+MECANISMOS DE 
+PRODUÇÃO
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+11
+
+
+=== PAGE 12 ===
+Mecanismo de Produção
+A recuperação de hidrocarbonetos no reservatório ocorre em vários estágios. Os
+fluidos estão submetidos a uma certa pressão para vencer a resistência oferecida pelos
+canais porosos.
+A produção depende em dois efeitos principais:
+A descompressão: que causa a expansão dos fluidos contidos no reservatório e
+contração do volume poroso;
+O deslocamento do fluido por outro fluido: por exemplo, a invasão da zona de óleo
+por um aquífero.
+Ao conjunto de factores que fazem desencadear esses efeitos dá-se o nome de
+mecanismos de produção de reservatórios.
+Quando
+os
+mecanismos
+naturais
+são
+pouco
+eficientes,
+grande
+parte
+dos
+hidrocarbonetos fica retida no reservatório. Após a exaustão da energia natural, os
+reservatórios são candidatos ao emprego de técnicas adicionais.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+12
+
+
+=== PAGE 13 ===
+Mecanismo de Produção
+Os mecanismos principais de produção são:
+Gás em solução;
+Capa de gás (Gás de cobertura);
+Influxo de água;
+Combinado;
+Segregação gravitacional.
+
+Actualmente, tais métodos podem ser implantados desde o início com o intuito de
+maximizar o lucro associado ao projecto de exploração de uma jazida ao invés de
+esperar uma sensível queda de pressão do reservatório.
+Nota: Os mecanismos de produção compõe o que chamamos na indústria Petrolífera de recuperação
+primária que será o objecto de estudo no Curso de Engenharia de Reservatórios I.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+13
+
+
+=== PAGE 14 ===
+Mecanismo de Gás em Solução
+A
+produção
+de
+fluidos
+provoca
+redução na pressão, que por sua vez,
+proporciona a vaporização de mais
+componentes
+leves,
+acarretando
+a
+expansão dos fluidos.
+Como o gás é muito mais expansível
+que o líquido, é basicamente devido à
+sua
+expansão
+que
+vai
+permitir
+a
+produção do líquido.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+14
+
+
+=== PAGE 15 ===
+Mecanismo de Capa de Gás
+A zona de líquido é colocada em produção e a zona de
+gás é preservada.
+A zona de óleo é colocada em produção, o que
+acarreta uma redução na sua pressão devida à
+retirada de fluido.
+
+Essa queda de pressão se transmite para a capa de
+gás, que se expande penetrando gradativamente na
+zona de óleo.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+15
+
+
+=== PAGE 16 ===
+Mecanismo de Influxo de Água
+A zona de óleo é colocada em produção e reduz a
+pressão no reservatório, que se faz sentir no aquífero.
+O aquífer responde a queda de pressão através da
+expansão da água nele contida e da redução de seu
+volume poroso.
+A água passa a invadir o espaço deixado pelo óleo
+produzido.
+
+Isso é o influxo de água que desloca o óleo para os
+poços de produção.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+16
+
+
+=== PAGE 17 ===
+Mecanismo Combinado
+Trata-se de combinação de
+um dos 3 mecanismos já
+citados:
+
+Mecanismo de Gás em
+Solução;
+
+Mecanismo de Capa de
+Gás;
+
+Mecanismo de Influxo de
+Água.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+17
+
+
+=== PAGE 18 ===
+Mecanismo de Segregação Gravitacional
+A gravidade faz os fluídos se arranjarem dentro
+do
+reservatório
+de
+acordo
+com
+as
+suas
+densidades.
+A gravidade faz com que uma parte do gás migre
+para o topo do reservatório criando uma capa de
+gás secundária.
+Se o reservatório for sujeito a um aquífero, a
+diferença de densidade entre o óleo e a água
+impede da água ultrapassar o óleo, pelo efeito
+da gravidade.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+18
+
+
+=== PAGE 19 ===
+Mecanismo de Produção - RESUMO
+PARÂMETRO
+GÁS EM SOLUÇÃO
+INFLUXO DE ÁGUA
+CAPA DE GÁS
+Pressão
+Declínio rápido e contínuo
+Permanece elevada
+Declínio lentamente e contínuo
+Razão Gás-Óleo
+Baixa no início, subida abrupta, 
+atinge um máximo e depois cai 
+Permanece baixa
+Aumenta continuamente nos 
+poços estruturas elevados
+Produção de Água
+Desprezível ou muito baixa
+Começa cedo e cresce até 
+valores elevados
+Desprezível
+Comportamento de Poço
+Requer bombeio logo no início
+Surgente até a produção de 
+água se torne excessiva
+Longo tempo de surgência
+Recuperação
+5 à 25%
+30 à 45% Condições 
+excepcionais até 75%
+20 à 40%
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+19
+
+
+=== PAGE 20 ===
+Consolidação da aula
+20
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+1. O óleo produzido em reservatórios leve caracteriza-se por:
+SIM
+NÃO
+A) Alta viscosidade e baixa mobilidade
+B) Baixa densidade e alta mobilidade
+C) Formação de gás livre em excesso
+D) Saturação irreductível de água igual a zero
+E) Exclusivamente líquido sem variação de densidade
+2. O gás produzido em reservatórios influencia a recuperação de óleo porque:
+SIM
+NÃO
+A) Reduz a pressão do reservatório e facilita o fluxo de óleo
+B) Aumenta a densidade do óleo
+C) Impede totalmente a produção de água
+D) É irrelevante para a eficiência de produção
+E) Saturação de óleo se torna irrelevante
+3. Reservatórios com mecanismo de water drive caracterizam-se por:
+SIM
+NÃO
+A) Manutenção da pressão por influxo de água do aquífero
+B) Elevação artificial de óleo via bombeio mecânico
+C) Expansão de gás dissolvido no óleo
+D) Exclusivamente produção de gás condensado
+E) Inexistência de óleo saturado
+
+
+=== PAGE 21 ===
+Consolidação da aula
+21
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+4. A viscosidade do óleo impacta diretamente:
+SIM
+NÃO
+A) A taxa de fluxo pelo reservatório
+B) A pressão do aquífero
+C) A densidade da água
+D) A compressibilidade da rocha
+E) A saturação irreductível de gás
+5. Um mecanismo de produção por expansão de gás livre (gas-cap drive):
+SIM
+NÃO
+A) Mantém pressão por expansão de gás acima do óleo
+B) Depende exclusivamente de água injectada
+C) Gera aumento da viscosidade do óleo
+D) Reduz a saturação irreductível de água
+E) Impede fluxo de óleo
+6. O condensado produzido em reservatórios ocorre quando:
+SIM
+NÃO
+A) O óleo líquido se condensa a partir de gás à medida que a pressão diminui
+B) Óleo leve é produzido sem formação de gás
+C) A água do reservatório se transforma em gás
+D) A pressão está acima da pressão de saturação do gás
+E) Não há variação de densidade com pressão
+
+
+=== PAGE 22 ===
+Consolidação da aula
+22
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+7. Qual das seguintes características não define o mecanismo de produção solution gas drive?
+SIM
+NÃO
+A) Expansão do gás dissolvido no óleo
+B) Redução gradual da pressão do reservatório
+C) Formação de gás livre a partir do óleo
+D) Dependência de pressão inicial para mobilidade
+E) Produção contínua de óleo
+8. Em um reservatório de water influx, a produção de óleo é sustentada porque:
+SIM
+NÃO
+A) A água do aquífero desloca óleo para os poços
+B) A expansão do gás acima do óleo aumenta a viscosidade
+C) Poços artificiais elevam a pressão
+D) O óleo condensado impede a produção de água
+E) A saturação irreductível de óleo é zero
+9. A produção de óleo em um reservatório undersaturated depende principalmente de:
+SIM
+NÃO
+A) Pressão inicial do reservatório e mobilidade do óleo
+B) Expansão do gás acima do óleo
+C) Injeção de água ou gás
+D) Formação de condensado
+E) Elevação artificial exclusivamente
+
+
+=== PAGE 23 ===
+Consolidação da aula
+23
+ENGENHARIA DE RESERVATÓRIOS - I                                           
+GERALDO RAMOS, BSc, MSc, PhD
+10. O que caracteriza um reservatório com gas-cap drive?
+SIM
+NÃO
+A) Gás livre no topo do reservatório que ajuda a manter pressão
+B) Água injetada artificialmente para suporte de pressão
+C) Óleo pesado não fluido
+D) Apenas condensado líquido produzido
+E) Reservatório totalmente saturado sem gás
+
+
+=== PAGE 24 ===
+Tarefa
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+24
+
+
+=== PAGE 25 ===
+1. Qual é a diferença entre Sistema de Produção, Sistema Petrolífero e cadeia produtiva (cadeia de valor) da indústria 
+petrolífera?
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+2. Fazer uma ilustração no envelope de fases os elementos mencionados no ponto 2.
+3. Investigue as três principais teorias sobre a origem dos hidrocarbonetos.
+a. Qual é diferença entre as mesmas teorias?
+b.  Qual das teorias é mais aceite?
+4. Qual é a área de actuação do Engenheiro de Reservatório? E porque?
+5. Completar: HIDROCARBOTENOS + NÃO HIDROCARBONETOS = _____________
+6. Fundamentar as questões correctas e incorrectas dos exercícios de consolidação.
+7. Explique as principais propriedades dos fluidos produzidos em reservatórios e como elas influenciam a 
+produção.
+8. Descreva os mecanismos naturais de produção de um reservatório.
+9. Compare os efeitos da expansão de gás e do influxo de água sobre a recuperação de óleo.
+10. Discuta a importância de integrar informações sobre fluidos e mecanismos de produção no planeamento do 
+campo.
+25
+Tarefa
+
+
+=== PAGE 26 ===
+Tarefa
+Gás Seco
+Gás Condensado
+Óleo Subsaturado
+Óleo Saturado
+Mecanismo de 
+Produção
+Condições Iniciais 
+de Reservatório
+Comportamento 
+do Reservatório 
+com o Declínio da 
+Pressão
+Hidrocarbonetos 
+Produzidos
+11. Com os conhecimentos adquiridos sobre os tipos de reservatórios e os 
+respectivos mecanismos de produção, completar a tabela seguinte:
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+26
+12. Com os conhecimentos adquiridos sobre os tipos de reservatórios e os 
+respectivos mecanismos de produção, completar a tabela seguinte:
+
+
+=== PAGE 27 ===
+Instrução para Trabalho Investigativo
+Os estudantes deverão elaborar um trabalho investigativo sobre a temática: “História da 
+Engenharia de Reservatórios”.
+O trabalho deve:
+
+Ser estruturado segundo as normas de um TCC, incluindo: capa, resumo, sumário, introdução, 
+desenvolvimento, conclusão e referências bibliográficas.
+
+Ser produzido e apresentado na plataforma LaTeX, garantindo formatação acadêmica 
+adequada.
+
+Seguir rigorosamente as normas de citação e referência bibliográfica recomendadas pelo 
+curso.
+Data de submissão: 24 de março de 2026.
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+27
+
+
+=== PAGE 28 ===
+BIBLIOGRAFIA
+ENGENHARIA DE RESERVATÓRIOS - I                                            
+GERALDO RAMOS, BSc, MSc, PhD
+1 - ROSA, A. J.; CARVALHO, R. D. S.; XAVIER, J. A. D. Engenharia de Reservatórios de Petróleo. 1ª. ed.
+Rio de Janeiro: Interciência, 2006, 808 p..
+2 - DAKE, L. P. Engenharia de Reservatórios: fundamentos. 1ª. ed. Rio de Janeiro: Elsevier, 2014, 488 p..
+3 - MCCAIN, W. D. The Properties of Petroleum Fluids. 2nd. ed. Tulsa: PennWell Books, 1990. 548 p..
+4 - AHMED, T. H. Reservoir Engineering Handbook. 3rd. ed. Burlington, MA, USA: Gulf Professional
+Publishing, Elsevier, 2010. 1376 p.
+5-Terry, R. E., Rogers, J. B., & Craft, B. C. (2015). Applied petroleum reservoir engineering. Pearson
+Education.
+6. Alyafei, Nayef. "Fundamentals of Reservoir Rock Properties." (2019).
+7 - Ramos, G. Indústria do Petróleo para Não-Enegeiros. Editora DOIS03, 2023
+28
+
+
+=== PAGE 29 ===
+MUITO OBRIGADA!
+29
+ENGENHARIA DE 
+RESERVATÓRIOS -
+I

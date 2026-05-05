@@ -1,0 +1,4363 @@
+
+
+=== PAGE 1 ===
+Engenharia de Reservatórios - I
+Problemas e Soluções
+Ano Lectivo 2023/2024
+Docente
+Geraldo Ramos, Bsc, Msc, PhD
+Instituto Superior Politécnico de Tecnologias e Ciências - ISPTEC
+18 de maio de 2024
+
+
+=== PAGE 2 ===
+COPYRIGHT: © 2024 by Geraldo Ramos. All rights reserved.
+Nenhuma parte deste material pode ser produzido, armazenado, ou transmitido por qualquer meio electrô-
+nico, mecânico, ou por fotocópia, gravação, digitalização, ou outros, sem prévia permissão por escrito do
+autor.
+
+
+=== PAGE 3 ===
+Introdução
+O objectivo deste documento é apresentar as soluções dos exercícios/problemas de cada aula da disciplina de
+Engenharia de Reservatórios I, do 2◦semestre, do 3◦ano do curso de Engenharia de Petróleos do ISPTEC.
+As respostas com a cor vermelha, ainda estão em desenvolvimento, excepto nas guras onde foi utilizada
+para realçar informações ao passo que as de cor azul ou outra cor que não seja cor vermelha são consideradas
+concluidas e vericadas.
+Os estudantes são obrigados em resolver os exercícios antes de consultarem as respostas para o sucesso na
+cadeira de Engenharia de Reservatórios I. Qualquer erro na solução agradecia noticar o professor.
+Os problemas deste documento estão relacionados com:
+ Capítulo 1  Introdução à Engenharia de Reservatórios;
+ Capítulo 2  Propriedades dos uidos;
+ Capítulo 3  Propriedade das rochas;
+ Capítulo 4  Integração de dados e Cálculo Volumétrico
+ Capítulo 5  Equação de balanço de materiais;
+ Capítulo 6 - Fluxo de Fluidos em Meios Porosos;
+ Capítulo 7 - Análise de Teste de Pressão Transiente em poços
+ Capítulo 8  Inuxo Natural de água;
+ Capítulo 9 - Análise de curvas de declínio e ajuste do histórico
+O documento está dividido em três partes:
+ Parte - I: O questionário dos problemas
+ Parte - II: As soluções dos problemas
+ Bibliograa consultada
+Espero que venha auxiliar para o seu sucesso nesta disciplina.
+Geraldo Ramos, PhD
+i
+
+
+=== PAGE 4 ===
+Conteúdo
+Introdução
+i
+Parte I - Problemas
+1
+1
+Introdução à Engenharia de Reservatórios
+2
+1.1
+AULA 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+2
+Propriedades dos Fluidos
+3
+2.1
+AULA 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2.2
+AULA 3 - Equação do Estado dos gases reais
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+3
+Propriedades de Rochas
+6
+3.1
+AULA 4 - Componentes da Rocha; Porosidade
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+3.2
+Medição Laboratorial da Porosidade
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3.3
+Aula - 5: Compressibilidade; Saturação; Permeabilidade
+. . . . . . . . . . . . . . . . . . . . .
+8
+3.4
+Aula-6: Molhabilidade; Capilaridade e pressão capilar; Processos de embebição e drenagem;
+Função J de Leverett . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3.5
+Aula-7: Contacto de hidrocarbonetos/água . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4
+Integração de dados e Cálculo Volumétrico de Hidrocarbonetos
+14
+4.1
+AULA 8 - Introdução; Denições; Métodos de Cálculo de volumes originais de hidrocarbonetos;
+Método volumétrico
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+4.2
+AULA 9 - Métodos de cálculo volumétrico; Integração de dados e incertezas . . . . . . . . . .
+15
+5
+Equação de Balanço de Materiais
+18
+5.1
+AULA 10 e 11 - Introdução.
+EBM Generalizada.
+Equação de Balanço de Materiais em
+reservatórios de óleo
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+5.2
+AULA 12 - Equação de Balanço de Materiais em reservatórios de Gás
+. . . . . . . . . . . . .
+20
+5.3
+AULA 13 - Equação de Balanço de Materiais em reservatórios de gás . . . . . . . . . . . . . .
+21
+5.4
+AULA 14 - Técnicas de análise de comportamento de reservatórios usando EBM
+. . . . . . .
+22
+6
+Fluxo de Fluidos em Meios Porosos
+25
+6.1
+AULA 15 - Introdução; Regimes e condições do uxo. Equação da difusividade hidráulica.
+Fluxo permanente e pseudopermanente. Factor de película e Índice de Produtividade . . . . .
+25
+6.2
+AULA 16 - Equação da difusividade hidráulica - Fluxo transiente. . . . . . . . . . . . . . . . .
+25
+6.3
+AULA 17 - Razão de dano. Reservatórios fraturados. Cone de água ou gás em poços verticais.
+Poços horizontais. Índice de produtividade.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+PARTE II - SOLUÇÃO DOS PROBLEMAS
+27
+Solução - Introdução à Engenharia de Reservatórios
+28
+Solução - Propriedades dos Fluidos
+33
+Solução - Propriedades das rochas
+45
+ii
+
+
+=== PAGE 5 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Solução - Integração de dados e Cálculo Volumétrico de Hidrocarbonetos
+67
+Solução - Equação de Balanço de Materiais
+74
+Solução - Fluxo de Fluidos em Meios Porosos
+91
+Apêndice
+108
+Referências
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+iii
+
+
+=== PAGE 6 ===
+PARTE - I: Poblemas
+É neste segmento do documento com o questionário ou enuciado dos problemas. O estudante é convidado a
+resolver antes de consultar a PARTE - 2. Importa realçar, que as soluções dos problemas estão na PARTE
+- 2.
+1
+
+
+=== PAGE 7 ===
+Capítulo 1
+Introdução à Engenharia de Reservatórios
+1.1
+AULA 1
+1. Qual é a diferença entre Sistema de Produção, Sistema Petrolífero e cadeia produtiva (cadeia de valor)
+da indústria petrolífera?
+2. Dene:
+(a) Cricondenbar,
+(b) crincondeterma,
+(c) ponto de bolha,
+(d) ponto crítico,
+(e) ponto de orvalho,
+(f) região de condensação retrograda.
+3. Fazer uma ilustração no envelope de fases os elementos mencionados no ponto 2.
+4. Investigue as três principais teorias sobre a origem dos hidrocarbonetos.
+(a) Qual é diferença entre as mesmas teorias?
+(b) Qual das teorias é mais aceite?
+5. Qual é a área de actuação do Engenheiro de Reservatório? E porque?
+6. Completar: HIDROCARBOTENOS + NÃO HIDROCARBONETOS = 
+7. Com os conhecimentos adquiridos sobre os tipos de reservatórios e os respectivos mecanismos de pro-
+dução, completar a tabela 6.1:
+Tabela 1.1: Table:Tabela do exercício 4
+Gás Seco
+Gás Condensado
+Óleo Subsaturado
+Óleo Saturado
+Mecanismo de Pro-
+dução
+Condições Iniciais de
+Reservatório
+Comportamento
+do
+Reservatório com o
+Declínio da Pressão
+Hidrocarbonetos
+Produzidos
+2
+
+
+=== PAGE 8 ===
+Capítulo 2
+Propriedades dos Fluidos
+2.1
+AULA 2
+1. Um reservatório cilíndrico possui diâmetro de base igual a 2 m e altura de 4 m, sabendo-se que o mesmo
+está totalmente preenchido com petróleo bruto, determine:
+(a) A massa de petróleo bruto presente no reservatório;
+(b) A massa de gasolina se um outro reservatório com as mesmas dimensões for preenchido pela
+gasolina.
+2. A massa especíca de uma determinada substância é igual a 740 kg/m3, determine o volume ocupado
+por uma massa de 500 kg dessa substância.
+3. Sabe-se que 400 kg de um líquido ocupa um reservatório com volume de 1500 litros, determine sua
+massa especíca, seu peso especíco e o peso especíco relativo. Dados: γH2O = 10000N/m3, g = 10
+m/s2, 1000 litros = 1 m3.
+4. Calcular a densidade relativa e em API do óleo com a massa especíca de 53 lb/ft3.
+5. Determinar a densidade e a massa especíca do óleo de 42 ◦API.
+6.
+(a) Uma determinada massa de gás tem um volume de 510 ft3 quando a temperatura é 60 ◦F e a
+pressão é 12 psig. Se a pressão é constante, mas a temperatura é alterada para 110 ◦F, qual será
+o volume do gás? A pressão atmosférica pode ser conciderada como 14,73 psia.
+(b) Qual será a nova pressão do gás se o volume mantém constante e a temperature aumenta de 60
+para 110 ◦F como indicado?
+7.
+(a) Quantos pés cúbicos de um gás ideal medida em condições padrão de 60 ◦F e 14,73 psia, necessário
+para preencher tanque de 100 ft3 para a pressão de 40 psia quando a temperatura de gás no tanque
+é de 90 ◦F? A pressão atmosférica é 14,4 psia.
+(b) Qual seria a leitura no manômetro se o tanque no exemplo acima for resfriado para 60 ◦FF após
+ser preenchido com o gás ideal?
+8. Um poço de gás está produzindo gás com uma densidade de 0,65 a uma vazão de 1,1 MMscf/dia. A
+pressão e temperatura médias do reservatório são 1.500 psi e 150 ◦F. Calcular:
+(a) Massa molecular aparente do gás.
+(b) Massa especíca do gás nas condições de reservatório.
+(c) Vazão do uxo em lb/dia.
+9. Um poço de gás está produzindo gás natural com a composição ilustrada na Tabela 6.3:
+3
+
+
+=== PAGE 9 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 2.1: Dados da composição do gás natural produzido pelo poço
+Componentes
+Fórmula
+Abreviação
+yi
+Dióxido de Carbono
+CO2
+CO2
+0,05
+Metano
+CH4
+C1
+0,90
+Etano
+C2H6
+C2
+0,03
+Propano
+C3H8
+C3
+0,02
+Assumindo um comportamento de gás ideal, calcule:
+(a) Massa molecular aparente.
+(b) Densidade do gás.
+(c) Massa especíca do gás a 2.000 psia e 150 ◦F
+(d) Volume especíco a 2.000 psia e 150 ◦F
+2.2
+AULA 3 - Equação do Estado dos gases reais
+1. Calcular a massa do metano contido em um recipiente de 5 ft3 a uma pressão de 700 psia e uma
+temperatura de 68 ◦F.
+2. Um poço de gás está produzindo gás natural com a composição ilustrada na Tabela 6.4:
+Tabela 2.2: Dados da composição do gás natural produzido pelo poço
+Componentes
+Fórmula
+Abreviação
+yi
+Dióxido de Carbono
+CO2
+CO2
+0,05
+Metano
+CH4
+C1
+0,90
+Etano
+C2H6
+C2
+0,03
+Propano
+C3H8
+C3
+0,02
+Assumindo um comportamento de gás real, Determine o factor de compressibilidade do gás (fator z)
+usando o gráco da gura de Standing e Katz sabendo que a pressão e temperatura do reservatório é
+de 2.000 psia e 150 ◦F respectivamente.
+3. Um gás natural ácido tem uma densidade de 0,75. A análise da composição do gás apresenta 5% de
+CO2 e 10% de H2S. Calcule a massa especíca do gás para a pressão e temperatura de 3.300 psia e 150
+◦F.
+4. Para a pressão de 2.500 psia e temperatura de reservatorio de 180 ◦F, o factor de compressibilidade do
+gas natural ácido e de 0,85:
+(a) Calcule o factor de volume de formação e o factor de expansão de gás;
+(b) Quantos pés cúbicos deste gás estão presentes no reservatório com o volume poroso de gás de 1,0
+× 109 ft3?
+5. Calcule o factor volume de formação de um gás natural de densidade 0,64 (ar=1) a uma temperatura
+de 81 ◦F para as seguintes pressões de 3.500 à 500 psia no intervalo de 500 psia. Faça o gráco do
+factor z de compressibilidade de gás e do factor volume de formação em função da pressão.
+6. Considere 1 mol-lb de uma mistura gasosa, cuja a composição está indicada na tabela 6.6.
+4
+
+
+=== PAGE 10 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 2.3: Dados do exercício 3 da Aula 10
+Componente (Ci)
+Fracção Molar (yi)
+Metano
+0,1
+Etano
+0,2
+Propano
+0,3
+n-butano
+0,4
+Total
+1,0
+Determine para essa mistura:
+(a) A massa molecular
+(b) A densidade
+(c) O volume molar a 60 ◦F e 14,7 psia.
+(d) A massa especíca a 60 ◦F e 14,7 psia.
+(e) A pressão parcial do propano a uma pressão total de 500 psia, admitindo a mistura como ideal.
+(f) O volume parcial do etano (ft3/mol-lb) nas condições de 60 ◦F e 14,7 psia.
+(g) A composição em massa, ou sejam, as frações em massa de cada componente na mistura.
+(h) A temperatura pseudocrítica.
+(i) O factor de compressibilidade a 222,5 ◦F e 500 psia.
+(j) A viscosidade a 222,5 ◦F e 1 atm.
+(k) A viscosidade a 222,5 ◦F e 500 psia.
+5
+
+
+=== PAGE 11 ===
+Capítulo 3
+Propriedades de Rochas
+3.1
+AULA 4 - Componentes da Rocha; Porosidade
+1. Uma amostra saturada com óleo pesa 130 gramas. Sabe-se que a mesma amostra não saturada (seca)
+pesa 105 gramas e a massa especíca de óleo é de 840 kg/m3 =0,84g/cm3. O volume total de amostra
+é de 180 cm3.
+(a) Determina a porosidade da amostra.
+2. Na gura 6.8, determina a porosidade idealisada:
+(a)
+(b)
+(c)
+Figura 3.1: Figuras para determinar a porosidade idealisada.
+3. Estão disponíveis os seguintes dados:
+V1 = 100cc
+V2 = 100cc
+p1 = 15,0 psi
+p2 = 60,0 psi
+(a) Quando a válvula entre a Câmara 1 e a Câmara 2 é aberta, a pressão estabiliza em pf = 39,0 psi.
+Qual é o volume do grão da amostra do testemunho?
+4. Determinar a porosidade média. Estão disponíveis os seguintes dados:
+6
+
+
+=== PAGE 12 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 3.1: Dados de porosidade disponíveis por cada amostra
+Amostra
+Porosidade (%)
+1
+10
+2
+12
+3
+11
+4
+13
+5
+14
+6
+10
+7
+17
+5. O peso seco de uma amostra é de 330 g, e seu peso quando saturada com água é de 360 g. O peso
+aparente desta amostra em água é registado como 225 g. Dado que a densidade da água é 1 g/cm3,
+determina a porosidade da amostra. Supondo que a amostra seja revestida com um material de peso
+desprezível.
+6. Sobre análise de rotina e testes complementares de testemunho, complete a tabela 6.9:
+Tabela 3.2: Tabela da análise de rotina e testes complementares de testemunho
+Dados
+Aplicação
+Análise de rotina de testemunho
+Porosidade
+Permeabilidade
+Saturações
+Litologia
+Testes complementares
+Permeabilidade vertical
+Registro de "core-gamma"de superfície
+Massa especíca da matriz
+Propriedades físico-químicas de óleo e água
+7. Sobre Análise especial de testemunho, complete a tabela 6.10:
+Tabela 3.3: Tabela da análise especial de testemunho
+Testes/Estudos
+Dados/Propriedades
+Testes Estáticos
+Estudo de compressibilidade
+Estudo petrográco
+Molhabilidade
+Capilaridade
+Teste acústico
+Teste elétrico
+Testes Dinâmicos
+Estudo do uxo
+Testes de uxo
+7
+
+
+=== PAGE 13 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+3.2
+Medição Laboratorial da Porosidade
+1. Determinar a porosidade de uma amostra de testemunho no laboratório:
+(a) Para uma semana
+(b) Duas semanas
+(c) Três semanas
+3.3
+Aula - 5: Compressibilidade; Saturação; Permeabilidade
+1. Uma amostra de rocha tem um volume poroso de 18 cm3. Este volume poroso diminui em 0,15 cm3
+conforme uma diferença de pressão de 900 psig é aplicada na amostra. Qual é a compressibilidade dos
+poros desta amostra?
+2. O volume total de uma amostra de rocha é de 150 cm3 e sua porosidade é de 18% em condições
+ambientais. A compressibilidade dos poros desta amostra é 7 × 10−6 psig−1. Dado que o gradiente de
+pressão de sobrecarga é de 0,95 psig/ft, qual seria a porosidade desta amostra a uma profundidade de
+8.000 ft?
+3.
+(a) Derive a conversão da permeabilidade de D para m2
+(b) Converta uma permeabilidade de 3,5 mD em m2
+(c) Converta uma permeabilidade de 7,3 × 10-12 m2 em D
+4. Um experimento projectado para medir a permeabilidade de uma amostra de testemunho usando
+salmoura. O testemunho cilíndrico foi saturado com salmoura e, em seguida, a água foi injectada a
+uma taxa de 0,07 cm3/s. A pressão na entrada foi medida em 43 psig enquanto a saída estava aberta
+à pressão atmosférica. Sabendo que o comprimento do testemunho é 3,5 in, o diâmetro do testemunho
+é 1,48 in e a viscosidade da salmoura é 1 cP, calcule a permeabilidade do testemunho.
+5. Determina a saturação total dos recipientes da gura 6.10 (a), (b) e (c).
+Figura 3.2: Determinação da saturação total.
+6. Uma amostra de testemunho contendo apenas água (ρw = 1 g/cm3) e óleo (ρo = 0,87 g/cm3) tem uma
+porosidade de 13,6%, comprimento de 3 in e diâmetro de 1,5 in. Seu peso saturado foi medido em
+144,3 g, e seu peso seco foi medido em 133,2 g. Calcule as saturações de água e óleo.
+7. Derivar a equação do uxo radial ilustrada abaixo:
+q = 2πkh (pe −pw)
+µ
+h
+ln
+
+re
+rw
+i
+(3.1)
+8
+
+
+=== PAGE 14 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+3.4
+Aula-6: Molhabilidade; Capilaridade e pressão capilar; Processos de
+embebição e drenagem; Função J de Leverett
+1. Um poço é perfurado numa estrutura, e três tipos de rochas foram identicados a partir de retirada
+de testemunho do poço (A, B, C) como ilustrado na gura 6.12. Pressões capilares foram derivados a
+partir do sistema de ar/mercúrio e convertido em altura acima do nível da água livre.
+Figura 3.3: Altura acima do nível da água livre em função da saturação.
+Responda as seguintes questões:
+(a) Qual dos três tipos de rocha é a melhor qualidade de rocha-reservatório? Porque?
+(b) Qual dos três tipos de rocha é a pior qualidade de rocha-reservatório? Porque?
+(c) Qual é a saturação de água irredutível para cada uma das três rochas?
+(d) Qual tipo de rocha tem a zona de transição mais curta?
+(e) Qual tipo de rocha tem a zona de transição mais longa?
+(f) Qual é o nível de água livre (FWL) se a profundidade do contacto óleo-água (OWC) para a rocha
+A foi encontrada a 5.000 ft de perlagem?
+(g) Qual é a profundidade do WOC para as rochas B e C?
+(h) Suponha que um segundo poço seja perfurado próximo à estrutura e os mesmos tipos de rocha
+sejam identicados como rochas (A, B e C). A partir do registro wireline, foi descoberto que o
+poço cruza o tipo de rocha B a uma profundidade de 4.000 ft com uma saturação de água de 35%.
+i. Qual é a profundidade do FWL nesta estrutura?
+ii. Em que profundidade podemos esperar encontrar OWC em cada tipo de rocha emesta estru-
+tura?
+2. A medição da pressão capilar numa rocha-reservatório no laboratório deu os seguintes resultados:
+9
+
+
+=== PAGE 15 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 3.4: Dados de saturação e pressão capilar
+Sw[−]
+pc[bar]
+0,16
+2,4
+0,16
+1,0
+0,20
+0,75
+0,35
+0,5
+0,85
+0,25
+0,96
+0,1
+1,00
+0,05
+Tabela 3.5: Condições de laboratório
+Condições de laboratório
+σow [N/M]
+0,05
+θow
+0◦
+Tabela 3.6: Condições de reservatório
+Condições de reservatório
+σow
+θow
+ρo[kg/m3]
+θw[kg/m3]
+Com base em dados de registro de resistividade de wireline do mesmo reservatório, o OWC foi encon-
+trado a uma profundidade de 1530 m abaixo do nível do mar.
+(a) Os dados representam drenagem ou pressão capilar de embebição? Porque?
+(b) Qual é a saturação de água irredutível? Porque?
+(c) Converta os dados de pc das condições de laboratório para as condições do reservatório.
+(d) Converta o pc da parte c para a altura acima do nível de água livre.
+(e) Com base em seus dados, qual seria a profundidade esperada do nível de água livre (FWL)?
+(f) Qual é a espessura da zona de transição?
+(g) Onde você perfuraria (criaria comunicação entre o reservatório e o poço) no reservatório para
+produzir óleo limpo (somente óleo)? Porque?
+3. Um testemunho foi extraído de um reservatório produtor de óleo, com porosidade e permeabilidade de
+12% e 50 mD, respectivamente. Os dados de saturação de pressão capilar foram obtidos experimental-
+mente e estão relacionados através da equação 1:
+pc = 0, 5S−0,78
+w
+(3.2)
+A tensão interfacial é medida a 40 dine/cm com um ângulo de contato de 0◦, e a saturação irredutível
+de água é de 0,2.
+Após medir a porosidade e permeabilidade em várias amostras, a porosidade e
+permeabilidade médias do reservatório foram encontradas em 16% e 85 mD, respectivamente. Use as
+informações da pergunta anteriore(pergunta 2) para gerar dados representativos de pressão capilar para
+o reservatório.
+10
+
+
+=== PAGE 16 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+4. Um ensaio experimental de pressão capilar de ar-salmoura numa amostra de testemunho fornece os
+resultados ilustrados na Tabela 6.18:
+Tabela 3.7: Dados de saturação de água e pressão capilar
+Pressão capilar [kPa]
+0
+68,95
+93,08
+96,53
+199,95
+330,95
+689,48
+Saturação de água [%]
+100
+100
+89
+79,6
+42,5
+34,1
+28
+(a) Construa o gráco da saturação de água em função da altura usando os dados fornecidos acima.
+5. Através dos grácos apresentados na Figura 6.14:
+(a) Identique como as curvas 1 e 2 na Figura 6.14a estão molhadas preferencialmente.
+(b) Indentique a curva de embebição e de drenagem na gura 6.14b.
+(a)
+(b)
+Figura 3.4: Figuras identicação da molhabilidade preferencial e dos processos de embebição e drenagem.
+6. A gura 6.16 representa a variação da zona de transição com a permeabilidade. Identique a curva
+com a permeabilidade alta, permeabilidade média e permeabilidade baixa.
+Figura 3.5: Variação da zona de transição com a permeabilidade.
+7. A gura 6.17 representa a variação da zona de transição com a densidade do uido. Identique a curva
+com a alta densidade do uido, com uma densidade do uido média e uma densidade baixa do uido.
+11
+
+
+=== PAGE 17 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 3.6: Variação da zona de transição com a densidade do uido.
+3.5
+Aula-7: Contacto de hidrocarbonetos/água
+1. Um poço perfurado no topo de um reservatório potencial de hidrocarboneto encontra gás seco apenas
+a uma profundidade de 5.800 ft (veja gura 6.18). A espessura do reservatório nesta profundidade era
+de 50 ft, e a temperatura do reservatório, 187 ◦F. As medições da pressão da água foram feitas em
+um aquífero adjacente a 6.300 ft (pressão = 2.839,2 psia) e a 6.500 ft (pressão = 2.929,2 psia). Se o
+reservatório continha apenas gás seco, calcule a profundidade do contato gás / água do reservatório.
+Figura 3.7: Reservatório de gás seco.
+2. Suponha que nesta área, outros reservatórios foram encontrados com capa de gás (gura 6.19). É pos-
+sível que tenhamos perfurado nosso poço em uma capa de gás e, em algum lugar abaixo, haja petróleo.
+Podemos estimar limites nas profundidades mínimas e máximas para o contacto hidrocarboneto / água
+se tivermos uma estimativa da massa especíca do óleo?
+12
+
+
+=== PAGE 18 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 3.8: Reservatório com capa de gás.
+ Presumimos que o reservatório estava cheio apenas de gás.
+(Dgw = 6064,8 ft)
+ Suponha que assumimos que uma coluna de óleo começou logo abaixo da profundidade mais
+profunda que registramos em nosso poço.
+Dgo = 5850 ft
+ Suponha que em reservatórios próximos, óleo com massa especíca de 0,83 foi encontrado com o
+gás. Suponha que também existisse óleo com propriedades semelhantes neste reservatório.
+3. As seguintes medições de pressão são feitas para um reservatório de gás / óleo:
+Tabela 3.8: Medições de pressões
+Profundiade[m]
+Pressão[MPa]
+Fluido
+Massa
+Especíca
+[kg/m3]
+2.690
+15,12
+Gás
+410
+2.720
+15,33
+Óleo
+820
+2.850
+16,41
+Água
+1.040
+(a) Calcular o nível de óleo livre (FOL) e o nível de água livre (FWL)
+(b) O reservatório está com sobrepressão, pressão normal ou subpressão?
+4. Deriva a equação para nível da zona de água livre ilustrada abaixo:
+ZFWL = pw −po + ρogZo −ρwgZw
+(ρo −ρw)g
+(3.3)
+13
+
+
+=== PAGE 19 ===
+Capítulo 4
+Integração de dados e Cálculo Volumétrico
+de Hidrocarbonetos
+4.1
+AULA 8 - Introdução; Denições; Métodos de Cálculo de volumes
+originais de hidrocarbonetos; Método volumétrico
+1. Provar que:
+So =
+
+1 −Np
+N
+ Bo
+Boi
+(1 −Swi)
+(4.1)
+Sabe-se que o volume original de óleo e o volume restante de óleo são denidos como:
+N = VpSoi
+Boi
+(4.2)
+e
+Nremanescente = VpSo
+Bo
+(4.3)
+2. De uma mapa de isópacas de um reservatório de óleo foram obtidas as leituras apresentadas na ta-
+bela 6.20.
+Tabela 4.1: Leituras do mapa de isópacas.
+Os outros dados são:
+Constante do aparelho (C=Aleitura/Areal) = 1,27
+Máxima isópaca com óleo = 66,7%
+Porosidade média = 12,4 %
+Saturação média da água conata = 35,2%
+Factor volume-formação inicial do óleo = 1,111 m3/Sm3
+Factor volume-formação do óleo na pressão de bolha = 1,117 m3/Sm3
+14
+
+
+=== PAGE 20 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Razão de solubilidade inicial = 25,4 Sm3/Sm3
+Calcular o volume:
+(a) Total do reservatório em m3, utilizando a fórmula trapezoidal.
+(b) De óleo originalmente existente no reservatório (N), em Sm3.
+(c) De óleo existente no reservatório na pressão de bolha (Np), em Sm3.
+(d) De óleo produzido desde a pressão original até a pressão de bolha (Npb), em Sm3
+(e) De gás em solução originalmente existente no reservatório (Gs), Sm3.
+(f) De Gás produzido desde pressão incial até a pressão de bolha (Gpb), em Sm3.
+3. Com base nas informações de um reservatório de óleo fornecidas na tabela abaixo, calcule:
+(a) o volume de óleo originalmente existente no reservatório.
+(b) A reserva deste reservatório assumindo que o factor de recuperação é 23%
+Tabela 4.2: Dados do exercício 3 da Aula 12.
+4.2
+AULA 9 - Métodos de cálculo volumétrico; Integração de dados e
+incertezas
+1. Os dados abaixo são para um reservatório de óleo composto por uma única rocha bastante homogênea.
+O factor de volume de formação de óleo (Bo) é 1,31 bbl / STB e a saturação de água nas zonas de óleo
+é de 20% com base em registros de resistividade e dados de pressão capilar.
+(a) Com base nos dados abaixo encontre o volume de óleo originalmente existente no reservatório (N)
+usando o método volumétrico.
+(b) Qual é o valor líquido a bruto (Net to Gross) para este reservatório?
+i. Mapa do reservatório (área)A vista superior da área do reservatório é ilustrada na gura 6.21.
+15
+
+
+=== PAGE 21 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 4.1: Mapa do reservatório área A vista superior.
+ii. Altura de saturação RFT e altura acima do nível de água livre são ilustradas na gura 6.22.
+Figura 4.2: Altura de saturação RFT e altura acima do nível de água livre.
+iii. Mapa de Porosidade e Litologia ilustrada na gura 6.23
+16
+
+
+=== PAGE 22 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 4.3: Mapa de Porosidade e Litologia.
+2. Investigar os 20 países com maiores reservas de óleo e gás natural no mundo.
+3. Um reservatório apresenta as seguintes características: A=3000 acres, h=30 ft, Φ = 15%, Swi=20%,
+T=150 ◦F, pi=2600 psi, γg=0,75. Sabendo que a pressão de abandono é de 400 psi, Fazer o gráco do
+(a) volume do gás produzido em função a factor volume-formação de gás;
+(b) Volume do gás produzido em função do factor de compressibilidade;
+(c) Volume do gás produzido em função da pressão
+17
+
+
+=== PAGE 23 ===
+Capítulo 5
+Equação de Balanço de Materiais
+5.1
+AULA 10 e 11 - Introdução. EBM Generalizada. Equação de Balanço
+de Materiais em reservatórios de óleo
+1. Os dados de propriedades dos uidos e o histórico de produção de um reservatório que produz sob o
+mecanismo de capa de gás são ilustrados na tabela 6.23:
+Tabela 5.1: Propriedades dos uidos e o histórico de produção
+A pressão de bolha do óleo é de 234,18 kgf/cm2 e não há produção ou inuxo de água. Com auxílio
+da EBM, pede-se para determinar:
+(a) O volume original de óleo
+(b) O volume original de gás capa
+2. Os resultados da análise PVT de uma amostra de óleo de um reservatório estão apresentados na
+tabela 6.25:
+18
+
+
+=== PAGE 24 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 5.2: Análise PVT de uma amostra de óleo
+A pressão de bolha do sistema é de 234,18 kgf/cm2. Os dados da tabela referem-se à produção através
+de um único separador operando a uma pressão absoluta de 10,5 kgf/cm2 e uma temperatura de 82
+◦C. Outros dados:
+cf = 122, 3 × 10−6kgf/cm2−1
+cw = 42, 7 × 10−6kgf/cm2−1
+Swi = 0, 20
+(a) Determine a fracção recuperada (fR) de óleo até a pressão de bolha, admitindo comportamento
+de reservatório volumétrico.
+Considerando que o reservatório em questão será produzido até a pressão de abandono de 63,3 kgf/cm2,
+e desprezando os efeitos da expansão da água conata e da contração do volume poroso abaixo da pressão
+de bolha, determine:
+(a) Uma expressão para a fracção recuperada (fR) de óleo no instante do abandono, como uma função
+da razão gás/óleo acumulada a partir da pressão de bolha (Rps).
+(b) A saturação de gás livre no reservatório quando for atingida, na pressão de abandono, uma
+recuperação nal de 12% do volume de óleo original
+3. Um reservatório de arenito está produzindo sob condições de mecanismo de gás em solução. A pressão
+inicial do reservatório de 2.500 psia, o perl de produção em função da pressão do reservatório está
+ilustrado na tabela 6.26:
+Tabela 5.3: Análise PVT de uma amostra de óleo
+19
+
+
+=== PAGE 25 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) A razão gás-óleo acumulada é mantida em 954 scf/STB. Suponha que não haja inuxo de água e
+capa de gás. Calcule o volume original de óleo no reservatório.
+4. Os seguintes dados estão disponíveis para um reservatório fraturado naturalmente: N = 650 MMSTB
+(últma estimativa volumétrica)
+pi = 7150 psia
+pb = 4500 psia
+Boi = 1,743 bbl/stb
+Bob = 1,850 bbl/stb
+cw = 3,0 × 10−6/psi
+cf = 3,3 × 10−6/psi
+Swi = 0,43
+Npb = 43,473 MMstb (Óleo de reservatório para pressão de saturação (bolha))
+Wp = 0 (Negligenciando a produção de água)
+Tabela 5.4: Dados do exercício 4 da Aula 11
+(a) Calcule o volume inicial de óleo e a saturação de gás no reservatório após 72 meses de produção.
+(b) Se tivéssemos negligenciado a compressibilidade da água e das rochas, qual seria a variação volume
+de óleo?
+5.2
+AULA 12 - Equação de Balanço de Materiais em reservatórios de Gás
+1. Um reservatório volumétrico de gás com uma área de 1.060 acres e espessura de 54 ft, saturação de água
+conata irredutivel de 52%, porosidade de 13% e temperatura do reservatorio de 164 ◦F. O histórico de
+produção deste reservatório está ilustrado na tabela 6.30.
+(a) Calcule o volume original de gás volumetricamente e através de MBE.
+Tabela 5.5: Dados do exercício 1 da Aula 12
+20
+
+
+=== PAGE 26 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+2. Um reservatório volumétrico de gás apresenta uma pressão de 4.200 psia, temperatura de 180 ◦F e factor
+de compressibilidade de gás de 0,8 para 2.000 psia. Os outros dados disponíveis deste reservatório são
+ilustrados na tabela 6.31: Ignorando a compressibilidade da água e da rocha:
+Tabela 5.6: Dados do exercício 2 da Aula 12
+(a) Qual será o gas produzido acumulado para uma pressao de abandono de 2.000 psia?
+(b) Assumindo que a rocha do reservatório tenha uma porosidade de 12%, saturação de água conata
+irredutivel de 30% e espessura do reservatório de 15 ft. Qual é a área em acres coberta pelo
+reservatório?
+3. Para o uxo monofásico a EBM geral de um reservatório de gás toma a seguinte forma:
+GpBp + WpBw = G(Bg −Bgi) + GBgi
+cwSwi + cf
+1 −Swi
+
+∆p + We + WinjBw + GinjBginj
+Considerando um reservatório volumétrico (reservatório fechado), ignorando o efeito de compressibili-
+dade de água e da formação, prova que:
+p
+z = pi
+zi
+−pi
+ziGGp
+5.3
+AULA 13 - Equação de Balanço de Materiais em reservatórios de gás
+1. O arenito "M"é um pequeno reservatório de gás com uma pressão inicial de 225 kgf/cm2 e temperatura
+de 104 ◦C. O histórico de produção e os factores volume-formação são apresentados na tabela 6.32.
+Tabela 5.7: Dados do exercício 1 da Aula 13
+(a) Calcular o volume original do gás para cada um dos dados históricos de produção, assumindo o
+comportamento do reservatório volumétrico.
+21
+
+
+=== PAGE 27 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(b) Explicar a razão dos cálculos da alínea anterior que indicam a presença de inuxo de água.
+(c) Traçar o gráco de p/z em função da produção acumulada de gás.
+(d) Assumindo que o volume original do gás seja de 28,826 × 106 m3 std e que a produção acumulada
+de água tenha sido desprezível, calcular o inuxo acumulado de água (medido em condições de
+reservatório) ao nal de cada período do histórico de produção.
+5.4
+AULA 14 - Técnicas de análise de comportamento de reservatórios
+usando EBM
+1. Um reservatório volumétrico de óleo apresenta as seguintes características:
+Volume original de óleo ......................................... N=25 × 106 m3 std
+Saturação da água inicial ....................................... 25%
+Razão de silubilidade inicial ................................... 160 m3 std/m3 std
+Factor volume-formação incial do óleo ........................... 1,5220 m3 /m3 std
+Factor volume-formação na pressão de bolha....................... 1,5220 m3 /m3 std
+Curva de log(kg/Ko) versus SL (Saturação de líquidos) .. Equação 5.1
+Dados de produção ............................................... Tabela 5.8
+Propriedade dos uidos ......................................... Tabela 5.9
+log(kg/ko) = −6, 1484SL + 3, 5070para0, 20 < SL < 0, 95
+(5.1)
+Tabela 5.8: Dados de produção do exercício 1 da Aula 14
+Tabela 5.9: Propriedades dos uidos do exercício 1 da Aula 14
+Utilizando o método de Muskat, calcular para a pressão de 200 kgf/cm2 os valores da:
+(a) Produção acumulada de óleo
+22
+
+
+=== PAGE 28 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(b) Razão gás/óleo instantânea
+(c) Produção acumulada de gás
+2. Um reservatório volumétrico de óleo apresenta as seguintes características:
+Pressão inicial ................................................. 175 kgf/cm2
+Pressão de bolha................................................. 175 kgf/cm2
+Volume original de óleo ......................................... N=8,903 × 106 m3 std
+Saturação da água inicial ....................................... 20%
+Propriedade dos uidos ......................................... Tabela 5.10
+Dados de produção ............................................... Tabela 5.11
+Razão de permeabilidade efectivas para 0, 4 ≤SL ≤0, 8 .... kg/ko = 103,015−5,306SL
+Tabela 5.10: Propriedades dos uidos do exercício 2 da Aula 14
+Tabela 5.11: Dados de produção do exercício 2 da Aula 14
+Admitindo que após uma produção adicional de 138.000 m3 std de óleo a pressão média do reservatório
+caia para 35 kgf/cm2, e que o reservatório esteja produzindo através de um único poço, quanto tempo
+será necessário para isso ocorra? Informações adicionais sobre o reservatório são:
+Máxima vazão permitida ................................................... 300 m3 std/d
+Índice de produtividade do poço à pressão de 50 kgf/cm2 ............... 23 (m3 std/d)/(kgf/cm2)
+Pressão de uxo mínima no poço .......................................... 14 kgf/2
+Permeabilidade do óleo na gura 5.1
+23
+
+
+=== PAGE 29 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 5.1: Curva de permeabilidade relativa ao óleo.
+24
+
+
+=== PAGE 30 ===
+Capítulo 6
+Fluxo de Fluidos em Meios Porosos
+6.1
+AULA 15 - Introdução; Regimes e condições do uxo. Equação da
+difusividade hidráulica. Fluxo permanente e pseudopermanente. Fac-
+tor de película e Índice de Produtividade
+1. Construir a curva de IPR de um poço vertical no reservatório de petróleo. Considerando:
+(a) Regime de uxo permanente;
+(b) Regime de uxo pseudopermanente.
+Os seguintes dados são fornecidos:
+Porosidade... ϕ=19%
+Permeabilidade...k=8,2 mD
+Espessura da zona produtiva...h = 53 ft
+Pressão de reservatório... pe ou p=5.651 psia
+Pressão de ponto de bolha...pb = 50 psia
+Factor de volume-formação...Bo=1,1 m3/m3 std
+Viscosidade do uido...µo=1,7 cp
+Compressibilidade total...ct =0,0000129 psi−1
+Área de drenagem... A=640 acres
+Raio externo... re=2.980 ft
+Raio do poço... rw=0,328 ft
+Factor de película... s = 0
+2. Um uido incompressível do uxo linear no meio poroso com as seguintes propriedades:
+L=2000 ft, h=20 ft, largura=300 ft, k=100 md, ϕ=15%, µo=2 cp, p1=2000 psia, p1=1900 psia. Cal-
+cular:
+(a) Vazão em bb/dia
+(b) Velocidade aparente do uido em ft/dia
+(c) Velocidade actual do uido em ft/dia
+6.2
+AULA 16 - Equação da difusividade hidráulica - Fluxo transiente.
+1. Considere um sistema innito que esteja produzindo através de um único poço, com as segunites ca-
+racterísticas:
+Permeabilidade efectiva ao óleo...ko = 100 md
+Viscosidade do óleo no reservatório ...µo = 3,0 cp
+Factor volume-formação do óleo ...Bo = 1,25 m3/m3 std
+25
+
+
+=== PAGE 31 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Espessura da formação ...h = 4 m
+Porosidade da rocha ...ϕ=20%
+Compressibilidade total do sistema...ct = 130 × 10−6 (kgf/cm2)−1
+Vazão de óleo ...qo = 35 m3 std/d
+Raio do poço ...rw = 0,10 m
+(a) A queda da pressão no poço nos instantes 0,1; 1; 10 e 30 dias após o início da produção.
+(b) A queda da pressão em um poço afastado 300 m do centro do poço, para os mesmos tempos de
+produção do item (a).
+2. Um poço fechado está localizado a 150 m de um poço produtor e a 300 m de um segundo poço produtor.
+O primeiro produz 40 m3 std/d e o segundo, cujo o início de produção ocorreu 3 dias após o início da
+produção do primeiro, ,produz 60 m3 std/d. Qual é a queda de pressão observada no poço fechado 8
+dias após o início da produção do primeiro poço? Outras informações do reservatório são:
+Permeabilidade efectiva ao óleo...ko = 200 md
+Viscosidade do óleo no reservatório...µo = 2,0 cp
+Factor volume-formação do óleo ...Bo = 1,4 m3/m3 std
+Espessura da formação ...h = 3 m
+Porosidade da rocha ...ϕ=30%
+Compressibilidade total do sistema ...ct = 8 × 10−5 (kgf/cm2)−1
+6.3
+AULA 17 - Razão de dano. Reservatórios fraturados. Cone de água
+ou gás em poços verticais. Poços horizontais. Índice de produtivi-
+dade.
+1. Um poço horizontal de 300 m de comprimento foi perfurado em reservatório de óleo com as as seguintes
+características:
+Permeabilidade efectiva ao óleo...ko = 80 md
+Espessura da formação ...h = 50 m
+Porosidade da rocha ...ϕ=5%
+Viscosidade do óleo no reservatório...µo = 0,7 cp
+Factor volume-formação do óleo ...Bo = 1,2 m3/m3 std
+Raio do poço ...rw = 0,10 m
+Calcule o índice de produtividade desse poço admitindo uxo permanente incompressível. Utiliza o
+método de Joshi e admita que um poço vertical drene uma área quadrada de lado igual a 400 m.
+26
+
+
+=== PAGE 32 ===
+PARTE II - SOLUÇÃO DOS PROBLEMAS
+É neste segmento do documento com a solução dos problemas.
+O estudante é convidado a resolver os
+problemas da PARTE - 1 antes de consultar a PARTE - 2.
+27
+
+
+=== PAGE 33 ===
+Solução - Introdução à Engenharia de
+Reservatórios
+AULA 1
+1. Qual é a diferença entre Sistema de Produção, Sistema Petrolífero e cadeia produtiva (cadeia de valor)
+da indústria petrolífera?
+SOLUÇÃO
+Sistema de produção é um conjunto de instalações destinadas a promover a colecta, a separação,
+tratamento, estocagem e escoamento dos uidos produzidos e movimentados num campo de petróleo
+ou gás natural. Este sistema é composto por reservatório, poço, linha de escoamento ou coluna de
+produção, separadores, bombas, dutos (gura 6.1b). Os uidos são produzidos do reservatório para o
+fundo do poço. O poço providencia o uxo da produção do fundo do poço para a superfície e oferece os
+meios de controlo de vazão. Os separadores separam as diferentes fazes do uido (gás, óleo e água) e
+eventuais sólidos presentes. Bombas e compressores são usados para mandar o óleo e o gás para centros
+comercias através de oleodutos ou gasodutos. Com este sistema os uídos que estão armazenados no
+reservatório são produzidos até à superfície, em três etapas (gura 6.1a):
+ Recuperação: Fluxo de uidos de reservatório até ao fundo do poço.
+ Elevação: Fluxo de uidos do fundo do poço até à superfície (Topo de Poço). Este pode ser
+natural ou articial.
+ Escoamento: Fluxo do topo do poço, passando pelo regulador de uxo e indo até ao separador.
+28
+
+
+=== PAGE 34 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) Esquemática do sistema de produção
+(b) Sistema de produção
+Figura 6.1: Esquemática do Sistema de produção.
+Sistema petrolífero é um modelo que engloba todos os elementos e processos geológicos necessários
+à existência de acumulações de óleo e gás. Para armazenamento ou acumulação do uido produzido,
+além da presença da Rocha Reservatório é necessário a existência de elementos como Armadilha, Rocha
+Geradora, Rocha Selante, Migração e Sincronismo.
+O conceito de cadeia produtiva foi desenvolvido como instrumento de visão sistêmica. Parte da premissa
+de que a produção de bens pode ser representada como um sistema, no qual os diversos actores estão
+interconectados por uxos de materiais, de capital e de informação, objectivando suprir um mercado
+consumidor nal com os produtos do sistema. As atividades integrantes da cadeia produtiva de petróleo
+e gás podem ser agrupadas em três grandes blocos:
+ Upstream é a fase que caracteriza-se pelas actividades de busca, identicação e localização das
+fontes de óleo, e ainda o transporte deste óleo extraído até as renarias, onde será processado.
+Resumindo, são as actividades de exploração, perfuração e produção.
+ Midstream é a fase que as matérias-primas (hidrocarbonetos) são transformadas em produtos
+29
+
+
+=== PAGE 35 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+prontos para uso especíco (gasolina, diesel, querosene, GLP, nafta, óleo lubricante, etc.). São
+as actividades de renação.
+ Downstream é a fase logística, ou seja, o transporte dos produtos da renaria até os locais de
+consumo. Resume-se no transporte, distribuição e comercialização dos erivados do petróleo.
+2. Dene:
+SOLUÇÃO
+(a) Cricondenbária: é a linha que representa a maior pressão em que ainda coexistem duas fases.
+(b) Crincondeterma: é a linha que representa a maior temperatura em que ainda se tem a coexistência
+de duas fases.
+(c) Ponto de bolha é o ponto em que a primeira gota de uma mistura líquida começa a vaporizar.
+(d) Ponto crítico: É aquele ponto no qual a linha dos pontos de bolha e a dos pontos de orvalho se
+juntam, ou mais propriamente, é o ponto onde as propriedades do líquido e do gás são iguais.
+(e) Ponto de orvalho é o ponto no qual a primeira gota de uma mistura gasosa começa a condensar.
+(f) Região de condensação retrograda: é a região em que a temperatura do reservatório está entre a
+temperatura crítica e cricondentérmica do uido do reservatório.
+3. Fazer uma ilustração no envelope de fases os elementos mencionados no ponto 2.
+SOLUÇÃO
+A resposta está ilustrada na Figura 6.2
+Figura 6.2: Componentes de envelope de fases.
+4. Investigue as principais teorias sobre a origem dos hidrocarbonetos.
+SOLUÇÃO:
+As principais teorias são: biogenêtica , abiogenêtica e a Reação de Fischer-Trospsch.
+(a) Qual é diferença entre as mesmas teorias?
+30
+
+
+=== PAGE 36 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+SOLUÇÃO:
+ Biogênica: Se forma a partir de substâncias orgânicas procedentes da superfície terrestre (de-
+tritos orgânicos), que seriam soterrados. Com o incremento de temperatura, as moléculas do
+querogênio começariam a ser quebradas, gerando compostos orgânicos líquidos e gasosos, em
+um processo denominado catagênese. Para se ter uma acumulação de petróleo seria necessário
+que, após o processo de geração (cozinha de geração) e expulsão, ocorresse a migração do óleo
+e/ou gás através das camadas de rochas adjacentes e porosas, até encontrar uma rocha selante
+em uma estrutura geológica que detenha seu caminho, sob a qual ocorrerá a acumulação do
+óleo e/ou gás em uma rocha permeável chamada rocha reservatório.
+ Abiogênica: depósitos profundos de hidrocarbonetos aprisionados durante a formação do
+planeta. A centenas de quilômetros de profundidade as moléculas de hidrocarbonetos (prin-
+cipalmente metano) migram do manto para a crosta ocorrendo complexação das moléculas.
+Nesta migração, gases primordiais como hélio e nitrogênio podem estar presentes e auxiliam no
+transporte. A presença de moléculas biológicas associadas aos hidrocarbonetos é estritamente
+relacionada à contaminação por micro-organismos (bactérias).
+ Reação de Fischer-Trospsch: é a teoria intermediária entre abiogênica e a biogênica. É um
+processo utilizado para produção de hidrocarbonetos sintéticos. É um processo utilizado pela
+Alemanha durante a segunda-guerra mundial e recentemente pela África do sul. O dióxido de
+carbodo e o oxigênio são passados sobre um catalisador de hematita em temperaturas maiores
+do que 500◦.
+(b) Qual das teorias é mais aceite?
+SOLUÇÃO
+A teoria mais aceite na actualidade, é a teoria da biogênese.
+5. Qual é a área de actuação do Engenheiro de Reservatório? E porque?
+SOLUÇÃO
+O campo de actuação do Engenheiros de Reservatórios de petróleo é o reservatório. Porque um Enge-
+nheiro de Reservatória visa entre outras funções de maximizar o factor de recuperação, estudar o uxo
+dos uidos (hidrocarbonetos) no interior das rochas porosas, estimativa de volumes de hidrocarbonetos
+no reservatório e estimar o tempo de recuperação de hidrocarbonetos. Isto só será possível com o co-
+nhecimento das propriedades de reservatórios (rochas e uidos) e a interação entre elas (rocha-uidos).
+6. Completar: HIDROCARBOTENOS + NÃO HIDROCARBONETOS = 
+SOLUÇÃO
+HIDROCARBOTENOS + NÃO HIDROCARBONETOS = PETRÓLEO BRUTO
+7. Com os conhecimentos adquiridos sobre os tipos de reservatórios e os respectivos mecanismos de pro-
+dução, completar a tabela 6.1:
+31
+
+
+=== PAGE 37 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.1: Table:Tabela do exercício 4
+Gás Seco
+Gás Condensado
+Óleo Subsaturado
+Óleo Saturado
+Mecanismo de Pro-
+dução
+Mecanismo
+de
+Gás
+Volumétrico
+Mecanismo
+de
+Gás
+Volumétrico
+Inuxo de água, ou
+depletação
+Mecanismo
+de
+Gás
+Volumétrico, inuxo
+de água ou depleta-
+ção
+Condições Iniciais de
+Reservatório
+Monofásico: Gás
+Monofásico: Gás
+Monofásico: Óleo
+Bifásico: Óleo e gás
+Comportamento
+do
+Reservatório com o
+Declínio da Pressão
+O uido do reservató-
+rio permanece como
+gás.
+O líquido condensa-
+se no reservatório
+O gás evapora no re-
+servatório.
+O gás adicional é li-
+berado pelo óleo sa-
+turado.
+Hidrocarbonetos
+Produzidos
+Principalmente Gás
+Gás e condensado
+Óleo e gás
+Óleo e gás
+32
+
+
+=== PAGE 38 ===
+Solução - Propriedades dos Fluidos
+AULA 2
+1. Um reservatório cilíndrico possui diâmetro de base igual a 2 m e altura de 4 m, sabendo-se que o mesmo
+está totalmente preenchido com petróleo bruto, determine:
+(a) A massa de petróleo bruto presente no reservatório;
+SOLUÇÃO
+Na gura 6.3 está ilustrada o esquema do reservatório cilíndrico com as dimensões dadas no
+problema o dado da massa especíca do petróleo bruto pode ser obtido na tabela 40, ou seja,
+ρ = 850 kg/m3
+Figura 6.3: Esquemática do reservatório cilíndrico.
+O volume do reservatório, baseando-se da gura 6.3, tem-se
+V = Ab × h = π × d2
+4
+× h = π × 22
+4
+× 4 = 12, 56m3
+ρ = m
+V ⇒m = ρ × V ⇒m = 850 × 12, 56637 = 10.681, 42 kg
+(b) A massa de gasolina se um outro reservatório com as mesmas dimensões for preenchido pela
+gasolina.
+SOLUÇÃO
+As dimensões do reservatórios não alteraram. Excepto a massa especíca. Porque trataremos de
+gasolina em vez de petróleo bruto. Segundo a tabela 40, a massa especíca de gasolina é de 720.
+Ou seja, ρ = 720 kg/m3.
+ρ = m
+V ⇒m = ρ × V ⇒m = 720 × 12, 56637 = 9.047, 79 kg
+33
+
+
+=== PAGE 39 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+2. A massa especíca de uma determinada substância é igual a 740 kg/m3, determine o volume ocupado
+por uma massa de 500 kg dessa substância.
+RESPOSTA
+ρ = m
+V ⇒V = m
+ρ ⇒V = 500
+740 = 0, 676 m3
+3. Sabe-se que 400 kg de um líquido ocupa um reservatório com volume de 1500 litros, determine sua
+massa especíca, seu peso especíco e o peso especíco relativo. Dados: wH2O = 10000N/m3, g = 10
+m/s2, 1000 litros = 1 m3.
+SOLUÇÃO
+Massa especíca
+ρ = m
+V = 400
+1, 5 = 266, 67 kg/m3
+Peso especíco
+ws = 266, 67 × 10 = 2.666, 67 N/m3
+Peso especíco relativo
+wr =
+ws
+wH2O
+= 2.666, 67
+10.000
+= 0, 27
+4. Calcular a densidade relativa e em API do óleo com a massa especíca de 53 lb/ft3.
+SOLUÇÃO
+A massa especíca de água é 62,37 lb/ft3
+γo = ρo
+ρw
+=
+53
+62, 37 = 0, 85
+API = 141, 5
+γo
+−131, 5 = 35◦
+5. Determinar a densidade e a massa especíca do óleo de 42 ◦API.
+SOLUÇÃO
+γo =
+141, 5
+API + 131, 5 = 0, 82
+γo = ρo
+ρw
+⇒ρo = γo × ρw = 0, 82 × 62, 37 = 50, 87lb/ft3
+34
+
+
+=== PAGE 40 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+6.
+(a) Uma determinada massa de gás tem um volume de 510 ft3 quando a temperatura é 60 ◦F e a
+pressão é 12 psig. Se a pressão é constante, mas a temperatura é alterada para 110 ◦F, qual será
+o volume do gás? A pressão atmosférica pode ser conciderada como 14,73 psia.
+SOLUÇÃO
+Dados conhecidos:
+V1=510 ft3; T1=(60+460)= 520 ◦R; p2=(110+460)=570 ◦R; pede-se para determinar o V2.
+V1
+V2
+= T1
+T2
+⇒V2 = V1 × T2
+T1
+⇒V2 = 510 × 570
+520 = 559, 04 ft3
+(b) Qual será a nova pressão do gás se o volume mantém constante e a temperature aumenta de 60
+para 110 ◦F como indicado?
+SOLUÇÃO
+p1=12 + 14,73 = 26,73 psia
+p1
+p2
+= T1
+T2
+⇒p2 = p1 × T2
+T1
+⇒p2 = 26, 73 × 570
+520 = 29, 30 psia
+ou, p2=29,30 - 14,73 = 14,57 psig
+7.
+(a) Quantos pés cúbicos de um gás ideal medida em condições padrão de 60 ◦F e 14,73 psia, necessário
+para preencher tanque de 100 ft3 para a pressão de 40 psia quando a temperatura de gás no tanque
+é de 90 ◦F? A pressão atmosférica é 14,4 psia.
+SOLUÇÃO
+Dados conhecidos:
+p1=40+14,4 = 54,4 psia; p2=psc=14,73 psia; T1=(90+460)=550 ◦R; T2=Tsc=520 ◦R; V1=100
+ft3; V2=Vsc
+p1V1
+T1
+= p2Vsc
+T2
+⇒(54, 4)(100)
+550
+= (14, 73)(Vsc)
+520
+⇒Vsc = 349 scf
+349 scf corresponde à 349 ft3 em condições-padrão
+(b) Qual seria a leitura no manômetro se o tanque na pergunta acima for resfriado para 60 ◦FF após
+ser preenchido com o gás ideal?
+RESPOSTA
+T2=60+460= 520 ◦R; V2=100 ft3; p2=?
+p1V1
+T1
+= p2Vsc
+T2
+⇒(54, 4)(100)
+550
+= (p2)(100)
+520
+⇒p2 = 51, 4 psia ou 37, 0 psig
+8. Um poço de gás está produzindo gás com uma densidade de 0,65 a uma vazão de 1,1 MMscf/dia. A
+pressão e temperatura médias do reservatório são 1.500 psi e 150 ◦F. Calcular:
+(a) Massa molecular aparente do gás.
+SOLUÇÃO
+35
+
+
+=== PAGE 41 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+γg = Ma
+29 ⇒Ma = 29 × γg = 0, 65 × 29 = 18, 85
+(b) Massa especíca do gás nas condições de reservatório.
+ρg = pMa
+RT =
+1.500 × 18, 85
+10, 73 × (150 + 460) = 4, 32lb/ft3
+(c) Vazão do uxo em lb/dia.
+Como 1 lb-mol de qualquer gás ocupa 379,4 scf em condições-padrão, então o número diário de
+moles que o poço de gás está produzir pode ser calculado a partir de:
+n = 1, 1 × 106
+379, 4
+= 2899, 32 lb −mol
+a massa pode ser determinada como:
+n = m
+Ma
+⇒m = n × Ma = 2899, 32 × 18, 85 = 54.652 lb/dia
+9. Um poço de gás está produzindo gás natural com a composição ilustrada na Tabela 6.3:
+Tabela 6.2: Dados da composição do gás natural produzido pelo poço
+Componentes
+Fórmula
+Abreviação
+yi
+Dióxido de Carbono
+CO2
+CO2
+0,05
+Metano
+CH4
+C1
+0,90
+Etano
+C2H6
+C2
+0,03
+Propano
+C3H8
+C3
+0,02
+Assumindo um comportamento de gás ideal, calcule:
+(a) Massa molecular aparente.
+SOLUÇÃO
+Tabela 6.3: Dados da composição do gás natural produzido pelo poço
+Componentes
+Fórmula
+Abreviação
+yi
+Mi
+yiMi
+Dióxido de Carbono
+CO2
+CO2
+0,05
+44,010
+2,201
+Metano
+CH4
+C1
+0,90
+16,043
+14,438
+Etano
+C2H6
+C2
+0,03
+30,070
+0,902
+Propano
+C3H8
+C3
+0,02
+44,097
+0,882
+Massa molecular aparente
+18,42
+As constantes críticas são extraidas na Tabela 41
+A massa molecular aparente da mistura é igual a 18,42
+36
+
+
+=== PAGE 42 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(b) Densidade do gás.
+RESPOSTA
+γg = Ma
+29 = 18, 42
+29
+= 0, 635
+(c) Massa especíca do gás a 2.000 psia e 150 ◦F
+RESPOSTA
+ρg = pMg
+RT =
+2.000 × 18, 42
+10, 73 × (150 + 460) = 5, 6285 lb/ft3
+(d) Volume especíco a 2.000 psia e 150 ◦F
+SOLUÇÃO
+v = 1
+ρg
+=
+1
+5, 6285 = 0, 178 ft3/lb
+AULA 3
+1. Calcular a massa do metano contido em um recipiente de 5 ft3 a uma pressão de 700 psia e uma
+temperatura de 68 ◦F. Com os mesmos dados determina a massa especíca e volume especíco.
+SOLUÇÃO
+O factor de compressibilidade z, pode ser determinado a partir do gráco de metano (Figura 36).
+Importa realçar que este gráco é diferente o da mistura de Standing e Katz. Logo, z=0,92. Aplicando
+a lei dos gases reais tem-se:
+m = pV M
+zRT =
+700 × 5 × 16, 043
+0, 92 × 10, 73 × (68 + 460) = 10, 74 lb
+ρ = pM
+zRT =
+700 × 16, 043
+0, 92 × 10, 73 × (68 + 460) = 2, 15 lb/ft3
+v = 1
+ρ =
+1
+2, 15 = 0, 46 ft3/lb
+2. Um poço de gás está produzindo gás natural com a composição ilustrada na Tabela 6.4:
+Tabela 6.4: Dados da composição do gás natural produzido pelo poço
+Componentes
+Fórmula
+Abreviação
+yi
+Tci, R
+pci, psia
+yiTci
+yipci
+Dióxido de Carbono
+CO2
+CO2
+0,05
+547,6
+1071
+27,38
+53,55
+Metano
+CH4
+C1
+0,90
+343
+667,8
+308,7
+601,02
+Etano
+C2H6
+C2
+0,03
+549,8
+707,8
+16,494
+21,234
+Propano
+C3H8
+C3
+0,02
+665,7
+616,3
+13,314
+12,326
+TOTAL
+1,00
+365,888
+688,13
+37
+
+
+=== PAGE 43 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Assumindo um comportamento de gás real, Determine o factor de compressibilidade do gás (fator z)
+usando o gráco da gura de Standing e Katz sabendo que a pressão e temperatura do reservatório é
+de 2.000 psia e 150 ◦F respectivamente.
+SOLUÇÃO
+As constantes críticas são extraidas na Tabela 41
+ppc =
+nc
+X
+i=1
+yipci = 688, 13 psia
+Tpc =
+i=1
+X
+nc
+yiTci = 365, 88 R
+ppr = p
+ppc
+= 2, 91
+Tpr = T
+Tpc
+= 1, 67
+Usando o gráco de Standing e Katz (Figura 37), o factor de compressibilidade, ou seja z=0,84.
+3. Um gás natural ácido tem uma densidade de 0,75. A análise da composição do gás apresenta 5% de
+CO2 e 10% de H2S. Calcule a massa especíca do gás para a pressão e temperatura de 3.300 psia e 150
+◦F.
+SOLUÇÃO
+As propriedades pseudo-críticas não corrigidas são determinadas usando as correlações apresentadas
+por Standing, Sutton e outros cientistas e estudiosos. No nosso exercício vamos usar a correlação de
+Standing para o sistema do gás natural, ou seja:
+ppc = 677, 0 + 15, 0γg −37, 5γ2
+g = 677, 0 + 15, 0(0, 75) −37, 5(0, 75)2 = 667, 16 psia
+Tpc = 168, 0 + 325, 0γg −12, 5γ2
+g = 168, 0 + 325, 0(0, 75) −12, 5(0, 75)2 = 404, 72 ◦R
+Como são dois contaminantes ou não-hidrocarbonetos presentes na composição, podemos usar a cor-
+relação de Wichert e Aziz para o ajustamento da temperatura pseudocrítica, ou seja:
+A = yH2S + yCO2 = 0, 05 + 0, 10 = 0, 15
+ϵ = 120
+ A0,9 −A1,6
++ 15
+ B0,5 −B4,0
+ϵ = 120
+ 0, 150,9 −0, 151,6
++ 15
+ 0, 100,5 −0, 104,0
+= 20, 735
+Ajustando as propriedades pseudo-críticas, tem-se
+T ′
+pc = Tpc −ϵ = 404, 72 −20, 735 = 383, 99 ◦R
+38
+
+
+=== PAGE 44 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+p′
+pc =
+ppcT ′
+pc
+Tpc + B(1 −B)ϵ =
+(667, 16)(383, 99)
+404, 72 + 0, 10(1 −0, 10) × 20, 735 = 630, 08 psia
+Calculando as propriedades pseudo-reduzidas da pressão e da temperatura, tem-se
+Tpr = T
+T ′pc
+= 150 + 460
+383, 99
+= 1, 59 ◦R
+ppr = p
+p′pc
+= 3.300
+630, 08 = 5, 24 psia
+O factor de compressibilidade é determinado usando o gráco 37. Assim sendo, z=0,87. Com esse
+valor já podemos determinar a massa molecular aparente, ou seja:
+ρg = m
+V = pMa
+zRT =
+3.300 × 21, 75
+0, 87 × 10, 73(150 + 460) = 12, 60 lb/ft3
+4. Para a pressão de 2.500 psia e temperatura de reservatorio de 180 ◦F, o factor de compressibilidade do
+gas natural ácido e de 0,85:
+(a) Calcule o factor de volume de formação e o factor de expansão de gás;
+SOLUÇÃO
+Bg = 0, 02827zT
+p = 0, 02827(0, 85)(180 + 460)
+2.500
+= 6, 16 × 10−3 ft3
+scf
+Eg = 1
+Bg
+= 35, 37 p
+zT = 35, 37
+2.500
+(0, 85)(180 + 460) = 162, 55 scf
+ft3
+(b) Quantos pés cúbicos deste gás estão presentes no reservatório com o volume poroso de gás de 1,0
+× 109 ft3?
+SOLUÇÃO
+Vsc = V
+Bg
+=
+1, 0 × 109 ft3
+6, 16 × 10−3 ft3
+scf
+= 1, 62 × 1011 scf
+5. Calcule o factor volume de formação de um gás natural de densidade 0,64 (ar=1) a uma temperatura
+de 81 ◦F para as seguintes pressões de 3.500 à 500 psia no intervalo de 500 psia. Faça o gráco do
+factor z de compressibilidade de gás e do factor volume de formação em função da pressão.
+SOLUÇÃO
+Para solução deste exercício usaremos as propriedades pseudo-críticas e reduzidas para determinar o
+factor de compressibilidade. Com estes dados, usa-se o gráco de Katz e Standing para determinar o
+factor de compressibilidade. Em vez de usar este gráco usarei o programa criado conforme a gura 6.4.
+Com o factor de compressibilidade, pode-se determinar o factor volume-formação de gás. Com estes
+dados podemos traçar o gráco, ou os grácos.
+ppc = 677, 0 + 15, 0γg −37, 0γ2
+g = 677, 0 + 15, 0(0, 64) −37, 0(0, 64)2 = 671, 44 psia
+Tpc = 168, 0 + 325, 0γg −12, 5γ2
+g = 168, 0 + 325, 0(0, 64) −12, 5(0, 64)2 = 370, 88 ◦R
+ppr = p
+ppc
+; Tpr = T
+Tpc
+39
+
+
+=== PAGE 45 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Bg = 0, 02827zT
+p
+Todos outros cálculos estão ilustrados na tabela 6.5
+Figura 6.4: Factor de compressibilidade para exercício 2.
+Tabela 6.5: Factor de compressibilidade e factor volume-formação de gás.
+O gráco do factor de compressibilidade e de factor volume-formação de gás em função da pressão está
+ilustrado na gura 6.5
+40
+
+
+=== PAGE 46 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.5: Gráco do factor de compressibilidade e factor volume-formação de gás em função da pressão.
+6. Considere 1 mol-lb de uma mistura gasosa, cuja a composição está indicada na tabela 6.6
+Tabela 6.6: Dados do exercício 6 da Aula 3
+Componente (Ci)
+Fracção Molar (yi)
+Metano
+0,1
+Etano
+0,2
+Propano
+0,3
+n-butano
+0,4
+Total
+1,0
+Determine para essa mistura:
+SOLUÇÃO
+(a) A massa molecular
+Ma =
+nc
+X
+i=1
+yiMi = 44
+(b) A densidade
+γg = Ma
+Mar
+∼= 44
+29 = 1, 52
+(c) O volume molar a 60 ◦F e 14,7 psia.
+Vmolar = RT
+p
+= 10, 73(60 + 460
+14, 7
+∼= 379 ft3
+(d) A massa especíca a 60 ◦F e 14,7 psia.
+ρg = pMa
+RT =
+Ma
+Vmolar
+= 44
+379 = 0, 116 lb/ft3
+41
+
+
+=== PAGE 47 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(e) A pressão parcial do propano a uma pressão total de 500 psia, admitindo a mistura como ideal.
+usaremos a lei de Dalton
+p3 = y3p = 0, 30 × 500 = 150 psia
+(f) O volume parcial do etano (ft3/mol-lb) nas condições de 60 ◦F e 14,7 psia. usaremos a lei de
+Amagat
+V2 = y2V = 0, 2 × 379 = 75, 8 ft3/mol −lb
+(g) A composição em massa, ou sejam, as frações em massa de cada componente na mistura.
+(fracoemmassa)i =
+mi
+Pnc
+j=1 mj
+Admitindo 1 mol-lb da mistura:
+(fracoemmassa)i =
+yiMi
+Pnc
+j=1 yiMi
+= yiMi
+Ma
+= yiMi
+44
+Os resultados estão ilustrados na tabela 6.7
+(h) A temperatura pseudocrítica.
+Tpc =
+4
+X
+i=1
+yiTci = 650 ◦R
+(i) A pressão pseudocrítica.
+ppc =
+4
+X
+i=1
+yipci = 614 psia
+(j) Factor de compressibilidade crítico.
+zc =
+4
+X
+i=1
+yizci ∼= 0, 278
+(k) O factor de compressibilidade a 222,5 ◦F e 500 psia.
+ppr = p
+ppc
+= 500
+614 = 0, 81
+Tpr = T
+ppc
+= 500
+614 = 1, 05
+A partir da gura de Katz e Standing, z=0,705
+(l) A viscosidade a 222,5 ◦F e 1 atm. A partir da gura 6.6, para Ma=44, T=222,5 ◦F, µ1=0,012 cp
+(m) A viscosidade a 222,5 ◦F e 500 psia. A partir da gura 6.7, para ppr=0,81, Tpr=1,05 ,
+= µ
+µ1
+= 1, 225
+A partir da alínea anterior, µ1=0,012 cp. Então:
+µ = µ1 × 1, 225 = 0, 0147 cp
+42
+
+
+=== PAGE 48 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Resumo dos cálculos estão ilustrados na tabela 6.7
+Tabela 6.7: Resumo de cálculo do exercício 6 da Aula 3
+Ci
+yi
+Mi
+yiMi
+Fracção
+Tci
+yiTci
+pci
+yipci
+zci
+yizci
+em massa
+R
+R
+psia
+psia
+C1
+0,1
+16
+1,6
+0,0364
+343
+34,3
+673
+67,3
+0,2859
+0,0289
+C2
+0,2
+30
+6,0
+0,1364
+550
+110,0
+708
+141,6
+0,285
+0,0570
+C3
+0,3
+44
+13,2
+0,3000
+666
+199,8
+617
+185,1
+0,276
+0,0828
+n-C4
+0,4
+58
+23,2
+0,5272
+765
+306,0
+551
+220,4
+0,274
+0,1096
+Total
+1,0
+44,0
+1,000
+650,0
+614,4
+0,2783
+Figura 6.6: Gráco de viscosidade do gás natural de 1 atm (Carr, Kobayashi e & Burrows, 1954).
+43
+
+
+=== PAGE 49 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.7: Gráco de razão de viscosidade do gás natural de 1 atm (Carr, Kobayashi e & Burrows, 1954).
+44
+
+
+=== PAGE 50 ===
+Solução - Propriedades das rochas
+AULA 4 - Componentes da Rocha; Porosidade
+1. Uma amostra saturada com óleo pesa 130 gramas. Sabe-se que a mesma amostra não saturada (seca)
+pesa 105 gramas e a massa especíca de óleo é de 840 kg/m3 =0,84g/cm3. O volume total de amostra
+é de 180 cm3.
+(a) Determina a porosidade da amostra.
+SOLUÇÃO:
+Vp = Wo
+ρo
+= Ws −Wd
+ρo
+= 130 −105
+0, 84
+= 29, 7619 cm3
+ϕ = Vp
+Vt
+= 29, 7619
+180
+= 0, 165 = 17 %
+2. Na gura 6.8, determina a porosidade idealisada:
+(a)
+(b)
+(c)
+Figura 6.8: Figuras para determinar a porosidade idealisada.
+SOLUÇÃO:
+(a) Para este exemplo podemos fazer uma ilustração (Figura 6.9) que poderá servir para os outros
+nas alíneas a seguir. Esquema mostrando (a) um empacotamento cúbico de esferas a partir do
+qual (b) um cubo de subconjunto é selecionado e, em seguida, (c) analisado.
+45
+
+
+=== PAGE 51 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.9: Determinação da saturação total.
+Vt = (2r)3 = 8r3
+Vesfera = 4π
+3 r3
+O volume da matriz, neste caso, é representado pelo volume das porções esféricas neste segmento
+cúbico. Temos oito porções iguais de um oitavo de uma esfera neste cubo, assim:
+Vs = 8
+1
+8
+4
+3πr3
+ 4
+3πr3
+ϕ = Vt −Vs
+Vt
+= 8r3 −4
+3πr3
+8r3
+= 1 −π
+6 = 0, 476 = 48 %
+(b)
+Vt = (2r)(2r)[2rsin(60)] = 8r3
+√
+3
+2
+= 4
+√
+3r3
+Vesfera = 4π
+3 r3
+ϕ = Vt −Vs
+Vt
+= 4
+√
+3r3 −4
+3πr3
+4
+√
+3r3
+= 1 −
+π
+3
+√
+3 = 0, 395 = 40 %
+(c)
+Vt = (2r)(2r)(h) = (2r)(2r)(r)
+√
+2 = 4r3√
+2
+h =
+p
+4r2 −2r2 = r
+√
+2
+Vesfera = 4π
+3 r3
+ϕ = Vt −Vs
+Vt
+= 4r3√
+2 −4
+3πr3
+4r3√
+2
+= 1 −π
+√
+2 = 0, 260 = 26 %
+3. Estão disponíveis os seguintes dados:
+V1 = 100cc
+V2 = 100cc
+p1 = 15,0 psi
+p2 = 60,0 psi
+46
+
+
+=== PAGE 52 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) Quando a válvula entre a Câmara 1 e a Câmara 2 é aberta, a pressão estabiliza em pf = 39,0 psi.
+Qual é o volume do grão da amostra do testemunho?
+SOLUÇÃO:
+A forma reduzida da lei de Boyle's:
+pfVt = p1V1 + p2V2
+Amostra do testemunho foi colocada na câmara 1:
+pf(V1 + V2 −V s) = p1(V1 −Vs) + p2V2
+Vs = V1(pf −p1) + V2(pf −p2)
+(pf −p1)
+Vs = 100(39 −15) + 100(39 −60)
+(39 −15)
+= 12, 5 cm3
+4. Determinar a porosidade média. Estão disponíveis os seguintes dados:
+Tabela 6.8: Dados de porosidade disponíveis por cada amostra
+Amostra
+Porosidade (%)
+1
+10
+2
+12
+3
+11
+4
+13
+5
+14
+6
+10
+7
+17
+SOLUÇÃO:
+ϕ = 1
+N
+N
+X
+j=1
+ϕj = 10 + 12 + 11 + 13 + 14 + 10 + 17
+7
+= 12, 43 %
+5. O peso seco de uma amostra é de 330 g, e seu peso quando saturada com água é de 360 g. O peso
+aparente desta amostra em água é registado como 225 g. Dado que a densidade da água é 1 g/cm3,
+determina a porosidade da amostra. Supondo que a amostra seja revestida com um material de peso
+desprezível.
+SOLUÇÃO:
+O volume poroso da amostra de testemunho pode ser determinado como:
+Vp = Ww
+ρw
+= Ws −Wd
+ρw
+= 360 −330
+1
+= 30 cm3
+47
+
+
+=== PAGE 53 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+O peso do uido deslocado pode ser determinado como:
+Wdf −Wa = 330 −225 = 105 g
+Este valor pode ser usado para determinar o volume total:
+Vt = Wdf
+ρw
+= 105
+1
+= 105 cm3
+A porosidade de amostra de testemunho pode ser determinado como:
+ϕ = Vp
+Vt
+= 30
+105 = 0, 286 = 28, 6 %
+6. Sobre análise de rotina e testes complementares de testemunho, complete a tabela 6.9:
+Tabela 6.9: Tabela da análise de rotina e testes complementares de testemunho
+Dados
+Aplicação
+Análise de rotina de testemunho
+Porosidade
+Capacidade de armazenamento
+Permeabilidade
+Capacidade de uxo
+Saturações
+Dene a mobilidade dos hidrocarbonetos (zonas produ-
+toras e contatos), tipo dos hidrocarbonetos
+Litologia
+Características e tipos de rochas (fraturas, camadas etc.)
+Testes complementares
+Permeabilidade vertical
+Efeitos de cone e drenagem gravitacional
+Registro de "core-gamma"de superfície
+Identicar seções perdidas de testemunho, relacionar tes-
+temunhos e registros
+Massa especíca da matriz
+Ajustar o registro da massa especíca
+Propriedades físico-químicas de óleo e água
+Massas especícas, viscosidades, tensão interfacial, com-
+posição etc.
+7. Sobre Análise especial de testemunho, complete a tabela 6.10:
+48
+
+
+=== PAGE 54 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.10: Tabela da análise especial de testemunho
+Testes/Estudos
+Dados/Propriedades
+Testes Estáticos
+Estudo de compressibilidade
+Obter as curvas de permeabilidade e porosidade versus
+pressão.
+Estudo petrográco
+Identicação mineral, diagênese, identicação de argila,
+distribuição do tamanho dos grãos, geometria dos poros
+etc.
+Molhabilidade
+Determinar o ângulo de contato e índice de molhabilidade
+Capilaridade
+Obter a curva de pressão capilar versus saturação
+Teste acústico
+Propriedades acústicas (velocidade de propagação e coe-
+ciente de atenuação)
+Teste elétrico
+Propriedades elétricas (resistividade e condutividade)
+Testes Dinâmicos
+Estudo do uxo
+Determinar a permeabilidade relativa e ponto nal de
+saturação
+Testes de uxo
+Determinar a injetividade e a saturação residual
+Medição Laboratorial da Porosidade
+1. Determinar a porosidade de uma amostra de testemunho no laboratório:
+(a) Para uma semana
+(b) Duas semanas
+(c) Três semanas
+Aula - 5: Compressibilidade; Saturação; Permeabilidade
+1. Uma amostra de rocha tem um volume poroso de 18 cm3. Este volume poroso diminui em 0,15 cm3
+conforme uma diferença de pressão de 900 psig é aplicada na amostra. Qual é a compressibilidade dos
+poros desta amostra?
+SOLUÇÃO
+Cf = −1
+Vp
+∂Vp
+∂p = −1
+18
+−0, 15
+900
+= 9, 26 × 10−6 psig−1
+2. O volume total de uma amostra de rocha é de 150 cm3 e sua porosidade é de 18% em condições
+ambientais. A compressibilidade dos poros desta amostra é 7 × 10−6 psig−1. Dado que o gradiente de
+pressão de sobrecarga é de 0,95 psig/ft, qual seria a porosidade desta amostra a uma profundidade de
+8.000 ft?
+SOLUÇÃO
+Calculemos a pressão de compactação ou de sobrecarga na profundidade de 8.000 ft:
+pov = 8.000 × 0, 95 = 7.600 psig
+A variação da pressão no solo é 7.600 psig
+49
+
+
+=== PAGE 55 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Calculemos o volume poroso:
+Vp = ϕ × Vt = 0, 18 × 150 = 27 cm3
+Usemos a equação de compressibilidade para calcularmos as alterações em volume poroso:
+Cf = −1
+Vp
+∂Vp
+∂p
+Resolvendo em ordem a ∂Vp, tem-se:
+∂Vp = −Cf × Vd × ∂p = −7 × 10−6 × 27 × 7.600 = −1, 44cm3
+Podemos calcular o novo volume poroso na profundidade de 8.000 ft:
+Vp,novo = Vp,velho + ∂Vp = 27 −1, 44 = 25, 56 cm3
+O volume total também vai sofre alterações devido a essa mudança no volume dos poros. Uma vez que
+o volume da matriz permanece inalterado, a mudança no volume total é igual à mudança no volume
+dos poros. Calculemos o novo volume total na profundidade de 8.000 ft:
+Vt,novo = Vt,velho + ∂Vp = 150 −1, 44 = 148, 56 cm3
+Calculemos a nova porosidade:
+ϕt,novo = Vp,novo
+Vt,novo
+= 25, 56
+148, 56 = 0, 172 = 17, 2 %
+3.
+(a) Derive a conversão da permeabilidade de D para m2
+SOLUÇÃO
+Para o sistema de unidades de Darcy, tem-se:
+k =
+qµL
+A(p1 −p2) = cm3 × cp × cm
+s × cm2 × atm = cm2 × cp
+s × atm = D
+Para o sistema de unidades de Sistema internacional, tem-se:
+k =
+qµL
+A(p1 −p2) = m3 × Pa.s × m
+s × m2 × Pa
+= m2 × Pa.s
+s × Pa
+= m2
+Vamos usar as duas equações para determinarmos a equivalência de D e m2. Vamos usar oo
+coeciente β, tem-se:
+D = βm2
+cm2 × cp
+s × atm = β × m2 × Pa.s
+s × Pa
+50
+
+
+=== PAGE 56 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+β = cm2
+m2 × Pa
+atm ×
+cp
+Pa.s = 10−4m2
+m2
+×
+Pa
+101325Pa ×
+1cp
+1000cp =
+10−4
+101325 × 1000 = 9, 869 × 10−13
+Portanto, 1 D seria igual a 9, 869 × 10−13.
+(b) Converta uma permeabilidade de 3,5 mD em m2
+Usando o factor de conversão β, tem-se:
+1D = β × m2
+35mD = 35 × 10−3D = 35 × 10−3β × m2
+35mD = 35 × 10−39, 869 × 10−13m2 = 3, 45 × 10−15 × m2
+(c) Converta uma permeabilidade de 7,3 × 10-12 m2 em D
+SOLUÇÃO
+Usando o factor de conversão, β, tem-se:
+1D = β × m2
+1m2 = D
+β
+7, 3 × 10−12m2 = 7, 3 × 10−12
+β
+D = 7, 3 × 10−12
+9, 869 × 10−13 D = 7, 4D
+4. Um experimento projectado para medir a permeabilidade de uma amostra de testemunho usando
+salmoura. O testemunho cilíndrico foi saturado com salmoura e, em seguida, a água foi injectada a
+uma taxa de 0,07 cm3/s. A pressão na entrada foi medida em 43 psig enquanto a saída estava aberta
+à pressão atmosférica. Sabendo que o comprimento do testemunho é 3,5 in, o diâmetro do testemunho
+é 1,48 in e a viscosidade da salmoura é 1 cP, calcule a permeabilidade do testemunho.
+SOLUÇÃO
+Vamos converter a vazão para sistema de unidades de campo:
+1cm3/s = 0, 54bbl/d
+0, 07cm3/s = 0, 0378bbl/d
+Vamos converter o valor de comprimento e o diâmetro da amostra de "in"para "ft", sabendo que
+1ft = 12in, e usando a equação de Darcy, tem-se:
+k = 887, 2
+qµL
+A(p1 −p2)
+51
+
+
+=== PAGE 57 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+k = 887, 2
+887, 2 × 1 × 3,5
+12
+π
+
+0,74
+12
+2
+× (43 −0)
+= 19, 04mD
+o valor de 887,2 é o valor aproximado do inverso do coeciente de conversão 1, 127 × 10−3
+5. Determina a saturação total dos recipientes da gura 6.10 (a), (b) e (c).
+Figura 6.10: Determinação da saturação total.
+SOLUÇÃO
+(a) O recipiente é preenchido com 100% de água, representando Sw = 1, (b) O recipiente é preenchido
+com 50% de água e 50% de óleo, representando Sw = 0,5 e So = 0,5 , e (c) o vidro é preenchido com
+50% de água, 30% de óleo e 20% de ar (gás), representando Sw = 0,5, So = 0,3 e Sg = 0,2.
+6. Uma amostra de testemunho contendo apenas água (ρw = 1 g/cm3) e óleo (ρo = 0,87 g/cm3) tem uma
+porosidade de 13,6%, comprimento de 3 in e diâmetro de 1,5 in. Seu peso saturado foi medido em
+144,3 g, e seu peso seco foi medido em 133,2 g. Calcule as saturações de água e óleo.
+SOLUÇÃO
+Tendo em conta a mistura de unidades, temos de converter as dimensões da amostra dada em sistema
+de unidades de campo para sistema internacional (SI), para consistência nos cálculos. Sabemos que 1
+in = 2,54 cm:
+D = 1, 5in = 1, 5 × 2, 54 = 3, 81 cm
+L = 3, 0in = 3, 0 × 2, 54 = 7, 62 cm
+Vt = πr2L = π ×
+3, 81
+2
+2
+× 7, 62 = 86, 87 cm3
+Vp = ϕVt = 0, 136 × 86, 87 = 11, 81 cm3
+Desde que a rocha só tem dois uidos água e óleo, vamos determinar a saturação de óleo e depois da
+água:
+So = Ws −Wd −ρwVp
+Vp(ρo −ρw)
+= 144, 3 −133, 2 −1 × 11, 81
+11, 81 × (0, 87 −1)
+= 0, 462
+Sw = 1 −So = 1 −0, 462 = 0, 538
+52
+
+
+=== PAGE 58 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+7. Derivar a equação do uxo radial ilustrada abaixo:
+q = 2πkh (pe −pw)
+µ
+h
+ln
+
+re
+rw
+i
+(6.1)
+SOLUÇÃO
+O esquemática de um uxo radial está ilustrada na gura 6.11
+Figura 6.11: Esquemática para derivação do uxo radial.
+A velocidade aparente da lei de Darcy em coordenadas cilíndricas, tem-se:
+νr = −k
+µ
+dp
+dr
+(6.2)
+A velocidade pode ser expressa também como:
+νr = q
+A
+(6.3)
+Combinando as equações 6.2 e 6.3, tem-se:
+νr = q
+A = −k
+µ
+dp
+dr
+(6.4)
+A área A = 2πrh. Assim sendo, a partir da equação 6.4 tem-se:
+q
+2πrh = −k
+µ
+dp
+dr
+(6.5)
+Para o uido incompressível a vazão é a mesma qualquer que seja o raio. Rearanjando e aplicando a
+intregração entre os limites a equação 6.5, tem-se:
+q
+2πh
+Z re
+rw
+dr
+r = −k
+µ
+Z pe
+pw
+dp
+(6.6)
+Integrando a equação 6.6, tem-se:
+q = −2πkh (pe −pw)
+µ
+h
+ln
+
+re
+rw
+i
+(6.7)
+53
+
+
+=== PAGE 59 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Para o uxo radial, o sinal negativo na equação 6.7 apenas indica que o uxo ocorre no sentido contrário
+do crescimento do valor da ccoordenada r. Como geralmente trabalha-se com valores positivos de vazão
+da produção q, a equação 6.7, pode ser expressa sem o sinal negativo, ou seja:
+q = 2πkh (pe −pw)
+µ
+h
+ln
+
+re
+rw
+i
+(6.8)
+Aula-6: Molhabilidade; Capilaridade e pressão capilar; Processos de em-
+bebição e drenagem; Função J de Leverett
+1. Um poço é perfurado numa estrutura, e três tipos de rochas foram identicados a partir de retirada
+de testemunho do poço (A, B, C) como ilustrado na gura 6.12. Pressões capilares foram derivados a
+partir do sistema de ar/mercúrio e convertido em altura acima do nível da água livre.
+Figura 6.12: Altura acima do nível da água livre em função da saturação.
+Responda as seguintes questões:
+(a) Qual dos três tipos de rocha é a melhor qualidade de rocha-reservatório? Porque?
+SOLUÇÃO
+A rocha A tem a melhor qualidade de reservatório por ter a maior permeabilidade.
+(b) Qual dos três tipos de rocha é a pior qualidade de rocha-reservatório? Porque?
+SOLUÇÃO
+A rocha C tem a pior qualidade de reservatório, pois tem a menor permeabilidade.
+(c) Qual é a saturação de água irredutível para cada uma das três rochas?
+SOLUÇÃO
+Rocha A: 0,1
+Rocha B: 0,2
+Rocha C: 0,1
+(d) Qual tipo de rocha tem a zona de transição mais curta?
+SOLUÇÃO
+Rocha A, uma vez que há pouca mudança na pressão capilar em função da saturação de água,
+indicando "gargantas"de poros homogêneas.
+54
+
+
+=== PAGE 60 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(e) Qual tipo de rocha tem a zona de transição mais longa?
+SOLUÇÃO
+Rocha C, uma vez que há uma rápida mudança na pressão capilar em função da saturação de
+água, indicando gargantas de poros heterogêneas.
+(f) Qual é o nível de água livre (FWL) se a profundidade do contacto óleo-água (OWC) para a rocha
+A foi encontrada a 5.000 ft de perlagem?
+SOLUÇÃO
+Dowc = 5.000 ft; h=50 ft
+h é altura acima do nível de água livre, Dowc produndidade do contacto óleo/água, FWL nível de
+água livre
+FWL = Dowc + h
+5.000 + 50 = 5.050 ft
+(g) Qual é a profundidade do contacto água óleo (WOC) para as rochas B e C?
+SOLUÇÃO
+Dowc = FWL −h
+Rocha B : 5050 −70 = 4980 ft
+Rocha C : 5050˘100 = 4950 ft
+(h) Suponha que um segundo poço seja perfurado próximo à estrutura e os mesmos tipos de rocha
+sejam identicados como rochas (A, B e C). A partir do registo de perlagem, foi descoberto que
+o poço cruza o tipo de rocha B a uma profundidade de 4.000 ft com uma saturação de água de
+35%.
+SOLUÇÃO
+i. Qual é a profundidade do FWL nesta estrutura?
+4.000 + 275 = 4.275 ft
+ii. Em que profundidade podemos esperar encontrar OWC em cada tipo de rocha emesta estru-
+tura?
+Rocha A : 4.275 −50 = 4.225 ft
+Rocha B : 4.275 −70 = 4.205 ft
+Rocha C : 4.275 −100 = 4.175 ft
+55
+
+
+=== PAGE 61 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+2. A medição da pressão capilar numa rocha-reservatório no laboratório deu os seguintes resultados:
+Tabela 6.11: Dados de saturação e pressão capilar
+Sw[−]
+pc[bar]
+0,16
+2,4
+0,16
+1,0
+0,20
+0,75
+0,35
+0,5
+0,85
+0,25
+0,96
+0,1
+1,00
+0,05
+Tabela 6.12: Condições de laboratório
+Condições de laboratório
+σow [N/M]
+0,05
+θow
+0◦
+Tabela 6.13: Condições de reservatório
+Condições de reservatório
+σow
+θow
+ρo[kg/m3]
+θw[kg/m3]
+Com base em dados de registro de resistividade do mesmo reservatório, o OWC foi encontrado a uma
+profundidade de 1530 m abaixo do nível do mar.
+(a) Os dados representam drenagem ou pressão capilar de embebição? Porque?
+SOLUÇÃO
+Os dados representam um processo de drenagem, pois há diminuição da fase molhante e a pressão
+de entrada inicia em Sw= 1.
+(b) Qual é a saturação de água irredutível? Porque?
+SOLUÇÃO
+A saturação de água irredutível é 0,16. Pode-se notar na tabela que conforme a pressão capilar
+aumenta além de 1 bar, o valor de saturação de água não é afectado.
+(c) Converta os dados de pc das condições de laboratório para as condições do reservatório.
+SOLUÇÃO
+Primeiro, temos que converter a pressão capilar para Pa e, em seguida, usar a equação de conversão
+de condições de laboratório para reservatório:
+pc,res = pc,lab
+σc,rescosθres
+σc,labcosθlab
+56
+
+
+=== PAGE 62 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.14: Solução do problema
+Sw[−]
+pc[bar]
+pc[Pa]
+pc,res[Pa]
+0,16
+2,4
+240.000
+130.508
+0,16
+1,0
+100.000
+54.378
+0,20
+0,75
+75.000
+40.784
+0,35
+0,5
+50.000
+27.189
+0,85
+0,25
+25.000
+13.595
+0,96
+0,1
+10.000
+5.438
+1,00
+0,05
+5.000
+2.719
+(d) Converta o pc da parte c para a altura acima do nível de água livre. SOLUÇÂO
+Usar a equação seguinte para conversão:
+h =
+pc,res
+(ρw −ρo)
+Tabela 6.15: Conversão da pressão capilar para altura acima do nível de água livre
+Sw[−]
+pc[Pa]
+pc,res[Pa]
+h[m]
+0,16
+240.000
+130.508
+38,01
+0,16
+100.000
+54.378
+15,84
+0,20
+75.000
+40.784
+11,88
+0,35
+50.000
+27.189
+7,92
+0,85
+25.000
+13.595
+3,96
+0,96
+10.000
+5.438
+1,58
+1,00
+5.000
+2.719
+0,79
+(e) Com base em seus dados, qual seria a profundidade esperada do nível de água livre (FWL)?
+SOLUÇÃO
+O contacto óleo/água (OWC) está localizado a 1.530 m, onde a saturação de água é máxima.
+Assim, o contacto óleo-água (OWC) corresponde à pressão capilar mais baixa com Sw = 1. 2720
+Pa com uma altura acima do nível de água livre de 0,79.
+FWL = DOWC + h = 1530 + 0, 79 = 1530, 79 m
+(f) Qual é a espessura da zona de transição?
+SOLUÇÃO
+A espessura da transição é:
+Espessura = 15, 84 −0, 79 = 15, 05 m
+(g) Onde você perfuraria (criaria comunicação entre o reservatório e o poço) no reservatório para
+produzir óleo limpo (somente óleo)? Porque?
+SOLUÇÃO
+Devemos perfurar acima da zona de transição. Nessa profundidade, não há água livre no reserva-
+tório. A única água existente é a água retida nos poros e essa água é irredutível; portanto, não
+afecta a produção de óleo. Na zona de transição, haverá uma mistura de óleo e água produzida.
+57
+
+
+=== PAGE 63 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+3. Um testemunho foi extraído de um reservatório produtor de óleo, com porosidade e permeabilidade de
+12% e 50 mD, respectivamente. Os dados de saturação de pressão capilar foram obtidos experimental-
+mente e estão relacionados através da equação 1:
+pc = 0, 5S−0,78
+w
+(6.9)
+A tensão interfacial é medida a 40 dine/cm com um ângulo de contato de 0◦, e a saturação irredutível
+de água é de 0,2.
+Após medir a porosidade e permeabilidade em várias amostras, a porosidade e
+permeabilidade médias do reservatório foram encontradas em 16% e 85 mD, respectivamente. Use as
+informações da pergunta anteriore(pergunta 2) para gerar dados representativos de pressão capilar para
+o reservatório.
+SOLUÇÃO
+Calcular a pressão capilar em diferentes saturações usando a Eq. 6.9 e o valor da função J usando a
+equação para unidades de campo seguinte:
+J(Sw) = 0, 21645
+pc
+σcosθ
+s
+k
+ϕ
+Tabela 6.16: Cálculo da função J
+Sw
+pc[psia]
+J(Sw)
+1,00
+0,50
+0,055
+0,80
+0,60
+0,066
+0,60
+0,74
+0,082
+0,40
+1,02
+0,110
+0,20
+1,75
+0,190
+Usando o novo valor de porosidade e permeabilidade, encontramos uma nova relação para relacionar a
+pressão capilar e a função J:
+pc =
+σcosθ
+0, 21645J(Sw)
+r
+ϕ
+k
+Tabela 6.17: Cálculo da função J
+Sw
+J(Sw)
+pc[psia]
+1,00
+0,055
+0,441
+0,80
+0,066
+0,529
+0,60
+0,082
+0,657
+0,40
+0,110
+0,882
+0,20
+0,190
+1,52
+4. Um ensaio experimental de pressão capilar de ar-salmoura numa amostra de testemunho fornece os
+resultados ilustrados na Tabela 6.18:
+Tabela 6.18: Dados de saturação de água e pressão capilar
+Pressão capilar [kPa]
+0
+68,95
+93,08
+96,53
+199,95
+330,95
+689,48
+Saturação de água [%]
+100
+100
+89
+79,6
+42,5
+34,1
+28
+58
+
+
+=== PAGE 64 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) Construa o gráco da saturação de água em função da pressão capilar.
+SOLUÇÃO
+A solução do exercício está ilustrada na gura 6.13
+Figura 6.13: Saturação de água em função da pressão capilar.
+5. Através dos grácos apresentados na gura 6.14:
+(a)
+(b)
+Figura 6.14: Figuras identicação da molhabilidade preferencial e dos processos de embebição e drenagem.
+(a) Identique como as curvas 1 e 2 na gura 6.14a estão molhadas preferencialmente.
+RESPOSTA
+Na gura 6.14a, a curva 1, a água molha preferencialmente.
+Isto pode ser demonstrada pela
+interseção das duas curvas, Sw > 50%, ou seja, Sw > 0,5. Ao passo que a curva 2, o óleo molha
+preferencialmente. Neste caso a intersecção da curva, Sw < 50%.
+(b) Indentique a curva de embebição e de drenagem na gura 6.14b.
+RESPOSTA
+A solução deste exercício está ilustrada na gura 6.15
+59
+
+
+=== PAGE 65 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.15: Inuência do processo de saturação nas curvas de permeabilidade relativa.
+6. A gura 6.16 representa a variação da zona de transição com a permeabilidade. Identique a curva
+com a permeabilidade alta, permeabilidade média e permeabilidade baixa.
+Figura 6.16: Variação da zona de transição com a permeabilidade.
+RESPOSTA
+O tamanho do poro do reservatório pode muitas vezes estar relacionado aproximadamente à permea-
+bilidade. Podemos armar que os reservatórios de alta permeabilidade terão zonas de transição mais
+curtas do que os reservatórios de baixa permeabilidade, como ilustrado gracamente na gura 6.16.
+Assim sendo:
+Curva A: baixa permeabilidade
+Curva B: permeabilidade média
+Curva C: alta permeabilidade
+60
+
+
+=== PAGE 66 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+7. A gura 6.17 representa a variação da zona de transição com a densidade do uido. Identique a curva
+com a alta densidade do uido, com uma densidade do uido média e uma densidade baixa do uido.
+Figura 6.17: Variação da zona de transição com a densidade do uido.
+RESPOSTA
+Se todos os outros factores permanecerem inalterados, um reservatório de óleo de baixa densidade API
+com um contacto óleo-água terá uma zona de transição mais longa do que um reservatório de óleo de
+alta densidade API, como ilustratado gracamente na gura 6.17. Neste contexto:
+Curva A: baixa densidade API oil-água
+Curva B: Alta densidade API óleo-água
+Curva C: Gás-água
+Aula-7: Contacto de hidrocarbonetos/água
+1. Um poço perfurado no topo de um reservatório potencial de hidrocarboneto encontra gás seco apenas
+a uma profundidade de 5.800 ft (veja gura 6.18). A espessura do reservatório nesta profundidade era
+de 50 ft, e a temperatura do reservatório, 187 ◦F. As medições da pressão da água foram feitas em
+um aquífero adjacente a 6.300 ft (pressão = 2.839,2 psia) e a 6.500 ft (pressão = 2.929,2 psia). Se o
+reservatório continha apenas gás seco, calcule a profundidade do contacto gás / água do reservatório.
+Figura 6.18: Reservatório de gás seco.
+SOLUÇÃO
+61
+
+
+=== PAGE 67 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Sabemos que no contacto Gás/Água a pressão do gás deve ser igual à pressão da água. Considere a
+equação seguinte para o gás:
+pg(D) =
+ρgg
+144gc
+D + Cg
+Temos duas incógnitas na equação: massa especíca do gás e a constante Cg. A densidade do gás é
+determinada pela seguinte equação:
+ρg = pM
+zRT = p(29 × γg)
+zRT
+onde
+γg = Mg
+Mar
+= Mg
+29
+Precisamos determinar as propriedades pseudocríticas do gás. Tratando-se de um gás seco, vamos usar
+a correlação de Standing. ou seja:
+ppc = 677, 0 + 15, 0γg −37, 5γ2
+g = 677, 0 + 15, 0 × 0, 87 −37, 5 × 0, 872 = 661, 67 psia
+Tpc = 168, 0 + 325, 0γg −12, 5γ2
+g = 168, 0 + 325, 0 × 0, 87 −12, 5 × 0, 872 = 441, 29 ◦R
+Calculando as propriedades pseudo-reduzidas, temos:
+ppr = p
+ppc
+=
+2711
+661, 67 = 4, 10
+Tpr = T
+Tpc
+= (187 + 460)
+441, 29
+= 1, 47
+usando oo gráco de Standing e Katz, o factor de compressibilidade z = 0,76. Usando a equação de
+estado do gás real, podemos determinar a massa especíca do gás, ou seja:
+ρg = pM
+zRT = p(29 × γg)
+zRT
+=
+2711 × 0, 87 × 29
+0, 76 × 10, 73 × (187 + 460) = 12, 96 lbm/ft3
+A partir de medição da pressão da fase de gás, temos a seguinte equação:
+pg(D) =
+ρgg
+144gc
+D + Cg
+2.711 = 12, 32
+144 (5.800) + Cg
+Cg = 2.188, 85 psia
+Equação de gás:
+pg(D) = 0, 090D + 2.188, 85
+62
+
+
+=== PAGE 68 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Equação da água:
+pw(D) = ρwg
+144gc
+D + Cw
+A partir das medições de água:
+2839, 2 = ρwg
+144gc
+6.300 + Cw
+2929, 2 = ρwg
+144gc
+6.500 + Cw
+Resolvendo este sistema de equação para calcular os valores da massa especíca da água e a pressão
+de contacto Cw, temos:
+ρw = 64, 8 lbm/ft3
+Cw = 4, 2 psia
+A equação da água:
+pw(D) = 0, 45D + 4, 2
+No contacto de Gás/Água, a produndidade é determinada calculando o sistema de equação da água e
+do gás, ou seja:
+0, 45DGWC + 4, 2 = 0, 090DGWC + 2.188, 85
+DGWC = 6068, 9 ft
+2. Suponha que nesta área, outros reservatórios foram encontrados com capa de gás (gura 6.19). É pos-
+sível que tenhamos perfurado nosso poço em uma capa de gás e, em algum lugar abaixo, haja petróleo.
+Podemos estimar limites nas profundidades mínimas e máximas para o contacto hidrocarboneto / água
+se tivermos uma estimativa da massa especíca do óleo?
+Figura 6.19: Reservatório com capa de gás.
+63
+
+
+=== PAGE 69 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+ Presumimos que o reservatório estava cheio apenas de gás.
+(Dgwc = 6064,8 ft)
+ Suponha que assumimos que uma coluna de óleo começou logo abaixo da profundidade mais
+profunda que registramos em nosso poço.
+Dgoc = 5850 ft
+ Suponha que em reservatórios próximos, óleo com massa especíca de 0,83 foi encontrado com o
+gás. Suponha que também existisse óleo com propriedades semelhantes neste reservatório.
+SOLUÇÃO
+Coluna de óleo: A pressão no topo da coluna de óleo é a pressão na parte inferior da coluna de gás, ou
+seja:
+pg(5.850) = 0, 090(5.850) + 2.188, 85 = 2.715, 5 psia
+Equação do óleo:
+po(D) =
+ρog
+144gc
+D + Co
+A pressão de óleo e gás são iguais contacto gás/óleo. A estimativa da pressão do óleo no topo da coluna
+é:
+2.715, 5 = (0, 83 × 62, 4)
+144
+(5.850) + Co
+Co = 611, 45 psia
+A equação de óleo:
+po(D) = 0, 3597D + 611, 45
+Gradiente da equação de óleo é obtido na divisão do produto de 0, 83 × 62, 4 por 144:
+O contacto de óleo e água Dowc é obtido através da resolução do sistema de equações de óleo e água:
+0, 45Dowc + 4, 2 = 0, 3597Dowc + 611, 45
+Dowc = 611, 45 −4, 2
+0, 45 −0, 3597 = 6.725, 36 ft
+Esta é a profundidade mais profunda possível de hidrocarbonetos no nosso reservatório, ou seja, se
+adivinharmos que o topo da coluna de óleo é mais profundo, o Dowc estimado seria mais raso.
+3. As seguintes medições de pressão são feitas para um reservatório de gás / óleo:
+64
+
+
+=== PAGE 70 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.19: Medições de pressões
+Profundiade[m]
+Pressão[MPa]
+Fluido
+Massa
+Especíca
+[kg/m3]
+2.690
+15,12
+Gás
+410
+2.720
+15,33
+Óleo
+820
+2.850
+16,41
+Água
+1.040
+(a) Calcular o nível de óleo livre (FOL) e o nível de água livre (FWL)
+SOLUÇÃO:
+Cálculo do nível de óleo livre (FOL):
+ZFOL = po −pg + ρggZg −ρogZo
+(ρg −ρo)g
+ZFOL = (15.33 −15.12) × 106 + (410 × 2690 −820 × 2720) × 9, 81
+(410 −820) × 9, 81
+ZFOL = 2.697, 7 m
+Cálculo do nível de água livre (FOL):
+ZFWL = pw −po + ρogZo −ρwgZw
+(ρo −ρw)g
+ZFWL = (16, 41 −15, 33) × 106 + (820 × 2720 −1040 × 2850) × 9, 81
+(820 −1040) × 9, 81
+ZFOL = 2.833, 6 m
+(b) O reservatório está com sobrepressão, pressão normal ou subpressão?
+SOLUÇÃO
+Subpressão, porque:
+pw = PA + ρwgh = 101.000 + 1.040 × 9, 81 × 2850 = 29, 4 MPa
+que é maior do que a pressão real do reservatório de água de 16,41 MPa.
+O reservatório está com pressão normal quando os valores teóricos e medidos são iguais.
+O
+reservatório está sob pressão quando os dados medidos são inferiores aos teóricos. Isso indica que
+o uxo não será tão rápido quanto o esperado. O reservatório está sob pressão quando os dados
+medidos são maiores do que o valor teórico. Isso indica uma taxa de uxo mais alta do que o
+esperado, o que pode levar a um estouro se nenhuma medida for tomada.
+4. Deriva a equação para nível da zona de água livre ilustrada abaixo:
+ZFWL = pw −po + ρogZo −ρwgZw
+(ρo −ρw)g
+(6.10)
+65
+
+
+=== PAGE 71 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+SOLUÇÃO
+Esquema (gura 6.20) mostrando um reservatório com zonas de gás, óleo e água e é feito para ilustrar
+como encontrar as profundidade do nível de água livre (ZFWL).
+Figura 6.20: Determinação de FWL.
+Encontrar a profundidade do FWL é semelhante ao ZFOL para dois pontos de dados em cada região
+(óleo e água); primeiro começamos denindo a pressão do lado do óleo:
+pZF W L = po + ρog(ZFWL −Zo)
+Da mesma forma, a pressão do ZFWL do lado da água é igual a:
+pZF W L = pw −ρwg(Zw −ZFWL)
+Equacionando ambas as equações e resolvendo para ZFWL, que é a profundidade do nível de água livre,
+resulta:
+po + ρog(ZFWL −Zo) = pw −ρwg(Zw −ZFWL)
+ZFWL = pw −po + ρogZo −ρwgZw
+(ρo −ρw)g
+Identicar a profundidade dos níveis livres, podemos identicar a densidade dos uidos presentes no
+reservatório.
+66
+
+
+=== PAGE 72 ===
+Solução - Integração de dados e Cálculo
+Volumétrico de Hidrocarbonetos
+AULA 8 - Introdução; Denições; Métodos de Cálculo de volumes originais
+de hidrocarbonetos; Método volumétrico
+1. Provar que:
+So =
+
+1 −Np
+N
+ Bo
+Boi
+(1 −Swi)
+(6.11)
+Sabe-se que o volume original de óleo e o volume restante de óleo são denidos como:
+N = VpSoi
+Boi
+(6.12)
+e
+Nrestante = VpSo
+Bo
+(6.13)
+SOLUÇÃO
+O volume de óleo remanescente pode ser também denido como:
+Nrestante = N −Np = VpSo
+Bo
+(6.14)
+Dividindo a equação 6.14 pela equação 6.12, obtém-se:
+N −Np
+N
+= SoBoi
+SoiBo
+(6.15)
+Resolvendo em ordem a So, tem-se:
+So =
+
+1 −Np
+N
+ Bo
+Boi
+Soi
+(6.16)
+Como Soi = 1 −Soi, a equação 6.16 pode ser expressa como:
+So =
+
+1 −Np
+N
+ Bo
+Boi
+(1 −Swi)
+(6.17)
+2. De uma mapa de isópacas de um reservatório de óleo foram obtidas as leituras apresentadas na ta-
+bela 6.20.
+67
+
+
+=== PAGE 73 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.20: Leituras do mapa de isópacas.
+Os outros dados são:
+Constante do aparelho (C=Aleitura/Areal) = 1,27
+Máxima isópaca com óleo = 66,7%
+Porosidade média = 12,4 %
+Saturação média da água conata = 35,2%
+Factor volume-formação inicial do óleo = 1,111 m3/Sm3
+Factor volume-formação do óleo na pressão de bolha = 1,117 m3/Sm3
+Razão de solubilidade inicial = 25,4 Sm3/Sm3
+Calcular o volume:
+(a) Total do reservatório em m3, utilizando a fórmula trapezoidal.
+SOLUÇÃO
+Utilizando a fórmula trapezoidal o volume de rocha é dado por:
+Vr = h
+1
+2(Ao + A60) + A10 + A20 + A30 + A40 + A50
+
++ tm
+2 A60
+onde:
+Areal = Aleitura
+C
+= Aleitura
+1, 27
+tm=Máxima isópaca - 60 = 66,7 - 60 = 6,7 m
+e h=10 m. Adoptando-se como valores médios das 3 leituras os da primeira leitura obtém-se:
+Vr =
+10
+1, 27
+1
+2(1710 + 123) + 1270 + 884 + 612 + 360 + 220
+
+× 103 + 6, 7
+2
+× 123 × 103
+1, 27
+Vr = 33, 847 × 106 m3
+A forma mais prática é calcular a média das três leituras em vez de assumir a primeira como
+média das três
+(b) De óleo originalmente existente no reservatório (N), em Sm3.
+SOLUÇÃO
+O volume de óleo original é dado por:
+N = Vrϕ(1 −Swi)
+Boi
+= N = 33, 847 × 106 × 0, 124 × (1 −0, 352)
+1, 111
+= 2, 448 × 106 m3std
+68
+
+
+=== PAGE 74 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(c) De óleo existente no reservatório na pressão de bolha (Np), em Sm3.
+SOLUÇÃO
+Nb = Vrϕ(1 −Swi)
+Bob
+= N = 33, 847 × 106 × 0, 124 × (1 −0, 352)
+1, 117
+= 2, 435 × 106 m3std
+(d) De óleo produzido desde a pressão original até a pressão de bolha (Npb), em Sm3
+SOLUÇÃO
+NPb = N −Nb = 2, 448 × 106 −2, 435 × 106 = 0, 013 × 106 m3std
+(e) De gás em solução originalmente existente no reservatório (Gs), Sm3.
+SOLUÇÃO
+Gs = NRsi = 2, 448 × 106 × 25, 4 = 62, 179 × 106 m3std
+(f) De Gás produzido desde pressão incial até a pressão de bolha (Gpb), em Sm3.
+SOLUÇÃO
+Gpb = NpbRsi = 0, 013 × 106 × 25, 4 = 0, 330 × 106 m3std
+3. Com base nas informações de um reservatório de óleo fornecidas na tabela abaixo, calcule:
+(a) o volume de óleo originalmente existente no reservatório.
+SOLUÇÃO
+N = 7758Ahϕ(1 −Swi)
+Boi
+= N = 7758 × 1500 × 100 × 0, 1(1 −0, 2)
+1, 2
+= 77, 58MMSTB
+(b) A reserva deste reservatório assumindo que o factor de recuperação é 23%
+SOLUÇÃO
+Reservas = NFR = 77, 58 MMSTB × 0, 23 = 17, 84MMSTB
+Tabela 6.21: Dados do exercício 3 da Aula 12.
+AULA 9 - Métodos de cálculo volumétrico; Integração de dados e incertezas
+1. Os dados abaixo são para um reservatório de óleo composto por uma única rocha bastante homogênea.
+O factor de volume de formação de óleo (Bo) é 1,31 bbl / STB e a saturação de água nas zonas de óleo
+é de 20% com base em registros de resistividade e dados de pressão capilar.
+69
+
+
+=== PAGE 75 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) Com base nos dados abaixo encontre o volume de óleo originalmente existente no reservatório (N)
+usando o método volumétrico.
+SOLUÇÃO
+Primeiro, devemos calcular a área. O mapa do reservatório mostra 88 quadros verdes represen-
+tando o reservatório, sendo a área de cada quadrado de 7.500 m2. Assim, a área do reservatório
+é de 66.000 m2 (ou 7.104.181 ft2).
+Em seguida, usamos o gráco RFT para determinar o nível de água livre a 5.330 pés (ft). Isso
+segue que o contato óleo-água, OWC = FWL - 3 ft = 5.327 ft.
+Usando o OWC calculado, as zonas de óleo existem nas seguintes profundidades:
+Zona 1: 5.280 ft - 5.295 ft
+Zona 2: 5.303 ft - 5.317 ft
+Zona 3: 5.325 pés - 5.327 ft
+Logo
+n=3
+X
+i=1
+ϕhi = 0, 2(15 + 14 + 2) = 6, 2 ft
+N = Ahϕ(1 −Sw)
+Bo
+= 7.104.181 × 6, 2 × (1 −0, 2)
+1, 31 × 5, 615
+= 4, 79 MMSTB
+Observe que um factor de conversão é incluído para converter de ft3 para barril., ou seja: 1
+barril=5,615 ft3
+(b) Qual é o valor líquido a bruto (Net to Gross) para este reservatório?
+SOLUÇÃO
+N : G = 31
+47 = 0, 66
+i. Mapa do reservatório (área)A vista superior da área do reservatório é ilustrada na gura 6.21.
+Figura 6.21: Mapa do reservatório área A vista superior.
+ii. Altura de saturação RFT e altura acima do nível de água livre são ilustradas na gura 6.22.
+70
+
+
+=== PAGE 76 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.22: Altura de saturação RFT e altura acima do nível de água livre.
+iii. Mapa de Porosidade e Litologia ilustrada na gura 6.23
+Figura 6.23: Mapa de Porosidade e Litologia.
+OBS: RFT (Repeat Formation Tester) é uma ferramenta que mede a pressão hidrostática em função
+da profundidade na parede do poço.
+2. Investigar os 20 países com maiores reservas de óleo e gás natural no mundo.
+SOLUÇÃO
+Cada estudante é responsável de investigar e mencionar o site.
+Submeter antes da segunda prova
+parcelar via email
+3. Um reservatório apresenta as seguintes características: A=3000 acres, h=30 ft, Φ = 15%, Swi=20%,
+T=150 ◦F, pi=2600 psi, γg=0,75. Sabendo que a pressão de abandono é de 400 psi, Fazer o gráco do
+71
+
+
+=== PAGE 77 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+SOLUÇÃO
+Antes de responder devemos elaborar uma tabela. O factor de compressibilidade foi calculado usando
+o programa similar ao do projecto. O factor volume-formação de gás, e volume de gás foram calculados
+usando as equações seguintes:
+Bg = 0, 02827zT
+p
+Gp = 43.560Ahϕ(1 −swi)
+Bg
+A pressão inicial é 2600 psia e a pressão de abandono é 400 psia. O número de parâmetros depende do
+estudante. Os resultados estão ilustrados na Tabela 6.22
+Tabela 6.22: Tabela da solução do exercício 3 da Aula 13
+(a) volume do gás produzido em função a factor volume-formação de gás;
+SOLUÇÃO
+Solução ilustrada na gura 6.24
+Figura 6.24: Bg versus Gp
+72
+
+
+=== PAGE 78 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(b) Volume do gás produzido em função do factor de compressibilidade;
+SOLUÇÃO
+Solução ilustrada na gura 6.25
+Figura 6.25: Factor de compressibilidade versus Gp
+(c) Volume do gás produzido em função da pressão
+SOLUÇÃO
+Solução ilustrada na gura 6.26
+Figura 6.26: Pressão versus Gp
+73
+
+
+=== PAGE 79 ===
+Solução - Equação de Balanço de Materiais
+AULA 10 e 11 - Introdução. EBM Generalizada. Equação de Balanço de
+Materiais em reservatórios de óleo
+1. Os dados de propriedades dos uidos e o histórico de produção de um reservatório que produz sob o
+mecanismo de capa de gás são ilustrados na tabela 6.23:
+Tabela 6.23: Propriedades dos uidos e o histórico de produção
+A pressão de bolha do óleo é de 234,18 kgf/cm2 e não há produção ou inuxo de água. Com auxílio
+da EBM, pede-se para determinar:
+(a) O volume original de óleo
+SOLUÇÃO
+Na presença de capa de gás, os efeitos de contração do volume poroso e expansão da água conata
+podem ser desprezados e o balanço de materiais é representado pela equação 6.18:
+F
+Eo
+= N + mN Eg
+Eo
+(6.18)
+onde
+F = Np [Bo + (Rp −Rs)Bg]
+(6.19)
+Eo = (Bo −Boi) + (Rsi −Rs)Bg
+(6.20)
+Eg = Boi
+
+Bg
+Bgi −1
+
+(6.21)
+Colocando-se os valores de F/Eo versus Eg/Eo no sistema de coordenadas cartesianas e ajustando-
+se uma recta aos pontos, obtém-se a tabela 6.24 e o gráco ilustrado na gura 6.27. O coeciente
+linear da recta, obtém-se: N=22,125 ×106m3std.
+74
+
+
+=== PAGE 80 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.24: Valores das variáveis dependente e independente
+Figura 6.27: Gráco F/Eo versus Eg/Eo.
+(b) O volume original de gás capa SOLUÇÃO
+A inclinação da recta da gura 6.27 é igual a 8,1434 ×106m3std. Como o coeciente da equa-
+ção 6.18 é mN, tem-se que mN=8,1434 ×106m3std. Mas,
+m = GBgi
+NBoi
+Logo
+G = mNBoi
+Bgi
+= 8, 1434 × 106 × 1, 2511
+0, 00488
+= 2, 088m3std
+O valor de m é calculado como:
+m = mN
+m
+= 8, 1434 × 106
+22, 125 × 106 = 0, 368
+Vericação: se os resultados estão correctos, um gráco de F versus Eo + mEg (com o valor de
+m=0,364) deve apresentar uma linha recta com a inclinação aproximadamente igual ao valor de
+N obtido anteriormente.
+2. Os resultados da análise PVT de uma amostra de óleo de um reservatório estão apresentados na
+tabela 6.25:
+75
+
+
+=== PAGE 81 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.25: Análise PVT de uma amostra de óleo
+A pressão de bolha do sistema é de 234,18 kgf/cm2. Os dados da tabela referem-se à produção através
+de um único separador operando a uma pressão absoluta de 10,5 kgf/cm2 e uma temperatura de 82
+◦C. Outros dados:
+cf = 122, 3 × 10−6kgf/cm2−1
+cw = 42, 7 × 10−6kgf/cm2−1
+Swi = 0, 20
+(a) Determine a fracção recuperada (fR) de óleo até a pressão de bolha, admitindo comportamento
+de reservatório volumétrico.
+SOLUÇÃO
+Acima da pressão de bolha a EBM é dada pela equação 6.22
+N =
+NpBo
+Boiceo∆p
+(6.22)
+Assim, a fracção recuperada é calculada por:
+fR = Np
+N = Boiceo∆p
+Bo
+Especicamente no ponto de bolha essa expressão se torna:
+fRb = Np
+N = Boiceo(pi −pb)
+Bob
+onde
+co =
+Bob −Boi
+Boi(pi −pb) =
+1, 2511 −1, 2417
+1, 417 × (281, 29 −234, 18) = 160, 7 × 10−6 (kgf/cm2)−1
+76
+
+
+=== PAGE 82 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+ceo = coSoi + cwSwi + cf
+1 −Swi
+= (160, 7 × 0, 80 + 42, 7 × 0, 20 + 122, 3) × 10−6
+1 −0, 20
+ceo = 324, 3 × 10−6 (kgf/cm2)−1
+portanto
+fRb = 1, 2417 × 324, 3 × 10−6 × (281, 29 −234, 18)
+1, 2511
+= 0, 0152 = 1, 52%
+Considerando que o reservatório em questão será produzido até a pressão de abandono de 63,3 kgf/cm2,
+e desprezando os efeitos da expansão da água conata e da contração do volume poroso abaixo da pressão
+de bolha, determine:
+(a) Uma expressão para a fracção recuperada (fR) de óleo no instante do abandono, como uma função
+da razão gás/óleo acumulada a partir da pressão de bolha (Rps).
+SOLUÇÃO
+A partir da pressão de bolha, quando os efeitos de contração do volume poroso e expanão da água
+conata não são muito importantes e portanto podem ser desprezados, a produçõa acumulada é
+calculada pela equação 6.23:
+Nps =
+Nb(Bt −Btb
+Bt + (Rps −Rsb)Bg
+(6.23)
+O volume existente no reservatório na pressão de bolha (Nb) é dadoo por Nb = N −Npb, onde
+o Npb é a produção acumulada até a pressão de bolha. Então, a fracção recuperada a partir da
+pressão de bolha (∆fR) em relação ao volume original de óleo N, é:
+∆fR = Nps
+N
+=
+ 1
+N
+
+Nb(Bt −Btb
+Bt + (Rps −Rsb)Bg =
+N −Npb
+N
+
+Bt −Btb
+Bt + (Rps −Rsb)Bg
+ou
+∆fR =
+
+1 −Npb
+N
+
+Bt −Btb
+Bt + (Rps −Rsb)Bg = (1 −fRb)
+Bt −Btb
+Bt + (Rps −Rsb)Bg
+A fracção recuperada total, ou seja,
+fR = fRb + ∆fR = fRb + (1 −fRb)
+Bt −Btb
+Bt + (Rps −Rsb)Bg
+Ou em termos de Bo
+fR = fRb + ∆fR = fRb + (1 −fRb)Bo −(Rsi −Rs)Bg −Bob
+Bo + (Rps −Rsb)Bg
+Substituindo-se os dados disponíveis:
+fR = 0, 0152 + (1 −0, 0152)1, 0940 −(90, 83 −21, 73) × 0, 01903 −1, 2511
+1, 0940 + (Rps −21, 73) × 0, 01903
+fR = 0, 0152 +
+1, 1403
+0, 6805 + 0, 01903Rps
+77
+
+
+=== PAGE 83 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(b) A saturação de gás livre no reservatório quando for atingida, na pressão de abandono, uma
+recuperação nal de 12% do volume de óleo original
+SOLUÇÃO
+A saturação de gás no reservatório no determinado instante da vida do produtiva pode ser de-
+terminada a partir da denição de saturação de uidos. Após a produção de um volume Np, a
+saturação de óleo no reservatório é dada por:
+So = Vo
+Vp
+= (N −Np)Bo
+Vp
+O volume poroso pode ser calculado em função da saturaçõa inicial de óleo, isto é:
+Soi = Voi
+Vp
+= NBoi
+Vp
+⇒Vp = NBoi
+Soi
+=
+NBoi
+1 −Swi
+Substiyuindo esta expressão para Vp na equação de So, obtém-se:
+So = (N −Np)Bo
+Vp
+= (N −Np)Bo(1 −Swi)
+NBoi
+=
+
+1 −Np
+N
+  Bo
+Boi
+
+(1 −Swi)
+Sabe-se que:
+sg = 1 −So −Swi
+Admitindo-se que a saturação seja aproximadamente igual à inicial Swi, a saturação de gás é dada
+por:
+sg = 1 −So −Swi = 1 −
+
+1 −Np
+N
+  Bo
+Boi
+
+(1 −Swi) −Swi
+Para uma recuperação de 12% do volume original (Np/N=0,12) e uma pressão de abandono de
+63,3 kgf/cm2, quando Bo=1,0940 m3/m3 std, tem-se:
+sg = 1 −(1 −0, 12)
+1, 0940
+1, 2417
+
+(1 −0, 20) −0, 20 = 0, 18 = 18%
+3. Um reservatório de arenito está produzindo sob condições de mecanismo de gás em solução. A pressão
+inicial do reservatório de 2.500 psia, o perl de produção em função da pressão do reservatório está
+ilustrado na tabela 6.26:
+Tabela 6.26: Análise PVT de uma amostra de óleo
+(a) A razão gás-óleo acumulada é mantida em 954 scf/STB. Suponha que não haja inuxo de água e
+capa de gás. Calcule o volume original de óleo no reservatório.
+SOLUÇÃO
+Equações a para gerar a tabela 6.27 e o gráco 6.28.
+78
+
+
+=== PAGE 84 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+F = Np [Bo + (Rp −Rs)Bg]
+Eo = (Bo −Boi) + (Rsi −Rs)Bg
+Tabela 6.27: Solução do exercício 3 da Aula 15
+Figura 6.28: Gráco F versus Eo.
+Através do gráco 6.28 N=261,16 MMSTB.
+4. Os seguintes dados e os da tabela 6.28 estão disponíveis para um reservatório fraturado naturalmente:
+N = 650 MMSTB (últma estimativa volumétrica)
+pi = 7150 psia
+pb = 4500 psia
+Boi = 1,743 bbl/stb
+Bob = 1,850 bbl/stb
+cw = 3,0 × 10−6/psi
+cf = 3,3 × 10−6/psi
+Swi = 0,43
+Npb = 43,473 MMstb (Óleo de reservatório para pressão de saturação (bolha))
+Wp = 0 (Negligenciando a produção de água)
+79
+
+
+=== PAGE 85 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.28: Dados do exercício 4 da Aula 15
+(a) Calcule o volume inicial de óleo e a saturação de gás no reservatório após 72 meses de produção.
+SOLUÇÃO
+Os cáculos estão ilustrados na tabela 6.29 e gura 6.29
+Tabela 6.29: Solução do exercício 4 da Aula 11
+80
+
+
+=== PAGE 86 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.29: Gráco F versus (Eo + Efw).
+Através do gráco 6.29, N=569,64 MMSTB
+(b) Se tivéssemos negligenciado a compressibilidade da água e das rochas, qual seria a variação volume
+de óleo? SOLUÇÃO
+Se negligenciarmos a compressibilidade da água e da rocha, a linha recta não é tão boa e superes-
+timamos o N (647 MMSTB) como ilustrado na gura 6.30. Nota que o valor é muito próximo do
+valor estimado pelo método volumétrico
+Figura 6.30: Gráco F versus Eo.
+AULA 12 - Equação de Balanço de Materiais em reservatórios de Gás
+1. Um reservatório volumétrico de gás com uma área de 1.060 acres e espessura de 54 ft, saturação de água
+conata irredutivel de 52%, porosidade de 13% e temperatura do reservatorio de 164 ◦F. O histórico de
+produção deste reservatório está ilustrado na tabela 6.30.
+81
+
+
+=== PAGE 87 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+(a) Calcule o volume original de gás volumetricamente e através de MBE.
+Tabela 6.30: Dados do exercício 1 da Aula 12
+SOLUÇÃO
+Primeiro passo, temos de calcular o factor volume-formação inicial do gás
+Bgi = 0, 02827ziT
+pi
+= 0, 028270, 869(164 + 460)
+1798
+= 0, 00853 ft3/scf
+Segundo passo, calculemos o volume inicial de gás no reservatório usando o método volumétrico
+G = 43.560Ahϕ(1 −Swi)
+Bgi
+= 43.560 × 1060 × 54 × 0, 13(1 −0, 52)
+0, 00853
+= 18, 25 MMMscf
+Usando a EBM, o resultado está ilustrado na gura 6.31. A intersecção do da linha recta com o eixo
+de abcissa, representa o volume inicial de gás.
+Figura 6.31: Gráco p/z versus Gp.
+A interseção com o eixo das abcissas ocorre para p/z=0, logo:
+p
+z = −148, 29Gp + 2070, 4 ⇒p
+z = 0 ⇒0 = −148, 29Gp + 2070, 4 ⇒Gp = 13, 96 MMMscf
+Portanto, como a interseção com o eixo das abcisssas representa o volume original de gás, logo G=13,96
+MMMscf
+82
+
+
+=== PAGE 88 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+2. Um reservatório volumétrico de gás apresenta uma pressão de 4.200 psia, temperatura de 180 ◦F e factor
+de compressibilidade de gás de 0,8 para 2.000 psia. Os outros dados disponíveis deste reservatório são
+ilustrados na tabela 6.31: Ignorando a compressibilidade da água e da rocha:
+Tabela 6.31: Dados do exercício 2 da Aula 12
+(a) Qual será o gas produzido acumulado para uma pressao de abandono de 2.000 psia?
+SOLUÇÃO
+A gura 6.32 está apresentada a equação que mais ajuste tendo em conta os dados disponíveis
+Figura 6.32: Gráco p/z versus Gp.
+Para a pressão de abandono de 2000 psia, o z=0,8, logo:
+p
+z = −900Gp + 4600 ⇒p
+z = 2000
+0, 8 ⇒2000
+0, 8 = −900Gp + 4600 ⇒Gp = 2, 33 MMMscf
+(b) Assumindo que a rocha do reservatório tenha uma porosidade de 12%, saturação de água conata
+irredutivel de 30% e espessura do reservatório de 15 ft. Qual é a área em acres coberta pelo
+reservatório?
+SOLUÇÃO
+Para este caso, igualemos p/z=0 na equação ajustada, ou seja:
+83
+
+
+=== PAGE 89 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+p
+z = −900Gp + 4600 ⇒p
+z = 0 ⇒0 = −900Gp + 4600 ⇒Gp = 5, 11 MMMscf
+O pi
+zi = 4600 na equação ajustada na gura 6.32, visto que a sua forma geral é:
+p
+z = pi
+zi
+−pi
+ziGGp
+Com este dado e outros dados, podemos calcular o valor de Bgi, ou seja:
+Bgi = 0, 02827ziT
+pi
+= 0, 02827 T
+pi
+zi
+= 0, 02827(180 + 460)
+4600
+= 3, 933 × 10−3 ft3/scf
+Tendo o valor Bgi, podemos determinar a área coberta pelo reservatório, ou seja:
+G = 43.560Ahϕ(1 −Swi)
+Bgi
+= 43.560 × A × 15 × 0, 12(1 −0, 30)
+3, 933 × 10−3
+= 5, 11 MMMscf
+Explicitando em ordem a área, A, tem-se:
+A = 366, 4 acres
+3. Para o uxo monofásico a EBM geral de um reservatório de gás toma a seguinte forma:
+GpBp + WpBw = G(Bg −Bgi) + GBgi
+cwSwi + cf
+1 −Swi
+
+∆p + We + WinjBw + GinjBginj
+Considerando um reservatório volumétrico (reservatório fechado), ignorando o efeito de compressibili-
+dade de água e da formação, prova que:
+p
+z = pi
+zi
+−pi
+ziGGp
+SOLUÇÃO
+Para um reservatório volumétrico (reservatório fechado), ignorando o efeito de compressibilidade de
+água e da formação, tem-se:
+G(Bg −Bgi) = GpBg
+(6.24)
+Sabemos que:
+Bg = Vg, bbl
+Vg, scf
+e
+Vg = znRT
+p
+Portanto:
+Bg = znRT
+p
+psc
+zscnRTsc
+=
+psc
+zscTsc
+T z
+p = C z
+p
+(6.25)
+84
+
+
+=== PAGE 90 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Substituindo a equação 6.25 na equação 6.24, tem-se:
+G
+z
+p −zi
+pi
+
+= z
+pGp −z
+p(G −Gp) = zi
+pi
+G −z
+p
+
+1 −Gp
+G
+
+= zi
+pi
+Que pode ser organizado em uma linha reta da seguinte forma:
+p
+z = pi
+zi
+−pi
+ziGGp
+AULA 13 - Equação de Balanço de Materiais em reservatórios de gás
+1. O arenito "M"é um pequeno reservatório de gás com uma pressão inicial de 225 kgf/cm2 e temperatura
+de 104 ◦C. O histórico de produção e os factores volume-formação são apresentados na tabela 6.32.
+Tabela 6.32: Dados do exercício 1 da Aula 13
+(a) Calcular o volume original do gás para cada um dos dados históricos de produção, assumindo o
+comportamento do reservatório volumétrico.
+SOLUÇÃO
+Assumindo o comportamento do reservatório volumétrico, os valores do volume original de gás
+(G), coluna 4 da tabela 6.33 podem ser calculados usando a equação 6.26
+G =
+GpBg
+(Bg −Bgi)
+(6.26)
+Tabela 6.33: Solução do exercício 1 da Aula 13
+(b) Explicar a razão dos cálculos da alínea anterior que indicam a presença de inuxo de água.
+SOLUÇÃO
+Podemos observar na coluna 4 da tabela 6.33, os cálculos resultaram em valores crescentes para
+o volume original de gás G. Isso ocorreu porque os valores usados no numerador da EBM da
+equação 6.26, foram maiores que os valores reais. Isto implica que os valores de Gp do histórico
+são maiores do que os que poderiam ter sido produzidos com a hipótese de reservatório volumétrico.
+85
+
+
+=== PAGE 91 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Em outras palavras, para resultar sempre no mesmo valor de G, os valores do numerador da EBM
+devem ser continuamente reduzidos ao longo do tempo, indicando possível presença de inuxo no
+reservatório. Como não há informação da produção de água no histórico de produção, a equação
+de balanço de materiais aplicável a este caso, reduz-se para:
+G = GpBg −We
+(Bg −Bgi)
+(6.27)
+Como o inuxo acumulado é crescente com o tempo, os valores do numerador desta equação
+poderiam então gerar resultados constantes para os cálculos de G
+(c) Traçar o gráco de p/z em função da produção acumulada de gás.
+SOLUÇÃO
+Os valores de p/z apresentados na coluna 5 da tabela 6.33 foram calculados através da equação
+do factor volume-formação de gás da lei dos gases reais, equação 6.28
+Bg = zTpsc
+Tscp
+(6.28)
+ou seja,
+p
+z = Tpsc
+TscBg
+(6.29)
+Admitindo que psc=1,033 kgf/cm2 (1 atm) e Tsc = 15, 6◦C (288,6 K) como as condiçõe-padrão de
+pressão e temperatura respectivamente
+A gura 6.33 mostra o gráco de p/z em função da produção acumulada de gás (Gp). A concavi-
+dade para cima da curva indica que o comportamento é de reservatório submetido ao inuxo de
+água.
+Figura 6.33: Gráco p/z versus Gp.
+(d) Assumindo que o volume original do gás seja de 28,826 × 106 m3 std e que a produção acumulada
+de água tenha sido desprezível, calcular o inuxo acumulado de água (medido em condições de
+reservatório) ao nal de cada período do histórico de produção.
+86
+
+
+=== PAGE 92 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+SOLUÇÃO
+Os valores de We da coluna 6 da tabela 6.33 foram calculados da equação de balanço de materiais
+escrita da forma:
+We = GpBg −G(Bg −Bgi)
+(6.30)
+O G é dado como 28,826 × 106 m3 std e os outros dados estão dados na tabela 6.32. Importa
+realçar que os valores de Gp são multiplicados por 106. Se não utilizarem este factor os resultados
+serão negativos
+AULA 14 - Técnicas de análise de comportamento de reservatórios usando
+EBM
+1. Um reservatório volumétrico de óleo apresenta as seguintes características:
+Volume original de óleo ......................................... N=25 × 106 m3 std
+Saturação da água inicial ....................................... 25%
+Razão de silubilidade inicial ................................... 160 m3 std/m3 std
+Factor volume-formação incial do óleo ........................... 1,5220 m3 /m3 std
+Factor volume-formação na pressão de bolha....................... 1,5220 m3 /m3 std
+Curva de log(kg/Ko) versus SL (Saturação de líquidos) .. Equação 5.1
+Dados de produção ............................................... Tabela 5.8
+Propriedade dos uidos ......................................... Tabela 5.9
+Utilizando o método de Muskat, calcular para a pressão de 200 kgf/cm2 os valores da:
+(a) Produção acumulada de óleo
+(b) Razão gás/óleo instantânea
+(c) Produção acumulada de gás
+SOLUÇÃO
+Cálculo da saturação de óleo na pressão de 210 kgf/cm2
+So =
+
+1 −Np
+N
+  Bo
+Boi
+
+(1 −Swi) =
+
+1 −3, 50
+25
+ 1, 3850
+1, 5220
+
+(1 −0, 25) = 0, 58694
+Aplicando o método de Runge-Kutta de 4a ordem. Usando-se um passo igual a 10 kgf/cm2, os valores
+ki=1,4, são:
+k1 = −10 × f(210; 0, 58694)
+k2 = −10 × f(205; 0, 58694 + k1/2)
+k3 = −10 × f(205; 0, 58694 + k2/2)
+k4 = −10 × f(200; 0, 58694 + k3)
+Considerando que o problema em questão, em que não há capa de gás nem injecção de gás, f é dada
+pela equação seguinte:
+87
+
+
+=== PAGE 93 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+f(p, So) = dSo
+dp = Soλ + (1 −So −Swi)ξ + Soηψ
+1 +
+
+µo
+µg
+
+ψ
+(6.31)
+Os parâmetros da equação 6.31 são denidos como:
+η = 1
+Bo
+µo
+µg
+ dBo
+dp
+α =
+Bo
+Bg
+ µo
+µg
+
+λ =
+Bg
+Bo
+ dRs
+dp
+ψ = kg
+ko
+ξ = Bg
+d
+dp
+ 1
+Bg
+
+A saturação de óleo à pressão de 200 kgf/cm2 será dada aplicando a equação seguinte:
+yj+1 = yj + 1
+6 (k1 + 2k2 + 2k3 + k4)
+Que pode ser expressa:
+So200 = So210 + 1
+6 (k1 + 2k2 + 2k3 + k4)
+(6.32)
+Os cálculos estão resumidos na tabela 6.34
+Tabela 6.34: Cálculo dos coecientes do método de Runge-Kutta
+p
+So
+η
+ψ
+ξ
+λ
+ki
+120
+0,58694
+3,0712 × 10−2
+2,2969 × 10−2
+3,4645 × 10−3
+1,2247 × 10−3
+k1=-8,6922 × 10−3
+205
+0,58259
+3,0719 × 10−2
+2,4428 × 10−2
+3,8686 × 10−3
+1,2039 × 10−3
+k2=-8,9715 × 10−3
+205
+0,58245
+3,0719 × 10−2
+2,4475 × 10−2
+3,8686 × 10−3
+1,2039 × 10−3
+k3=-8,7720 × 10−3
+200
+0,57816
+3,0753 × 10−2
+2,6010 × 10−2
+3,2946 × 10−3
+1,1838 × 10−3
+k4=-8,8573 × 10−3
+Substituindo os valores de ki da tabela 6.34, na equação 6.32, tem-se:
+S0200 = 0, 58694 −10−3
+6
+(8, 6922 + 2 × 8, 9715 + 2 × 8, 7720 + 8, 8573) = 0, 57810
+parte (a): Produção acumulada de óleo
+Np = N
+
+1 −
+So
+1 −Swi
+Boi
+Bo
+
+= 25 × 106
+
+1 −0, 57810
+1 −0, 25
+1, 5220
+1, 3750
+
+= 3, 670 × 106m3std
+Parte (b): Razão gás/óleo instantânea. Primeiro calculemos a saturação do líquido:
+88
+
+
+=== PAGE 94 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+SL = So + Sw = So + Swi = 0, 57810 + 0, 25 = 0, 8281
+Assim, usando a equação 5.1, obtém-se a razão entre as permeabilidades efectivas:
+log(kg/ko) = −6, 1484SL + 3, 5070 = −6, 1484 × 0, 8281 + 3, 5070 = −1, 58449 ⇒kg/ko = 0, 026032
+R =
+kg
+ko
+ µo
+µg
+ Bo
+Bg
+
++ Rs = (0, 026032)(43, 37)(1, 3750 × 184, 3) + 99, 9 = 386m3std/m3std
+Parte (c): Produção acumulada de gás
+Gp = N
+Bo
+Bg
+−Rs
+ 
+1 −Np
+N
+
+−
+Boi
+Bg
+−Rsi
+
+Gp = 25 × 106
+ 1, 3750
+1/184, 3 −99, 9
+ 
+1 −3, 670 × 106
+25 × 106
+
+−
+ 1, 5220
+1/184, 3 −160
+
+= 261, 807 × m3std
+2. Um reservatório volumétrico de óleo apresenta as seguintes características:
+Pressão inicial ................................................. 175 kgf/cm2
+Pressão de bolha................................................. 175 kgf/cm2
+Volume original de óleo ......................................... N=8,903 × 106 m3 std
+Saturação da água inicial ....................................... 20%
+Propriedade dos uidos ......................................... Tabela 5.10
+Dados de produção ............................................... Tabela 5.11
+Razão de permeabilidade efectivas para 0, 4 ≤SL ≤0, 8 .... kg/ko = 103,015−5,306SL
+Admitindo que após uma produção adicional de 138.000 m3 std de óleo a pressão média do reservatório
+caia para 35 kgf/cm2, e que o reservatório esteja produzindo através de um único poço, quanto tempo
+será necessário para isso ocorra? Informações adicionais sobre o reservatório são:
+Máxima vazão permitida ................................................... 300 m3 std/d
+Índice de produtividade do poço à pressão de 50 kgf/cm2 ............... 23 (m3 std/d)/(kgf/cm2)
+Pressão de uxo mínima no poço .......................................... 14 kgf/2
+Permeabilidade do óleo na gura 5.1
+SOLUÇÃO
+O tempo necessário será dado por:
+∆t = ∆Np
+Qo
+= 138.000
+Qo
+onde Qo é a vazão média de produção durante o intervalo de tempo ∆t:
+Qo = (Qo)p=50 + (Qo)p=35
+2
+e
+Qo = IP(p −pf)
+89
+
+
+=== PAGE 95 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Então
+(Qo)p=50 = (IP)p=50(p −pf) = 23 × (50 −14) = 828m3std/d
+(Qo)p=50=828 > Vazão máxima permitida = 300 ⇒(Qo)p=50=300 m3 std/d
+Então
+(Qo)p=35 = (IP)p=35(p −pf) = (IP)p=35(35 −14) = 21 × (IP)p=35
+Onde o índice de produtividade, (IP)p=35 é calculado usando a equação seguinte:
+(IP)p=35 = (IP)p=50
+(
+[kro/(Boµo)]p=50
+[kro/(Boµo)]p=50
+)
+= 23 ×
+(kro)p=35/(1, 156 × 1, 324)
+(kro)p=50/(1, 190 × 1, 199)
+
+(IP)p=35 = 21, 44 ×
+(kro)p=35
+(kro)p=50
+
+As permeabilidades relativas ao óleo dependem das saturações de líquido:
+(SL)p=50 =
+
+1 −(Np)p=50
+N
+  Bo
+Boi
+
+(1 −Swi) + Swi
+(SL)p=50 =
+
+1 −
+1.647.998
+8, 903 × 106
+ 1, 156
+1, 498
+
+(1 −0, 20) + 0, 20 = 0, 718
+(SL)p=50=0,718 usando a gura 5.1 (kro)p=50=0,490
+(SL)p=35 =
+
+1 −
+1.785.998
+8, 903 × 106
+ 1, 156
+1, 498
+
+(1 −0, 20) + 0, 20 = 0, 694
+(SL)p=35=0,694 usando a gura 5.1 (kro)p=35=0,455
+portanto,
+(IP)p=35 = 21, 44 ×
+0, 455
+0, 490
+
+= 19, 91(m3std/d)/(kgfcm2)
+(Qo)p=35 = 21, 44 × 19, 91 ∼= 418m3std/d
+(Qo)p=35 = 418m3std/d > Qo,max = 300m3std/d ⇒(Qo)p=35 = 300m3std/d
+Qo = 300 + 300
+2
+= 300m3std/d
+∆t = ∆Np
+Qo
+= 138.000
+300
+= 460dias
+90
+
+
+=== PAGE 96 ===
+Solução - Fluxo de Fluidos em Meios Porosos
+AULA 15 - Introdução; Regimes e condições do uxo. Equação da difu-
+sividade hidráulica.
+Fluxo permanente e pseudopermanente.
+Factor de
+película e Índice de Produtividade
+1. Construir a curva de IPR de um poço vertical no reservatório de petróleo. Considerando:
+(a) Regime de uxo permanente;
+(b) Regime de uxo pseudopermanente.
+Os seguintes dados são fornecidos:
+Porosidade... ϕ=19%
+Permeabilidade...k=8,2 mD
+Espessura da zona produtiva...h = 53 ft
+Pressão de reservatório... pe ou p=5.651 psia
+Pressão de ponto de bolha...pb = 50 psia
+Factor de volume-formação...Bo=1,1 m3/m3 std
+Viscosidade do uido...µo=1,7 cp
+Compressibilidade total...ct =0,0000129 psi−1
+Área de drenagem... A=640 acres
+Raio externo... re=2.980 ft
+Raio do poço... rw=0,328 ft
+Factor de película... s = 0
+SOLUÇÃO
+Parte (a) - Regime Permanente
+Jo = IP =
+kh
+141, 2Bµ
+
+ln re
+rw + s
+ =
+8, 2 × 53
+141, 2 × 1, 1 × 1, 7
+
+ln 2980
+0,328 + 0
+ = 0, 180586 STB/d −psi
+qo = Jo(pe −pwf) = 0, 180586(5651 −pwf)
+As pressões dadas são as pressões de bolha e pressão externa do reservatório. Mas para facilitar traçar o
+nosso gráco, vamos incluir na tabela o zero da função. O ponto de intercessão com o eixo das abcissas.
+Este raciocínio será o mesmo para parte (b). O resultado da parte (a) está ilustrada na Tabela 6.35 e
+gura 6.34
+91
+
+
+=== PAGE 97 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Tabela 6.35: Solução do exercício 1 da Aula 19 parte (a)
+pwf
+qo (stb/dia)
+0
+1020
+50
+1011
+5651
+0
+Figura 6.34: Curva de IPR para o regime permanente do exercício 1 parte (a).
+Parte (b) - Regime Pseudopermanente
+Jo = IP =
+kh
+141, 2Bµ
+
+ln re
+rw −3
+4 + s
+ =
+8, 2 × 53
+141, 2 × 1, 1 × 1, 7
+
+ln 2980
+0,328 −3
+4 + 0
+
+Jo = IP = 0, 196778 STB/d −psi
+qo = Jo(p −pwf) = 0, 196778(5651 −pwf)
+Tabela 6.36: Solução do exercício 1 da Aula 19 parte (b)
+pwf
+qo (stb/dia)
+0
+1112
+50
+1102
+5651
+0
+92
+
+
+=== PAGE 98 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Figura 6.35: Curva de IPR para o regime pseudopermanente do exercício 1 parte (b).
+2. Um uido incompressível do uxo linear no meio poroso com as seguintes propriedades:
+L=2000 ft, h=20 ft, largura=300 ft, k=100 md, ϕ=15%, µo=2 cp, p1=2000 psia, p1=1900 psia. Cal-
+cular:
+(a) Vazão em bb/dia
+SOLUÇÃO
+Calculemos a área transversal
+A = h × w = 20 × 300 = 6000 ft2
+Calculemos a vazão
+q = 0, 001127kA(p1 −p2)
+µL
+q = 0, 001127 × 100 × 6000(2000 −1990)
+2 × 2000
+= 1, 6905 bbl/dia
+(b) Velocidade aparente do uido em ft/dia
+SOLUÇÃO
+v = q
+A = 1, 6905 × 5, 615
+6000
+= 0, 0016ft/dia
+(c) Velocidade actual do uido em ft/dia
+SOLUÇÃO
+v =
+q
+Aϕ = 1, 6905 × 5, 615
+6000 × 0, 15
+= 0, 0105ft/dia
+AULA 16 - Equação da difusividade hidráulica - Fluxo transiente.
+1. Considere um sistema innito que esteja produzindo através de um único poço, com as segunites ca-
+racterísticas:
+Permeabilidade efectiva ao óleo...ko = 100 md
+Viscosidade do óleo no reservatório ...µo = 3,0 cp
+93
+
+
+=== PAGE 99 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+Factor volume-formação do óleo ...Bo = 1,25 m3/m3 std
+Espessura da formação ...h = 4 m
+Porosidade da rocha ...ϕ=20%
+Compressibilidade total do sistema...ct = 130 × 10−6 (kgf/cm2)−1
+Vazão de óleo ...qo = 35 m3 std/d
+Raio do poço ...rw = 0,10 m
+(a) A queda da pressão no poço nos instantes 0,1; 1; 10 e 30 dias após o início da produção.
+SOLUÇÃO
+Para o cálculo da pressão no poço pode ser usada a equação 6.33
+pw(t) = pi −
+qµ
+2πkh
+1
+2ln
+
+4kt
+γϕµoctr2w
+
+(6.33)
+Tendo em conta o sistema de unidades e sabendo que q = qoBo usado no exercício a equação 6.33
+pode ser expressa como:
+pw(t) = pi −19, 03qoBoµo
+koh
+1
+2ln
+4 × 0, 0003484 × 24 × kot(d)
+γϕµoctr2w
+
+Fazendo ∆pw(t) = pi −pw(t), então:
+∆pw(t) = 1
+2 × 19, 03 × 35 × 1, 25 × 3, 0
+100 × 4
+
+ln
+
+4 × 0, 0003484 × 24 × 100t(d)
+1, 781 × 0, 20 × 3, 0 × 130 × 10−6 × (0, 10)2
+
+∆pw(t) = 3, 122ln [2.407.636t(d)]
+Tabela 6.37: Solução do exercício 1 Aula 16 parte (a)
+t(d)
+∆pw(t)(kgf/cm2
+0,1
+38,7
+1,0
+45,9
+10
+53,1
+30
+56,5
+(b) A queda da pressão em um poço afastado 300 m do centro do poço, para os mesmos tempos de
+produção do item (a).
+SOLUÇÃO
+Para o cálculo da pressão a uma distância qualquer do poço e tendo em conta as unidades a serem
+usados pode ser usada a equação sequinte:
+p(r, t) = pi −1
+2 × 19, 03qoBoµo
+koh
+Ei(X)
+Ou:
+p(r = 300, t) = pi −1
+2 × 19, 03 × 35 × 1, 25 × 3, 0
+100 × 4
+Ei(X) = pi −3, 122Ei(X)
+de onde se obtém:
+94
+
+
+=== PAGE 100 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+∆p(r = 300, t) = pi −p(r = 300, t) = 3, 122Ei(X)
+onde:
+X =
+ϕµctr2
+4 × 0, 0003484 × 24 × kot(d) = 0, 20 × 3, 0 × 130 × 10−6 × (300)2
+4 × 0, 0003484 × 24 × 100t(d)
+= 2, 1
+t(d)
+Então,
+∆p(r = 300, t) = 3, 122Ei(X)
+Tabela 6.38: Solução do exercício 1 Aula 16 parte (b)
+t(d)
+X
+Ei(X)
+∆p(r = 300, t)(kgf/cm2)
+0,1
+21,00
+0
+0,0
+1,0
+2,10
+0,043
+0,1
+10
+0,21
+1,183
+3,7
+30
+0,07
+2,151
+6,7
+os valores de Ei(21, 00)Ei(0, 07) poderão ser obtido através da tabela 6-1 Values of the −Ei(−X)
+as a function of X. No entanto, será necessário fazer interpolação desses valores. No entanto a
+partir de X=9,9 os valores de Ei(X) = 0, logo o valor de Ei(21, 00) = 0
+2. Um poço fechado está localizado a 150 m de um poço produtor e a 300 m de um segundo poço produtor.
+O primeiro produz 40 m3 std/d e o segundo, cujo o início de produção ocorreu 3 dias após o início da
+produção do primeiro, ,produz 60 m3 std/d. Qual é a queda de pressão observada no poço fechado 8
+dias após o início da produção do primeiro poço? Outras informações do reservatório são:
+Permeabilidade efectiva ao óleo...ko = 200 md
+Viscosidade do óleo no reservatório...µo = 2,0 cp
+Factor volume-formação do óleo ...Bo = 1,4 m3/m3 std
+Espessura da formação ...h = 3 m
+Porosidade da rocha ...ϕ=30%
+Compressibilidade total do sistema ...ct = 8 × 10−5 (kgf/cm2)−1
+SOLUÇÃO
+Aplicando o princípio da superposição de efeitos (tanto no espaço como no tempo), a queda de pressão no
+poço fechado é calculada através da expressão:
+∆p = Boµo
+2πkoh
+
+q1
+1
+2Ei
+ϕµoctr2
+1
+4kot1
+
++ q2
+1
+2Ei
+ϕµoctr2
+2
+4kot2
+
+Ou
+∆p = Boµo
+2πkoh
+
+q1
+1
+2Ei
+ r2
+1
+4ηt1
+
++ q2
+1
+2Ei
+ r2
+2
+4ηt2
+
+onde t1 e t2 são os tempos de produção dos poços 1 e 2, respectivamente, η = ko/(ϕµoct). Nas unidades
+empregadas, essa equação passa ser expressa como:
+∆p = 1
+2 × 19, 03Boµo
+koh
+
+q1Ei
+ r2
+1
+4ηt1
+
++ q2Ei
+ r2
+2
+4ηt2
+
+95
+
+
+=== PAGE 101 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+onde:
+ηt
+r2 = 0, 0003484 × 24kot(d)
+ϕµoctr2
+= 0, 0003484 × 24 × 200t(d)
+0, 30 × 2, 0 × 8 × 10−5r2 = 34.840t(d)
+r2
+Então:
+∆p = 1
+2 × 19, 03 × 1, 4 × 2, 0
+200 × 3
+
+40Ei
+
+1502
+4 × 34.840 × 8
+
++ 60Ei
+
+3002
+4 × 34.840 × 5
+
+∆p = 0, 0444 [40Ei (0, 020) + 60Ei (0, 129)] = 0, 0444(40 × 3, 355 + 60 × 1, 589
+os valores de Ei(0, 020)eEi(0, 129) poderão ser obtido através da tabela 6-1 Values of the −Ei(−X) as a
+function of X. No entanto, será necessário fazer interpolação desses valores.
+∆p = 10, 2kgf/cm2
+AULA 17 - Razão de dano. Reservatórios fraturados. Cone de água ou
+gás em poços verticais. Poços horizontais. Índice de produtividade.
+1. Um poço horizontal de 300 m de comprimento foi perfurado em reservatório de óleo com as as seguintes
+características:
+Permeabilidade efectiva ao óleo...ko = 80 md
+Espessura da formação ...h = 50 m
+Porosidade da rocha ...ϕ=5%
+Viscosidade do óleo no reservatório...µo = 0,7 cp
+Factor volume-formação do óleo ...Bo = 1,2 m3/m3 std
+Raio do poço ...rw = 0,10 m
+Calcule o índice de produtividade desse poço admitindo uxo permanente incompressível. Utiliza o
+método de Joshi e admita que um poço vertical drene uma área quadrada de lado igual a 400 m.
+SOLUÇÃO
+Admitindo que um poço horizontal de 300 m drene uma área duas vezes maior que a área drenada por
+um poço vertical, então a área de drenagem do poço horizontal será:
+Ah = 2 × 400 × 400 = 320.000m2
+O raio de um círculo com essa área de drenagem é:
+reh =
+r
+Ah
+π =
+r
+320.000
+π
+= 319 m
+Então:
+a = L
+2
+
+0, 5 +
+s
+0, 25 +
+2rer
+L
+4
+
+
+0,5
+= 300
+2
+
+0, 5 +
+s
+0, 25 +
+2 × 319
+300
+4
+
+
+0,5
+= 337 m
+e o índice de produtividade do poço horizontal, empregando o sistema de unidade do exercício, é dado
+por:
+96
+
+
+=== PAGE 102 ===
+Engenharia de Reservatórios I
+Geraldo Ramos, Bsc, Msc, PhD
+IPh =
+qh
+pe −pw
+=
+0, 05255khh
+Boµo
+
+ln
+
+a+√
+a2−(L/2)2
+L/2
+
++ h
+Lln
+
+h
+2rw
+
+IPh =
+0, 05255 × 80 × 50
+1, 2 × 0, 7
+
+ln
+
+337+√
+3372−(300/2)2
+300/2
+
++ 50
+300ln
+
+50
+2×0,1
+ ∼= 100 m3std/d
+kgf/cm2
+97
+
+
+=== PAGE 103 ===
+Bibliograa
+[1] Alyafei, N. (2019). Fundamentals of reservoir rock properties.
+[2] Dake, L. (2016). Engenharia de reservatórios: fundamentos, volume 1. Elsevier Brasil.
+[3] McCain Jr, W. D. (1990). Properties of petroleum uids. PennWell Corporation.
+[4] Ramos, G. A. R. (2016). Aplicação de VBA Nos Fundamentos da Engenharia de Petróleos. Mayamba
+Editora.
+[5] Ramos, G. A. R. (2020). Indústria do Gás Natural. Engenharia de Produção do Gás Natural., volume 2.
+Editora Dois.
+[6] Rosa, A. J., de Souza Carvalho, R., and Xavier, J. A. D. (2006). Engenharia de reservatórios de petróleo.
+Interciência.
+[7] Tarek, A. (2010). Reservoir engineering handbook. Butterworth-Heinemann, 4th edition.
+[8] Terry, R. E., Rogers, J. B., and Craft, B. C. (2015). Applied petroleum reservoir engineering. Pearson
+Education.
+108

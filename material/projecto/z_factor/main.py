@@ -41,23 +41,49 @@ from modules.viscosidade  import (viscosidade_lee_gonzalez_eakin,
 from modules.volumetria   import (bg_ft3_scf, bg_bbl_Mscf, bg_m3_m3,
                                    eg_scf_ft3, eg_Mscf_bbl, eg_m3_m3)
 
-# ── Paleta de cores ISPTEC ────────────────────────────────────────────────────
+# ── Paleta de cores — tema escuro moderno ─────────────────────────────────────
 C = {
-    "navy":     "#1A3C5E",
-    "navy_lt":  "#254F7A",
-    "navy_dk":  "#122A42",
-    "gold":     "#C8861E",
-    "gold_lt":  "#DFA030",
-    "bg":       "#EEF2F7",
-    "card":     "#FFFFFF",
-    "text":     "#2C3E50",
-    "muted":    "#7F8C8D",
-    "border":   "#C8D8E8",
-    "row_alt":  "#EEF6FF",
-    "green":    "#27AE60",
-    "red":      "#C0392B",
-    "blue":     "#2980B9",
-    "purple":   "#8E44AD",
+    # estrutura
+    "bg":         "#0e1621",   # fundo principal
+    "panel":      "#152131",   # painéis / cards
+    "panel2":     "#1a2940",   # painéis secundários
+    "border":     "#1e3a5f",   # bordas
+    # acentos
+    "accent":     "#00b4d8",   # ciano petróleo (cor primária)
+    "accent2":    "#00c896",   # verde-ciano (2.ª cor)
+    "gold":       "#d4930a",   # âmbar ISPTEC
+    "gold_lt":    "#f0b020",   # âmbar claro (hover)
+    # texto
+    "text":       "#cce5f5",   # texto principal
+    "muted":      "#4d7a9a",   # texto secundário
+    "text_head":  "#ffffff",   # cabeçalhos
+    # campos de entrada
+    "entry_bg":   "#0a1826",
+    "entry_fg":   "#b8d8ee",
+    # tabela
+    "table_bg":   "#0d1d2e",
+    "row_alt":    "#132438",
+    "table_head": "#0b2444",
+    "sel":        "#004080",
+    # botões
+    "btn_ok":     "#005f38",
+    "btn_ok_h":   "#007a4a",
+    "btn_gold":   "#6b4400",
+    "btn_gold_h": "#7a5200",
+    "btn_out":    "#1e3a5f",
+    "btn_out_h":  "#2a4f7a",
+    "btn_danger": "#6b1c1c",
+    "btn_dng_h":  "#8b2424",
+    # gráficos
+    "green":      "#00b894",
+    "red":        "#e74c3c",
+    "blue":       "#0984e3",
+    "purple":     "#a29bfe",
+    # aliases para manter compatibilidade
+    "navy":       "#152131",
+    "navy_lt":    "#1a2940",
+    "navy_dk":    "#0e1621",
+    "card":       "#152131",
 }
 
 # ── Opções de correlações ────────────────────────────────────────────────────
@@ -154,20 +180,24 @@ def _estilo(root):
     root.configure(bg=C["bg"])
 
     s.configure("TFrame",      background=C["bg"])
-    s.configure("Card.TFrame", background=C["card"])
+    s.configure("Card.TFrame", background=C["panel"])
 
+    # LabelFrame
     s.configure("TLabelframe",
-                background=C["card"],
-                foreground=C["navy"],
+                background=C["panel"],
+                foreground=C["accent"],
                 bordercolor=C["border"],
-                relief="groove")
+                relief="flat",
+                borderwidth=1)
     s.configure("TLabelframe.Label",
-                background=C["card"],
-                foreground=C["navy"],
-                font=("Segoe UI", 10, "bold"))
+                background=C["panel"],
+                foreground=C["accent"],
+                font=("Segoe UI", 10, "bold"),
+                padding=(4, 0))
 
+    # Labels
     s.configure("TLabel",
-                background=C["card"],
+                background=C["panel"],
                 foreground=C["text"],
                 font=("Segoe UI", 10))
     s.configure("BG.TLabel",
@@ -175,57 +205,92 @@ def _estilo(root):
                 foreground=C["text"],
                 font=("Segoe UI", 10))
     s.configure("Muted.TLabel",
-                background=C["card"],
+                background=C["panel"],
                 foreground=C["muted"],
                 font=("Segoe UI", 9, "italic"))
 
+    # Entry
     s.configure("TEntry",
-                fieldbackground="white",
-                foreground=C["text"],
+                fieldbackground=C["entry_bg"],
+                foreground=C["entry_fg"],
+                insertcolor=C["accent"],
+                bordercolor=C["border"],
+                lightcolor=C["border"],
+                darkcolor=C["border"],
+                font=("Segoe UI", 10))
+    s.map("TEntry",
+          fieldbackground=[("focus", "#0f2438")],
+          bordercolor=[("focus", C["accent"])])
+
+    # Combobox
+    s.configure("TCombobox",
+                fieldbackground=C["entry_bg"],
+                background=C["panel2"],
+                foreground=C["entry_fg"],
+                arrowcolor=C["accent"],
+                selectbackground=C["sel"],
+                selectforeground=C["text_head"],
                 bordercolor=C["border"],
                 font=("Segoe UI", 10))
+    s.map("TCombobox",
+          fieldbackground=[("readonly", C["entry_bg"])],
+          foreground=[("readonly", C["entry_fg"])],
+          selectbackground=[("readonly", C["sel"])])
 
-    s.configure("TCombobox",
-                fieldbackground="white",
-                foreground=C["text"],
-                font=("Segoe UI", 10))
+    # Scrollbar
+    s.configure("Vertical.TScrollbar",
+                background=C["panel2"],
+                troughcolor=C["table_bg"],
+                arrowcolor=C["accent"],
+                bordercolor=C["border"],
+                darkcolor=C["panel2"],
+                lightcolor=C["panel2"])
+    s.configure("Horizontal.TScrollbar",
+                background=C["panel2"],
+                troughcolor=C["table_bg"],
+                arrowcolor=C["accent"],
+                bordercolor=C["border"],
+                darkcolor=C["panel2"],
+                lightcolor=C["panel2"])
 
     # Botões
-    for name, bg, hover in [
-        ("Primary", C["navy"],  C["navy_lt"]),
-        ("Gold",    C["gold"],  C["gold_lt"]),
-        ("Danger",  C["red"],   "#E74C3C"),
-        ("Outline", C["bg"],    C["border"]),
+    for name, bg, hover, fg in [
+        ("Primary", C["btn_ok"],     C["btn_ok_h"],  "white"),
+        ("Gold",    C["btn_gold"],   C["btn_gold_h"],"white"),
+        ("Danger",  C["btn_danger"], C["btn_dng_h"], "white"),
+        ("Outline", C["btn_out"],    C["btn_out_h"], C["text"]),
     ]:
         s.configure(f"{name}.TButton",
                     background=bg,
-                    foreground="white" if name != "Outline" else C["navy"],
+                    foreground=fg,
                     font=("Segoe UI", 10, "bold"),
                     padding=(14, 8),
                     relief="flat",
-                    borderwidth=0)
+                    borderwidth=0,
+                    focuscolor=C["border"])
         s.map(f"{name}.TButton",
-              background=[("active", hover), ("pressed", bg)])
+              background=[("active", hover), ("pressed", bg)],
+              foreground=[("active", "white")])
 
     # Treeview
     s.configure("Treeview",
-                background=C["card"],
+                background=C["table_bg"],
                 foreground=C["text"],
-                fieldbackground=C["card"],
-                rowheight=28,
-                font=("Consolas", 10),
+                fieldbackground=C["table_bg"],
+                rowheight=26,
+                font=("Consolas", 9),
                 bordercolor=C["border"])
     s.configure("Treeview.Heading",
-                background=C["navy"],
-                foreground="white",
-                font=("Segoe UI", 10, "bold"),
+                background=C["table_head"],
+                foreground=C["accent"],
+                font=("Segoe UI", 9, "bold"),
                 relief="flat",
                 padding=(6, 5))
     s.map("Treeview",
-          background=[("selected", C["navy_lt"])],
-          foreground=[("selected", "white")])
+          background=[("selected", C["sel"])],
+          foreground=[("selected", C["text_head"])])
     s.map("Treeview.Heading",
-          background=[("active", C["navy_lt"])])
+          background=[("active", C["border"])])
 
 
 # ── Aplicação ────────────────────────────────────────────────────────────────
@@ -261,31 +326,35 @@ class AplicacaoFactorZ(tk.Tk):
         self._status_bar()
 
     def _cabecalho(self):
-        hdr = tk.Frame(self, bg=C["navy"], padx=18, pady=13)
+        hdr = tk.Frame(self, bg=C["panel"], padx=18, pady=12)
         hdr.grid(row=0, column=0, sticky="ew")
         hdr.columnconfigure(1, weight=1)
 
-        # Ícone circular
-        cnv = tk.Canvas(hdr, width=50, height=50,
-                        bg=C["navy"], highlightthickness=0)
-        cnv.grid(row=0, column=0, rowspan=2, padx=(0, 16))
-        cnv.create_oval(2, 2, 48, 48, fill=C["gold"], outline="")
-        cnv.create_text(25, 25, text="Z", fill="white",
-                        font=("Segoe UI", 22, "bold"))
+        # Barra lateral de acento
+        tk.Frame(hdr, bg=C["accent"], width=4).grid(
+            row=0, column=0, rowspan=2, sticky="ns", padx=(0, 14))
+
+        # Ícone circular com letra Z
+        cnv = tk.Canvas(hdr, width=48, height=48,
+                        bg=C["panel"], highlightthickness=0)
+        cnv.grid(row=0, column=1, rowspan=2, padx=(0, 14))
+        cnv.create_oval(1, 1, 47, 47, fill=C["accent"], outline="")
+        cnv.create_text(24, 24, text="Z", fill=C["bg"],
+                        font=("Segoe UI", 20, "bold"))
 
         tk.Label(hdr,
                  text="Factor de Compressibilidade do Gás Natural",
-                 bg=C["navy"], fg="white",
+                 bg=C["panel"], fg=C["text_head"],
                  font=("Segoe UI", 15, "bold")).grid(
-                 row=0, column=1, sticky="w")
+                 row=0, column=2, sticky="w")
         tk.Label(hdr,
                  text=("Engenharia de Reservatórios I — 2025/2026  |  "
                        "ISPTEC  |  Docente: Geraldo Ramos, BSc, MSc, PhD"),
-                 bg=C["navy"], fg=C["gold"],
-                 font=("Segoe UI", 9)).grid(row=1, column=1, sticky="w")
+                 bg=C["panel"], fg=C["gold"],
+                 font=("Segoe UI", 9)).grid(row=1, column=2, sticky="w")
 
-        # Linha dourada decorativa
-        tk.Frame(self, bg=C["gold"], height=3).grid(
+        # Separador colorido
+        tk.Frame(self, bg=C["accent"], height=2).grid(
             row=0, column=0, sticky="sew")
 
     def _corpo(self):
@@ -378,8 +447,9 @@ class AplicacaoFactorZ(tk.Tk):
         self._lbl_info.grid(row=0, column=0, columnspan=2,
                              sticky="w", pady=(0, 6), padx=4)
 
-        self._cols = ("Pressão\n(Psia)", "Hall-Yarborough",
-                      "Dranchuk", "Viscosidade\n(cP)", "Bg", "Eg")
+        self._cols = ("Pressão\n(Psia)", "Gás Ideal\n(Z=1)",
+                      "Hall-Yarborough", "Dranchuk",
+                      "Viscosidade\n(cP)", "Bg", "Eg")
         self.tree = ttk.Treeview(fr, columns=self._cols,
                                   show="headings", height=26)
         self._hdrs()
@@ -392,28 +462,31 @@ class AplicacaoFactorZ(tk.Tk):
         hsb.grid(row=2, column=0, sticky="ew")
 
         self.tree.tag_configure("alt", background=C["row_alt"])
+        self.tree.tag_configure("",    background=C["table_bg"])
 
     def _hdrs(self):
         bg_u = self.v.get("unid_bg", tk.StringVar(value=OPT_BG[0])).get()
         eg_u = self.v.get("unid_eg", tk.StringVar(value=OPT_EG[0])).get()
-        hdrs  = ["Pressão (Psia)", "Hall-Yarborough", "Dranchuk",
+        hdrs  = ["Pressão (Psia)", "Gás Ideal (Z=1)", "Hall-Yarborough", "Dranchuk",
                  "Viscosidade (cP)", f"Bg  ({bg_u})", f"Eg  ({eg_u})"]
-        widths = [95, 115, 115, 120, 120, 120]
+        widths = [95, 100, 115, 115, 120, 120, 120]
         for col, hdr, w in zip(self._cols, hdrs, widths):
             self.tree.heading(col, text=hdr)
             self.tree.column(col, width=w, minwidth=70, anchor="center")
 
     def _status_bar(self):
-        bar = tk.Frame(self, bg=C["navy_dk"], padx=12, pady=4)
+        bar = tk.Frame(self, bg=C["panel"], padx=12, pady=5,
+                       highlightthickness=1,
+                       highlightbackground=C["border"])
         bar.grid(row=2, column=0, sticky="ew")
         bar.columnconfigure(0, weight=1)
         self._sv = tk.StringVar(value="Pronto.")
         tk.Label(bar, textvariable=self._sv,
-                 bg=C["navy_dk"], fg="white",
+                 bg=C["panel"], fg=C["text"],
                  font=("Segoe UI", 9)).grid(row=0, column=0, sticky="w")
         tk.Label(bar,
                  text="ISPTEC — Engenharia de Reservatórios I — v2.0",
-                 bg=C["navy_dk"], fg=C["gold"],
+                 bg=C["panel"], fg=C["gold"],
                  font=("Segoe UI", 9)).grid(row=0, column=1, sticky="e")
 
     # ── Auxiliar ──────────────────────────────────────────────────────────────
@@ -472,7 +545,8 @@ class AplicacaoFactorZ(tk.Tk):
         for i, (P, Z_hy, Z_dak, mu, Bg, Eg) in enumerate(self._resultados):
             tag = "alt" if i % 2 else ""
             self.tree.insert("", "end", tags=(tag,),
-                values=(f"{P:.1f}", f"{Z_hy:.6f}", f"{Z_dak:.6f}",
+                values=(f"{P:.1f}", "1.000000",
+                        f"{Z_hy:.6f}", f"{Z_dak:.6f}",
                         f"{mu:.6f}", f"{Bg:.6f}", f"{Eg:.4f}"))
 
         n = len(self._resultados)
@@ -481,7 +555,7 @@ class AplicacaoFactorZ(tk.Tk):
                   f"Ppc = {self._Ppc:.1f} psia  \u2502  "
                   f"Tpc = {self._Tpc:.1f} \u00b0R  \u2502  "
                   f"Tpr = {self._Tpr:.3f}"),
-            foreground=C["navy"])
+            foreground=C["accent"])
         self._sv.set(f"Cálculo concluído — {n} pontos calculados com sucesso.")
 
     def grafico(self):
@@ -515,69 +589,83 @@ class AplicacaoFactorZ(tk.Tk):
         win.configure(bg=C["bg"])
         win.resizable(True, True)
 
-        tk.Frame(win, bg=C["navy"], padx=14, pady=8).pack(fill="x")
-        tk.Label(win.winfo_children()[-1],
+        hdr_bar = tk.Frame(win, bg=C["panel"], padx=14, pady=8)
+        hdr_bar.pack(fill="x")
+        tk.Label(hdr_bar,
                  text="Propriedades do Gás Natural vs Pressão",
-                 bg=C["navy"], fg="white",
+                 bg=C["panel"], fg=C["text_head"],
                  font=("Segoe UI", 13, "bold")).pack(side="left")
+        tk.Label(hdr_bar,
+                 text=f"  Z: {zm}  |  μ: {vm}",
+                 bg=C["panel"], fg=C["gold"],
+                 font=("Segoe UI", 9)).pack(side="right")
+
+        DARK_BG   = "#0e1621"
+        DARK_AXES = "#152131"
+        GRID_COL  = "#1e3a5f"
+        TEXT_COL  = "#cce5f5"
+        HEAD_COL  = "#ffffff"
 
         fig, axes = plt.subplots(2, 2, figsize=(13, 8))
-        fig.patch.set_facecolor("#F0F4F8")
+        fig.patch.set_facecolor(DARK_BG)
         fig.suptitle("Gás Natural — Resultados Completos",
                      fontsize=14, fontweight="bold",
-                     color=C["navy"], y=0.98)
+                     color=HEAD_COL, y=0.98)
 
         lw = dict(linewidth=2.2)
-        gk = dict(alpha=0.3, linestyle="--", color="#999")
+        gk = dict(alpha=0.35, linestyle="--", color=GRID_COL)
+
+        def _dark_ax(ax, xlabel, ylabel, title):
+            ax.set_facecolor(DARK_AXES)
+            for spine in ax.spines.values():
+                spine.set_color(GRID_COL)
+            ax.tick_params(colors=TEXT_COL, labelsize=9)
+            ax.xaxis.label.set_color(TEXT_COL)
+            ax.yaxis.label.set_color(TEXT_COL)
+            ax.set_xlabel(xlabel, fontsize=10)
+            ax.set_ylabel(ylabel, fontsize=10)
+            ax.set_title(title, fontsize=11, fontweight="bold", color=HEAD_COL)
+            ax.grid(True, **gk)
 
         # ── Z-factor ──────────────────────────────────────────────────
         ax = axes[0, 0]
-        ax.plot(P, Zv, color=C["blue"], label=zm, **lw)
+        ax.plot(P, Zv, color=C["accent"], label=zm, **lw)
         if Z2 is not None:
             ax.plot(P, Z2, color=C["purple"],
                     linestyle="-.", linewidth=1.8, label=z_ch2)
         ax.plot(P, [z_ideal()] * len(P), color=C["green"],
                 linewidth=1.5, linestyle=":", label="Gás Ideal (Z=1)")
-        ax.set_xlabel("Pressão (Psia)", fontsize=10)
-        ax.set_ylabel("Factor Z", fontsize=10)
-        ax.set_title("Factor de Compressibilidade (Z)",
-                     fontsize=11, fontweight="bold", color=C["navy"])
-        ax.legend(fontsize=9)
-        ax.grid(True, **gk); ax.set_facecolor("#FAFCFF")
+        leg = ax.legend(fontsize=9, facecolor=C["panel2"],
+                        edgecolor=GRID_COL, labelcolor=TEXT_COL)
+        _dark_ax(ax, "Pressão (Psia)", "Factor Z",
+                 "Factor de Compressibilidade (Z)")
 
         # ── Viscosidade ───────────────────────────────────────────────
         ax = axes[0, 1]
-        ax.plot(P, mu, color=C["gold"], **lw, label=vm)
-        ax.set_xlabel("Pressão (Psia)", fontsize=10)
-        ax.set_ylabel("Viscosidade (cP)", fontsize=10)
-        ax.set_title("Viscosidade do Gás (\u03bcg)",
-                     fontsize=11, fontweight="bold", color=C["navy"])
-        ax.legend(fontsize=9)
-        ax.grid(True, **gk); ax.set_facecolor("#FAFCFF")
+        ax.plot(P, mu, color=C["gold_lt"], **lw, label=vm)
+        ax.legend(fontsize=9, facecolor=C["panel2"],
+                  edgecolor=GRID_COL, labelcolor=TEXT_COL)
+        _dark_ax(ax, "Pressão (Psia)", "Viscosidade (cP)",
+                 "Viscosidade do Gás (μg)")
 
         # ── Bg ────────────────────────────────────────────────────────
         ax = axes[1, 0]
         ax.plot(P, Bg, color=C["red"], **lw)
-        ax.set_xlabel("Pressão (Psia)", fontsize=10)
-        ax.set_ylabel(f"Bg  ({bg_u})", fontsize=10)
-        ax.set_title("Factor Volume de Formação (Bg)",
-                     fontsize=11, fontweight="bold", color=C["navy"])
-        ax.grid(True, **gk); ax.set_facecolor("#FAFCFF")
+        _dark_ax(ax, "Pressão (Psia)", f"Bg  ({bg_u})",
+                 "Factor Volume de Formação (Bg)")
 
         # ── Eg ────────────────────────────────────────────────────────
         ax = axes[1, 1]
-        ax.plot(P, Eg, color=C["purple"], **lw)
-        ax.set_xlabel("Pressão (Psia)", fontsize=10)
-        ax.set_ylabel(f"Eg  ({eg_u})", fontsize=10)
-        ax.set_title("Factor de Expansão do Gás (Eg)",
-                     fontsize=11, fontweight="bold", color=C["navy"])
-        ax.grid(True, **gk); ax.set_facecolor("#FAFCFF")
+        ax.plot(P, Eg, color=C["accent2"], **lw)
+        _dark_ax(ax, "Pressão (Psia)", f"Eg  ({eg_u})",
+                 "Factor de Expansão do Gás (Eg)")
 
         fig.tight_layout(rect=[0, 0, 1, 0.96])
 
         canvas = FigureCanvasTkAgg(fig, master=win)
         canvas.draw()
         toolbar = NavigationToolbar2Tk(canvas, win)
+        toolbar.config(background=C["panel"])
         toolbar.update()
         toolbar.pack(side="bottom", fill="x")
         canvas.get_tk_widget().pack(fill="both", expand=True, padx=8, pady=8)
@@ -590,7 +678,8 @@ class AplicacaoFactorZ(tk.Tk):
         self._resultados = []
         self._lbl_info.config(
             text="Preencha os dados e pressione  \u25b6 CALCULAR",
-            foreground=C["muted"])
+            foreground=C["muted"],
+            background=C["panel"])
         self._sv.set("Pronto.")
 
 

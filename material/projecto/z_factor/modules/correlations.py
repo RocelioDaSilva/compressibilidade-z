@@ -5,6 +5,8 @@ Métodos implementados:
   1. Gás Ideal              — Z = 1
   2. Hall-Yarborough        — iteração de Newton-Raphson
   3. Dranchuk e Abou-Kassem — iteração de substituição directa
+
+Viscosidade, Bg e Eg estão nos módulos viscosidade.py e volumetria.py.
 """
 
 import math

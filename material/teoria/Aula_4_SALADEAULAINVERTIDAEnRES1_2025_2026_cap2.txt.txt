@@ -1,0 +1,752 @@
+ENGENHARIA DE RESERVATÓRIOS I
+3º ANO – 2º SEMESTRE
+2025 - 2026
+Docente: Prof. Dr. Geraldo A. R. Ramos
+11
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Propriedades dos Fluídos de Reservatório
+2
+ 2.1. Introdução
+ 2.2. Misturas e soluções;
+ 2.3. Propriedades básicas dos fluidos;
+ 2.3.1. Propriedades de Óleo
+ 2.3.2. Propriedades dos Gases
+ 2.3.4. Propriedades de Misturas de Hidrocarbonetos
+ 2.4. Consolidação da Aula
+ 2.5. Tarefas
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2. Propriedades dos gases
+3
+ Os gases podem ser classificados como gases ideais ou gases reais:
+ Gás ideal é um fluido hipotético que obedece as seguintes condições:
+ O volume ocupado pelas moléculas é insignificante quando comparado com o volume total do
+fluido
+ Não existem forças atrativas ou repulsivas entre as moléculas ou entre as moléculas e as paredes
+do recipiente que contém o fluido.
+ As colisões entre moléculas são perfeitamente elásticas.
+ Os gases ideais: Gases são considerados como ideais quando submetidos a baixas pressões e altas
+temperaturas
+Lei Avogadro (Gay-Lussac), que afirma que volumes iguais de diferentes gases ideais na mesma
+pressão e temperatura contêm o mesmo número de moléculas
+ENGENHARIA DE RESERVATÓRIOS - I
+GERALDO RAMOS, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2. Propriedades dos gases
+4
+ Lei de Dalton é também conhecida como lei das pressões parciais. Esta lei afirma que quando
+vários gases ideais formam uma mistura observando as seguintes propriedades:
+ Cada gás exerce uma pressão igual à que exerceria caso estivess só no recipiente.
+ A pressão total é igual à soma das pressões de cada gás.
+𝑛 𝑝
+𝑖 𝑖
+𝑦 = =
+𝑖
+𝑛 𝑝
+ Robert Boyle – Mariotte: o volume ocupado por uma determinada massa de um gás ideal será
+inversamente proporcional à pressão, se a temperatura for constante:
+1
+𝑉~ 𝑜𝑢 𝑝𝑉 = 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+𝑝
+𝑝 𝑉
+1 2
+=
+𝑝 𝑉
+2 1
+ Lei de Charles: O volume ocupado por uma determinada massa de um gás ideal será directamente
+proporcional à temperatura, se a pressão for constante:
+𝑉
+𝑉~𝑇 𝑜𝑢 = 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡𝑒
+𝑇
+𝑉 𝑇
+1 1
+=
+𝑉 𝑇
+2 2
+ENGENHARIA DE RESERVATÓRIOS - I
+GERALDO RAMOS, BSc, MSc, PhD
+
+--- PAGE 0 ---
+5
+2.3.2.1. Equação de Estado dos gases
+2.3.2.1.1. Equação de Estado dos gases ideias
+Equação de estado é uma expressão que relaciona a pressão, a temperatura e o volume de um gás
+ou líquido. Combinando as leis de Charles, Boyle-Mariotte e Advogadro, obtém-se uma equação de
+estado para um gás ideal. Inicialmente aplicam-se conjuntamente as leis de Boyle-Mariote e de
+Charles para descrever a passagem de um gás de estado 1 para estado 2, ou seja:
+ESTADO 2
+ESTADO 1
+p , V , T p , V , T
+1 1 1 2 2 2
+𝑝 𝑉 𝑝 𝑉
+1 1 2 2
+=
+𝑇 𝑇
+1 2
+Considerando que o volume molar de gás é V e R como uma constante do gás, então teremos a
+m
+seguinte equação:
+𝑝𝑉
+𝑚
+= 𝑐𝑜𝑛𝑠𝑡𝑎𝑡𝑒 = 𝑅
+𝑇
+Para o número n mols de gás tem-se:
+𝑝𝑉 = 𝑛𝑅𝑇
+ENGENHARIA DE RESERVATÓRIOS - I
+GERALDO RAMOS, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.1. Equação de Estado dos gases ideias
+6
+Aplicando os conceitos da massa de um número de mols de gás e massa específica na equação de
+estado, tem-se:
+𝒑𝑴
+𝝆 =
+𝑹𝑻
+Onde:
+𝑚 𝑚
+𝜌 = 𝑒 𝑛 =
+𝑉 𝑀
+Usando o conceito de densidade e assumindo que as massas específicas do gás e ar foram medidas
+nas mesmas condições de temperatura e pressão, tem-se:
+𝝆 𝑴
+𝒈 𝒈
+𝜸 = =
+𝝆 𝑴
+𝒂𝒓 𝒂𝒓
+ENGENHARIA DE RESERVATÓRIOS - I
+GERALDO RAMOS, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exemplos
+7
+1. Qual é o volume ocupado por um mol-lb de um gás ideal quando submetido a uma pressão de 110
+psia e a uma temperatura de 92 ºF?
+2. A quantidade de gás para a pressão de 60 psig tem um volume de 1.100 ft 3. Se o gás é comprimido
+à 105 psig. Que volume será ocupado pelo gás? Assumi que pressão barométrica é 14.73 psia e a
+temperatura do gás mantém constante.
+ENGENHARIA DE RESERVATÓRIOS - I
+GERALDO RAMOS, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais 8
+ Para gases reais a equação de estado toma a seguinte forma:
+𝑝𝑉 = 𝑧𝑛𝑅𝑇
+ Onde z é o factor de compressibilidade ou factor de desvio de gases reais
+ O factor de compressibilidade z e definido como a relação entre o volume que uma dada massa de
+gás ocupa em certas condiçõess de pressão e temperatura e o volume que essa massa ocuparia nas
+mesmas condições de temperatura e pressão se fosse um gas ideal.
+𝑉
+𝑟𝑒𝑎𝑙
+𝑧 =
+𝑉
+𝑖𝑑𝑒𝑎𝑙
+ Para o gás em condicções ou estados 1 ou 2:
+𝑝 𝑉 𝑝 𝑉
+1 1 2 2
+=
+𝑧 𝑇 𝑧 𝑇
+1 1 2 2
+ O factor de compressibilidade z varia com a composição de gás, com a temperatura e com a
+pressão.
+ Os valores de compressibilidade podem ser aproximados com uma boa precisão usando tabelas ou
+gráficos obtidos experimentalmente ou usando as propriedades pseudo-reduzidas de pressão e
+temperatura, mediante gráficos ou correlações.
+Nota: Erros de até 500% são observados no uso da equação de estado do gás ideal para pressões mais
+altas, comparando com erros de 2–3% na pressão atmosférica.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+9
+2.3.2.1.2. Equação de Estado dos Gases Reais
+GRÁFICO DE STANDING AND KATZ
+PRESSÃO E TEMPERATURA
+PSEUDO-REDUZIDAS
+𝑛
+𝑐
+𝑝 = ෍ 𝑦 𝑝
+𝑝𝑐 𝑖 𝑐𝑖
+𝑖=1
+𝑛
+𝑇 = σ 𝑐 𝑦 𝑇
+𝑝𝑐 𝑖 𝑐𝑖
+𝑖=1
+𝑝
+𝑝 =
+𝑝𝑟
+𝑝
+𝑝𝑐
+𝑇
+𝑇 =
+𝑝𝑟
+𝑇
+𝑝𝑐
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+1
+0
+CONSTANTES FÍSICAS PARA COMPONENTES PUROS
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+1
+1
+CORRELAÇÕES
+Sistema de Gás Natural - Gás Natural Seco (Standing, 1977):
+2
+𝑝 𝑝𝑠𝑖𝑎 = 677,0 + 15,0𝛾 − 37,5𝛾
+𝑝𝑐 𝑔 𝑔
+2
+𝑇 °𝑅 = 168,0 + 325,0𝛾 − 12,5𝛾
+𝑝𝑐 𝑔 𝑔
+Gás natural húmido, gás de reservatório de óleo ou condensado (Standing, 1977):
+2
+𝑝 𝑝𝑠𝑖𝑎 = 706,0 − 51,7𝛾 − 11,1𝛾
+𝑝𝑐 𝑔 𝑔
+2
+𝑇 °𝑅 = 187,0 + 330,0𝛾 − 71,5𝛾
+𝑝𝑐 𝑔 𝑔
+Gás natural húmido, gás de reservatório de óleo ou condensado (Sutton):
+2
+𝑝 𝑝𝑠𝑖𝑎 = 169,2 + 349,5𝛾 − 74,0𝛾
+𝑝𝑐 𝑔 𝑔
+2
+𝑇 °𝑅 = 756,8 − 131,07𝛾 − 3,6𝛾
+𝑝𝑐 𝑔 𝑔
+onde 𝜸 é a densidade da mistura gasosa
+𝒈
+NOTA: Mais correlações na página 43 do Vol 2. Indústria do Gás Natural de Geraldo Ramos
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais 1
+2
+EFEITOS DOS NÃO HIDROCARBONETOS NO FACTOR Z DE GÁS
+ Principais não hidrocarbonetos: Dióxido de Carbono (CO ), Sulfado de Hidrogénio (H S), Nitrogénio
+2 2
+(N ), Enxofre (S).
+2
+ Não hidrocarbonetos influenciam na composição de gás natural. Por exemplo, tornando-o como
+ácido ou não ácido (doce):
+ Gás natural ácido:
+ Apresenta mais de 5,7 milhões de H S por metro cúbico de gás. Valor é equivalente a
+2
+4ppm por volume;
+ Excesso de composto de Enxofre;
+ Quantidade considerável de CO
+2
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+EFEITOS DOS NÃO HIDROCARBONETOS NO FACTOR Z DE GÁS
+ Correção das propriedades pseudo-reduzidas com a presença de não hidrocarbonetos
+𝒑 𝑻
+𝒑 = , 𝑻 =
+𝒑𝒓 𝒑𝒓
+𝒑 ƴ 𝑻 ሖ
+𝒑𝒄 𝒑𝒄
+ Wichert e Aziz (1972) desenvolveram fórmulas matemáticas para ajustar a presença de H S e CO
+2 2
+no gás:
+𝑨 = 𝒚𝑯 𝑺 + 𝒚𝑪𝑶
+𝟐 𝟐
+ onde A é a soma das fracções molares de H S e CO ; B a fracção molar de H S; ϵ o ajustamento da
+2 2 2
+temperatura pseudocrítica; T’ a temperatura pseudocrítica corrigida em ◦R; p’ a pressão
+pc pc
+pseudocrítica corrigida em psia.
+13
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+14
+EFEITOS DOS NÃO HIDROCARBONETOS NO FACTOR Z DE GÁS - Wichert e Aziz (1972)
+O ajustamento da temperatura pseudocritica ϵ
+PASSOS COMPUTACIONAIS
+1. Calcule as propriedades pseudo-críticas da
+mistura do gás (Correlações).
+2. Calcule o ajustamento da temperatura
+pseudocrítica (ϵ).
+3. Ajuste as propriedades pseudocríticas do
+ponto 1 (p’ e T’ ).
+pc pc
+4. Calcule as propriedades pseudo-reduzidas
+𝒑 𝑻
+(𝒑 = , 𝑻 = ).
+𝒑𝒓 𝒑𝒓
+𝒑 ƴ 𝑻 ሖ
+𝒑𝒄 𝒑𝒄
+5. Calcule o factor de compressibilidade do gás
+usando a figura de compressibilidade de gás
+(Standing & Katz).
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+15
+EFEITOS DOS NÃO HIDROCARBONETOS NO FACTOR Z DE GÁS - Carr,
+Kobayashi e Burrows (1954)
+Nota: Consultar o Vol.2 da Indústria do Gás Natural (Ramos, 2020), página 50 sobre os procedimentos.
+OUTRAS
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais
+16
+FACTOR Z DO GÁS - CORRELAÇÃO DE Hall e Yarborough (1973)
+p e a pressao pseudo-reduzida, t é o inverso da temperatura pseudo-reduzida (T /T) e Y é a densidade
+pr pc
+reduzida que pode ser determinada na equação não linear seguinte:
+−𝑌 + 1 𝑌 + 1 𝑌
+𝑋 =
+2
+1 − 𝑌 3
+2
+𝑋 = − 4,58𝑡 − 9,76 𝑡 + 14,76 𝑡𝑌
+3
+2,18+2,82𝑡
+𝑋 = 42,4𝑡 − 242,2 𝑡 + 90,7 𝑡𝑌
+4
+NOTA: Não é válida para temperaturas pseudo-reduzidas < 1
+Consultar os procedimentos na página 53 (Vol.2 do Gás Natural) ou página 105 Aplicação de VBA nos
+fundamentos da Engenharia de petróleos – G. Ramos.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.1.2. Equação de Estado dos Gases Reais 17
+FACTOR Z DO GÁS – CORRELAÇÃO DE Dranchuk e Bou-Kassem (1975)
+Correlação baseada na massa específica reduzida do gás e é definida como sendo a razão entre a
+massa específica de gás a dada temperatura e pressão crítica, ou seja[1]:
+0,27𝑝
+𝑝𝑟
+𝜌 =
+𝑟
+𝑧𝑇
+𝑝𝑟
+Os autores propuseram as seguintes equações de estado para calcular o factor de z:
+Nota: Ver os procedimentos na pág. 53 do Vol.2 da Indústria do Gás Natural ou 107 da Aplicação de
+VBA- G. Ramos.
+Válido para 1,05 ≤ T ≤ 3,0; 0,2 ≤ P ≤ 3,0
+pr pr
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exemplos
+18
+Um reservatório de gás com pressão e temperatura iniciais de 3.000 psia e 180 ◦F apresenta a seguinte
+composição:
+1. Calcule a compressibilidade de gás sob as condições iniciais do reservatório.
+2. Assumindo o comportamento de gas real, calcule a massa específica da fase de gás sob condições
+iniciais do reservatório e compare os resultados com o de comportamento de gas ideal.
+3. Torne a resolver a pergunta 2 usando as correlações de Standing para resolver as propriedades pseudo-
+críticas.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.2. Factor volume de formação do Gás 19
+Factor volume-formação do gás – relação entre o volume que ele ocupa em uma determinada
+condição de temperatura e pressão e o volume por ele ocupado nas condições-padrão.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.2. Factor volume de formação do Gás 20
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+21
+2.3.2.2. Factor volume de formação do Gás
+ Cálculo do factor volume de formação de um gás real:
+𝑉
+𝑅
+𝐵 =
+𝑔
+𝑉
+𝑠𝑐
+ Os volumes nas condições de reservatório e de superfície (condições-padrão) serão:
+𝑧𝑛𝑅𝑇 𝑧 𝑛𝑅𝑇
+𝑠𝑐 𝑠𝑐
+𝑉 = 𝑒 𝑉 =
+𝑅 𝑠𝑐
+𝑝 𝑝
+𝑠𝑐
+ Aplicando a definição do factor volume de formação, tem-se:
+𝑧𝑛𝑅𝑇
+𝑉 𝑝 𝑧𝑇𝑝
+𝑅 𝑠𝑐
+𝐵 = = =
+𝑔
+𝑉 𝑧 𝑛𝑅𝑇 𝑧 𝑇 𝑝
+𝑠𝑐 𝑠𝑐 𝑠𝑐 𝑠𝑐 𝑠𝑐
+𝑝
+𝑠𝑐
+ Considerando para as condições de superfície T = 520°R (15,6°C), p = 14,65 psi (1 atm) e z = 1,
+sc
+temos:
+3 3
+𝑧𝑇 𝑓𝑡 𝑧𝑇 𝑏𝑏𝑙 𝑧𝑇 𝑚
+𝐵 = 0,02827 , 𝐵 = 0,005035 𝑒 𝐵 = 0,3507
+𝑔 𝑔 𝑔
+𝑝 𝑠𝑐𝑓 𝑝 𝑠𝑐𝑓 𝑝 𝑆𝑚3
+ O factor volume de formação do gás pode ser convertido em factor de expansão do gás (o
+inverso de Bg):
+3
+1 𝑝 𝑠𝑐𝑓 1 𝑝 𝑠𝑐𝑓 1 𝑝 𝑆𝑚
+𝐸 = = 35,37 , 𝐸 = = 198,56 𝑒 𝐸 = = 2,85144
+𝑔 𝑔 𝑔
+𝐵 𝑧𝑇 𝑓𝑡3 𝐵 𝑧𝑇 𝑏𝑏𝑙 𝐵 𝑧𝑇 𝑚3
+𝑔 𝑔 𝑔
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.2. Factor volume de formação do Gás
+22
+ A massa específica pode ser também escrita em termo de factor volume de formação e
+densidade de gás, ou seja:
+𝛾 𝛾
+𝑔 𝑔
+𝜌 = 0,0764 𝑒 𝜌 = 1,224
+𝑔 𝑔
+𝐵 𝐵
+𝑔 𝑔
+ Na primeira equação, ρ é em lbm/ft3 e B é em ft3/Scf, ao passo que na segunda equação , ρ é
+g g g
+em kg/m3 e B é em m3/Sm3.
+g
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.3. Viscosidade do Gás
+23
+Viscosidade é uma medida da
+VISCOSIDADE DE ALGUNS GASES A PRESSÃO ATMOSFÉRICA
+resistência ao fluxo exercida pelo atrito
+interno em um fluido.
+Coeficiente de viscosidade de uma
+mistura de gases:
+Onde:
+µ = viscosidade do gás i
+gi
+M = massa molecular do gás i
+i
+y = fração molar do gás i
+i
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.3. Viscosidade do Gás
+24
+Lee, Gonçalez e Eakin (1966):
+𝜌 𝑌
+𝑔
+𝑋
+−4 62,4
+𝜇 = 10 𝑘𝑒
+𝑔
+𝜌𝛾
+𝑔
+Onde:
+𝜌 = 0,0433
+𝑍𝑇
+ρ é a massa específica de gás à pressão e temperatura do reservatório (lb/ft3), T a temperatura do
+g
+reservatório em ◦R, e M massa molecular aparente do gás.
+a
+Sutton
+O método de Lee et al. foi modificado pelo Sutton para levar em consideração os hidrocarbonetos
+pesados presentes nos reservatórios de condensados e escrito como segue:
+onde µ é a viscosidade é em cp, M é a
+massa molecular de gás, T e a
+temperatura
+em ◦R, ρ é a massa especifica em
+g
+lb/ft3, e p é a pressão em psia.
+𝜌𝛾
+𝑔
+𝜌 = 0,0433
+𝑍𝑇
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.2.3. Viscosidade do Gás
+25
+Sutton
+Sistema de unidades internacionais (SI)
+onde a µ viscosidade é em pa.s, M é a massa
+molecular de gás, T é a temperatura
+em ◦K, ρ é a massa específica em g/cm3, e p é a
+g
+pressão em kpa.
+Lucas et al. apresentaram igualmente um método para calcular a viscosidade do gás muito usado
+na indústria petrolífera.
+onde
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.3. Propriedades da Misturas Líquidas de Hidrocarbonetos
+26
+2.3.3.1. Razão de Solubilidade Óleo-Gás
+ Razão de solubilidade ou simplesmente solubilidade é o parâmetro que exprime a quantidade de
+gás presente no líquido.
+ É a relação entre o volume de gás que está dissolvido, expresso em condições padrão, e o volume
+de óleo que será obtido da mistura também expresso em condições padrão.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.3.1. Razão de Solubilidade Óleo-Gás 27
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.3.1. Razão de Solubilidade Óleo-Gás
+28
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.3.1. Razão de Solubilidade Óleo-Gás
+29
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+2.3.3.2. Factor Volume de Formação Bifásica(Óleo-Gás) 30
+ O factor volume de formação de duas fases do óleo (Bt), também conhecido como factor volume-
+formação total é definido como sendo o quociente entre o volume total do fluido existente no
+reservatório a uma dada condição de pressão e de temperatura e o volume de líquido que seria
+obtido se esse fluido fosse transportado para as condições-padrão.
+𝑣𝑜𝑙𝑢𝑚𝑒 𝑑𝑒 ó𝑙𝑒𝑜 + 𝑔á𝑠 𝑑𝑖𝑠𝑠𝑜𝑙𝑣𝑖𝑑𝑜 + 𝑔á𝑠 𝑙𝑖𝑣𝑟𝑒 @ 𝑝, 𝑇
+𝐵 =
+𝑡
+𝑣𝑜𝑙𝑢𝑚𝑒 𝑑𝑒 ó𝑙𝑒𝑜 𝑛𝑎𝑠 𝑐𝑜𝑛𝑑𝑖çõ𝑒𝑠 − 𝑝𝑎𝑑𝑟ã𝑜
+Ou seja:
+𝐵 = 𝐵 + 𝑅 − 𝑅 𝐵
+𝑡 𝑜 𝑠𝑖 𝑠 𝑔
+ Onde R e R , são respectivamente, as razões de solubilidade na pressão inicial e na pressão p
+si s
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+EXEMPLOS
+31
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exemplos
+32
+1. Uma mistura gasosa submetida às condições de pressão e temperatura de 14,7 psia e 200 ◦F,
+respetivamente. Dadas as informações da tabela, determina a viscosidade da mistura.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Consolidação da aula
+33
+1. Sobre a equação de estado dos gases, assinale as correctas: SIM NÃO
+a) Relaciona pressão, volume e temperatura
+b) Pode ser aplicada tanto a gases ideais como reais
+c) É independente da composição do gás
+d) Permite prever comportamento termodinâmico
+e) É irrelevante em engenharia de reservatórios
+2. Sobre gases ideais: SIM NÃO
+a) Não apresentam interacções moleculares
+b) O volume das moléculas é desprezável
+c) Representam fielmente todos os gases reais
+d) São mais aplicáveis a baixas pressões
+e) São um modelo simplificado
+3. Sobre gases reais: SIM NÃO
+a) Apresentam interacções intermoleculares
+b) Desviam-se do comportamento ideal
+c) Podem ser descritos por factores de correcção
+d) Comportam-se como ideais em todas as condições
+e) São influenciados por pressão e temperatura
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Consolidação da aula
+34
+4. Sobre o factor volume de formação do gás: SIM NÃO
+a) Relaciona volumes de reservatório e superfície
+b) Depende da pressão e temperatura
+c) É constante durante a produção
+d) É essencial para cálculo de reservas
+e) Não depende do comportamento do gás
+5. Sobre a viscosidade do gás: SIM NÃO
+a) Mede a resistência ao escoamento
+b) É geralmente inferior à dos líquidos
+c) Aumenta com a temperatura
+d) Não depende da pressão
+e) Influencia o escoamento no reservatório
+6. Sobre a razão de solubilidade óleo-gás: SIM NÃO
+a) Indica a quantidade de gás dissolvido no óleo
+b) Depende da pressão
+c) Aumenta com a redução da pressão
+d) Influencia o volume do óleo
+e) É irrelevante na produção
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Consolidação da aula 35
+7. Sobre o comportamento óleo-gás: SIM NÃO
+a) Pode existir como sistema monofásico
+b) Pode tornar-se bifásico com variação de pressão
+c) O gás pode libertar-se do óleo
+d) É independente da temperatura
+e) Influencia a produção
+8. Sobre o factor volume de formação bifásica: SIM NÃO
+a) Considera óleo e gás simultaneamente
+b) Depende da razão de solubilidade
+c) É constante
+d) Varia com condições do reservatório
+e) É usado em modelação
+9. Sobre equações de estado para gases reais: SIM NÃO
+a) Incorporam factores de correcção
+b) Consideram interacções moleculares
+c) São mais complexas que as ideais
+d) Não são usadas em engenharia
+e) Melhoram a precisão de cálculos
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Consolidação da aula
+36
+10. Sobre propriedades dos gases em reservatórios: SIM NÃO
+a) São essenciais para previsão de produção
+b) Influenciam o cálculo de reservas
+c) Não variam com o tempo
+d) Dependem de pressão e temperatura
+e) São irrelevantes em sistemas multifásicos
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+37
+Tarefa
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exercícios
+38
+1. Calcular a massa do metano contido em um recipiente de 5 ft3 a uma pressão de 700 psia e uma
+temperatura de 68 ºF.
+2. Um poço de gás está produzindo gás natural com a seguinte composição:
+Componente Fórmula Abreviação yi
+Dióxido de Carbono CO2 CO2 0,05
+Metano CH4 C1 0,90
+Etano C2H6 C2 0,03
+Propano C3H8 C3 0,02
+Assumindo um comportamento de gás real, Determine o factor de compressibilidade do gás (fator z)
+usando o gráfico da figura de Standing e Katz sabendo que a pressão e temperatura do reservatório
+é de 2.000 psia e 150 ° F respectivamente.
+3. Um gás natural ácido tem uma densidade de 0,75. A análise da composição do gás apresenta
+5% de CO2 e 10% de H2S. Calcule a massa específica do gás para a pressão e temperatura de
+3.300 psia e 150 ◦F.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exercícios
+39
+4. Para a pressao de 2.500 psia e temperatura de reservatorio de 180 ◦F, o factor de compressibilidade
+do gas natural acido e de 0,85:
+a) Calcule o fator de volume de formacao e o fator de expansao de gas;
+b) Quantos pés cúbicos deste gás estão presentes no reservatório com o volume poroso de gas de
+1,0 × 109 ft3?
+5. Calcule o factor volume de formação de um gás natural de densidade 0,64 (ar=1) a uma
+temperatura de 81 ◦F para os seguintes valores de pressão de 3.500 à 500 psia no intervalo de 500 psia.
+Faça o gráfico do fator z de compressibilidade de gás e do factor volume de formação em função da
+pressão.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Exercícios
+40
+6. Considere 1 mol-lb de uma mistura gasosa, cuja a composição está indicada na tabela.
+Determine para essa mistura:
+6.1. A massa molecular.
+6.2. A densidade.
+6.3. O volume molar a 60 ◦F e 14,7 psia.
+6.4. A massa específica a 60 ◦F e 14,7 psia.
+6.5. A pressão parcial do propano a uma pressão total de 500 psia, admitindo a mistura como ideal.
+6.6. O volume parcial do etano (ft3/mol − lb) nas condições de 60 ◦F e 14,7 psia.
+6.7. A composição em massa, ou sejam, as frações em massa de cada componente na mistura.
+6.8. A temperatura pseudocrítica.
+6.9. O factor de compressibilidade a 222,5 ◦F e 500 psia.
+6.10. A viscosidade a 222,5 ◦F e 1 atm.
+6.11. A viscosidade a 222,5 ◦F e 500 psia.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+TAREFA
+41
+7. Explique o papel das equações de estado na caracterização dos gases de reservatório.
+8. Compare gases ideais e gases reais no contexto de reservatórios..
+9. Explique a razão de solubilidade óleo-gás e sua importância..
+10. Analise o comportamento bifásico óleo-gás em reservatórios..
+11. Fundamentar as questões correctas e incorrectas dos exercícios de consolidação.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+BIBLIOGRAFIA
+42
+1 - ROSA, A. J.; CARVALHO, R. D. S.; XAVIER, J. A. D. Engenharia de Reservatórios de Petróleo. 1ª. ed. Rio
+de Janeiro: Interciência, 2006, 808 p..
+2 - MCCAIN, W. D. The Properties of Petroleum Fluids. 2nd. ed. Tulsa: PennWell Books, 1990. 548 p..
+3 - AHMED, T. H. Reservoir Engineering Handbook. 3rd. ed. Burlington, MA, USA: Gulf Professional
+Publishing, Elsevier, 2010. 1376 p.
+4 - Ramos, G. A. R. (2016). Aplicação de VBA Nos Fundamentos da Engenharia de Petróleos. Mayamba
+Editora.
+5 - Ramos, G. A. R. (2020). Indústria do Gás Natural. Engenharia de Produção do Gás Natural., volume 2.
+Editora Dois.
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+43
+MUITO OBRIGADA!
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD
+
+--- PAGE 0 ---
+Gráfico
+44
+Engenharia de Reservatórios
+Geraldo Ramos, BSc, MSc, PhD

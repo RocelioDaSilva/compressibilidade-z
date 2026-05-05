@@ -43,15 +43,24 @@ def standing_humido(gama_g: float):
 
 
 def sutton(gama_g: float):
-    """Sutton – Gás Natural Húmido / Condensado.
+    """Sutton (1985) – Gás Natural Húmido / Condensado.
+
+    Referência: Sutton, R.P. (1985). SPE 14265.
+      Ppc(psia) = 756.8 − 131.07 γg − 3.6 γg²
+      Tpc(°R)   = 169.2 + 349.5  γg − 74.0 γg²
+
+    Nota: a versão impressa no enunciado do Projecto Nº 1 (2025/2026) tem
+    os rótulos Ppc e Tpc trocados por erro de digitalização. As equações
+    aqui implementadas correspondem ao artigo original e produzem os valores
+    de referência apresentados na figura do enunciado.
 
     Args:
         gama_g: Densidade relativa do gás (ar = 1)
     Returns:
         (Ppc [psia], Tpc [°R])
     """
-    Ppc = 169.2 + 349.5 * gama_g - 74.0 * gama_g ** 2
-    Tpc = 756.8 - 131.07 * gama_g - 3.6 * gama_g ** 2
+    Ppc = 756.8 - 131.07 * gama_g - 3.6 * gama_g ** 2
+    Tpc = 169.2 + 349.5  * gama_g - 74.0 * gama_g ** 2
     return Ppc, Tpc
 
 

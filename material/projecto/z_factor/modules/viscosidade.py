@@ -76,11 +76,11 @@ def viscosidade_lucas(T_R: float, P: float,
         Tpr = T / Tpc
         Ppr = P / Ppc
 
-        ξ   = 9,490 × (Tpc_K / (Mg³ × Ppc_bar⁴))^(1/6)
+        ξ   = 0,176 × (Tpc_K / (Mg³ × Ppc_bar⁴))^(1/6)   [μP⁻¹]
 
         μ₁·ξ = 0,807 Tpr^0.618 − 0,357 exp(−0,449 Tpr)
               + 0,340 exp(−4,058 Tpr) + 0,018
-        μ₁  = (μ₁·ξ) / ξ                              [cP]
+        μ₁  = (μ₁·ξ) / ξ × 10⁻⁴            [cP]  (μP → cP)
 
     Correcção de pressão (Ahmed, 2010):
         a₁ = 1,245×10⁻³ exp(5,1726 Tpr^−0.3286) / Tpr
@@ -106,15 +106,16 @@ def viscosidade_lucas(T_R: float, P: float,
     Tpc_K   = Tpc * 5.0 / 9.0
     Ppc_bar = Ppc * 0.0689476
 
-    # Parâmetro de viscosidade reduzida
-    xi = 9.490 * (Tpc_K / (Mg ** 3 * Ppc_bar ** 4)) ** (1.0 / 6.0)
+    # Parâmetro de redução da viscosidade (Stiel-Thodos)
+    # ξ [μP^-1] = 0,176 × (Tpc_K / (Mg³ × Ppc_bar⁴))^(1/6)
+    xi = 0.176 * (Tpc_K / (Mg ** 3 * Ppc_bar ** 4)) ** (1.0 / 6.0)
 
     # Viscosidade à pressão de 1 atm
     mu1_xi = (0.807 * Tpr ** 0.618
               - 0.357 * math.exp(-0.449 * Tpr)
               + 0.340 * math.exp(-4.058 * Tpr)
               + 0.018)
-    mu1 = mu1_xi / xi   # cP
+    mu1 = (mu1_xi / xi) * 1.0e-4   # μP → cP
 
     if Ppr <= 1.0e-6:
         return mu1
