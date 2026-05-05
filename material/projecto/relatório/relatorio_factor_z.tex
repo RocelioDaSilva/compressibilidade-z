@@ -1,0 +1,670 @@
+% ==========================================================================
+%  RELATÓRIO TÉCNICO — FACTOR DE COMPRESSIBILIDADE DO GÁS NATURAL (Z)
+%  Engenharia de Reservatórios I — Projecto Nº 1 — 2025/2026
+%  ISPTEC — Instituto Superior Politécnico de Tecnologias e Ciências
+% ==========================================================================
+\documentclass[12pt, a4paper]{article}
+
+% ── Pacotes ─────────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{mdframed}
+
+\geometry{
+  a4paper,
+  top=2.5cm, bottom=2.5cm,
+  left=3.0cm,  right=2.5cm
+}
+
+% ── Cores ISPTEC ─────────────────────────────────────────────────────────────
+\definecolor{isptecNavy}{HTML}{1A3C5E}
+\definecolor{isptecGold}{HTML}{C8861E}
+\definecolor{lightblue}{HTML}{EEF2F7}
+\definecolor{codegreen}{rgb}{0,0.5,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codebg}{rgb}{0.97,0.97,0.97}
+
+% ── Hyperref ─────────────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  linkcolor=isptecNavy,
+  urlcolor=isptecGold,
+  citecolor=isptecNavy,
+  pdftitle={Factor de Compressibilidade do Gás Natural},
+  pdfauthor={Grupo — Engenharia de Reservatórios I},
+  pdfsubject={Projecto Nº 1 — 2025/2026}
+}
+
+% ── Estilos de secção ────────────────────────────────────────────────────────
+\titleformat{\section}
+  {\color{isptecNavy}\large\bfseries}
+  {\thesection.}{0.6em}{}
+  [\color{isptecGold}\titlerule[1.5pt]]
+
+\titleformat{\subsection}
+  {\color{isptecNavy}\normalsize\bfseries}
+  {\thesubsection.}{0.5em}{}
+
+\titleformat{\subsubsection}
+  {\color{isptecNavy}\normalsize\itshape}
+  {\thesubsubsection.}{0.5em}{}
+
+% ── Cabeçalho e rodapé ───────────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{isptecNavy}\textbf{Factor Z — Gás Natural}}
+\fancyhead[R]{\small\color{isptecNavy}Engenharia de Reservatórios I — ISPTEC}
+\fancyfoot[C]{\small\color{codegray}Página \thepage}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{isptecGold}\leaders\hrule height \headrulewidth\hfill}}
+
+% ── Listings (código Python) ─────────────────────────────────────────────────
+\lstdefinestyle{pythonstyle}{
+  backgroundcolor=\color{codebg},
+  commentstyle=\color{codegreen}\itshape,
+  keywordstyle=\color{isptecNavy}\bfseries,
+  stringstyle=\color{isptecGold},
+  basicstyle=\ttfamily\small,
+  breakatwhitespace=false,
+  breaklines=true,
+  keepspaces=true,
+  numbers=left,
+  numberstyle=\tiny\color{codegray},
+  showspaces=false,
+  showstringspaces=false,
+  tabsize=4,
+  frame=single,
+  rulecolor=\color{isptecNavy!30},
+  framesep=4pt,
+  xleftmargin=12pt
+}
+\lstset{style=pythonstyle, language=Python}
+
+% ── Caixa de definição ───────────────────────────────────────────────────────
+\newmdenv[
+  backgroundcolor=lightblue,
+  linecolor=isptecNavy,
+  linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=10pt, innerrightmargin=10pt,
+  innertopmargin=6pt, innerbottommargin=6pt,
+  skipabove=8pt, skipbelow=8pt
+]{defbox}
+
+% ==========================================================================
+%  INÍCIO DO DOCUMENTO
+% ==========================================================================
+\begin{document}
+\onehalfspacing
+
+% ── Página de Rosto ──────────────────────────────────────────────────────────
+\begin{titlepage}
+  \centering
+  {\color{isptecNavy}\rule{\textwidth}{3pt}}\\[0.6cm]
+  \includegraphics[width=4cm]{isptec_logo.png}\\[0.8cm]
+
+  {\LARGE\bfseries\color{isptecNavy}
+    Instituto Superior Politécnico de\\
+    Tecnologias e Ciências (ISPTEC)}\\[0.4cm]
+  {\large Departamento de Engenharia e Tecnologia}\\[0.2cm]
+  {\large Curso de Engenharia de Petróleo}\\[0.8cm]
+  {\color{isptecGold}\rule{\textwidth}{1.5pt}}\\[0.6cm]
+
+  {\Huge\bfseries\color{isptecNavy}
+    Factor de Compressibilidade\\
+    do Gás Natural (\textit{Z})}\\[0.4cm]
+  {\Large\color{isptecGold}Projecto Nº 1 — Relatório Técnico}\\[0.8cm]
+  {\color{isptecGold}\rule{0.5\textwidth}{1pt}}\\[0.8cm]
+
+  \begin{tabular}{ll}
+    \textbf{\color{isptecNavy}Unidade Curricular:} & Engenharia de Reservatórios I\\[4pt]
+    \textbf{\color{isptecNavy}Docente:}            & Geraldo Ramos, BSc, MSc, PhD\\[4pt]
+    \textbf{\color{isptecNavy}Ano Lectivo:}        & 2025/2026\\[4pt]
+    \textbf{\color{isptecNavy}Data de Entrega:}    & 14 de Maio de 2026\\
+  \end{tabular}\\[1.2cm]
+
+  {\color{isptecNavy}\rule{0.5\textwidth}{0.5pt}}\\[0.6cm]
+
+  {\large\bfseries\color{isptecNavy}Grupo}\\[0.4cm]
+  \begin{tabular}{ll}
+    Rocélio Da Silva    & Nº\,20220001\\
+    Marquinha Marcos    & Nº\,20200721\\
+    Arlindo Jamba       & Nº\,20222182\\
+    Nadir Manuel        & Nº\,20211333\\
+    Manuel Braz         & Nº\,20222320\\
+    Paulo Isaac Abel    & Nº\,20220918\\
+    Cristina Bongue     & Nº\,20221099\\
+  \end{tabular}\\[1.6cm]
+
+  {\color{isptecNavy}\rule{\textwidth}{3pt}}
+\end{titlepage}
+
+% ── Índice ───────────────────────────────────────────────────────────────────
+\tableofcontents
+\newpage
+
+% ==========================================================================
+\section{Introdução e Enquadramento Teórico}
+% ==========================================================================
+
+O factor de compressibilidade do gás, $Z$ (também designado por \textit{factor de
+desvio do gás ideal} ou \textit{factor de super-compressibilidade}), é um parâmetro
+adimensional que quantifica o desvio do comportamento de um gás real relativamente
+ao comportamento ideal previsto pela lei de Boyle-Charles-Gay-Lussac.
+
+A equação de estado para um gás real é dada por:
+
+\begin{equation}\label{eq:eos}
+  PV = nZRT
+\end{equation}
+
+\noindent onde $P$ é a pressão absoluta (psia), $V$ o volume molar (ft$^3$/lbmol),
+$T$ a temperatura absoluta (°R), $n$ o número de moles, $R = 10{,}73$ psia$\cdot$ft$^3$/
+(lbmol$\cdot$°R) a constante universal dos gases, e $Z$ o factor de
+compressibilidade.
+
+\subsection{Importância na Engenharia de Reservatórios}
+
+O conhecimento rigoroso de $Z$ é indispensável para:
+\begin{itemize}[leftmargin=1.5cm]
+  \item Cálculo das reservas de gás \textit{in situ} (IGIP — \textit{Initial Gas
+        in Place});
+  \item Dimensionamento de gasodutos e instalações de superfície;
+  \item Modelação do comportamento de pressão durante a produção;
+  \item Cálculo do factor volume de formação ($B_g$) e do factor de expansão ($E_g$).
+\end{itemize}
+
+\subsection{Gás Natural: Composição e Gravidade Específica}
+
+O gás natural é uma mistura de hidrocarbonetos leves (maioritariamente metano) com
+possíveis contaminantes ácidos — dióxido de carbono (CO$_2$), sulfureto de hidrogénio
+(H$_2$S) — e nitrogénio (N$_2$). A composição é caracterizada pela gravidade específica
+do gás $\gamma_g$, definida como o rácio entre a densidade do gás e a densidade do ar
+a condições standard:
+
+\begin{equation}\label{eq:gamma_g}
+  \gamma_g = \frac{\rho_g}{\rho_{\text{ar}}} = \frac{M_g}{28{,}97}
+\end{equation}
+
+% ==========================================================================
+\section{Correlações Implementadas}
+% ==========================================================================
+
+\subsection{Propriedades Pseudo-críticas}
+
+Para misturas gasosas sem composição detalhada, as propriedades pseudo-críticas
+($P_{pc}$, $T_{pc}$) são estimadas a partir de $\gamma_g$ pelas correlações
+empíricas de Standing (1977) e Sutton (1985).
+
+\subsubsection{Standing (1977) — Gás Natural Seco}
+
+\begin{align}
+  P_{pc} &= 677 + 15{,}0\,\gamma_g - 37{,}5\,\gamma_g^2
+            \quad [\text{psia}] \label{eq:standing_seco_ppc}\\
+  T_{pc} &= 168 + 325\,\gamma_g - 12{,}5\,\gamma_g^2
+            \quad [^{\circ}\text{R}] \label{eq:standing_seco_tpc}
+\end{align}
+
+\subsubsection{Standing (1977) — Gás Condensado (Húmido)}
+
+\begin{align}
+  P_{pc} &= 706 - 51{,}7\,\gamma_g - 11{,}1\,\gamma_g^2
+            \quad [\text{psia}] \\
+  T_{pc} &= 187 + 330\,\gamma_g - 71{,}5\,\gamma_g^2
+            \quad [^{\circ}\text{R}]
+\end{align}
+
+\subsubsection{Sutton (1985)}
+
+\begin{align}
+  P_{pc} &= 169{,}2 + 349{,}5\,\gamma_g - 74{,}0\,\gamma_g^2
+            \quad [\text{psia}] \\
+  T_{pc} &= 756{,}8 - 131{,}07\,\gamma_g - 3{,}6\,\gamma_g^2
+            \quad [^{\circ}\text{R}]
+\end{align}
+
+\subsection{Correcções para Gases Ácidos}
+
+Quando o gás contém CO$_2$, H$_2$S e N$_2$, as propriedades pseudo-críticas
+devem ser corrigidas.
+
+\subsubsection{Wichert e Aziz (1972)}
+
+O factor de correcção $\varepsilon$ é definido como:
+
+\begin{equation}\label{eq:wichert}
+  \varepsilon = 120\!\left(A^{0{,}9} - A^{1{,}6}\right)
+                + 15\!\left(B^{0{,}5} - B^4\right)
+\end{equation}
+
+\noindent onde $A = y_{\text{CO}_2} + y_{\text{H}_2\text{S}}$ e
+$B = y_{\text{H}_2\text{S}}$. As propriedades corrigidas são:
+
+\begin{align}
+  T'_{pc} &= T_{pc} - \varepsilon \\
+  P'_{pc} &= \frac{P_{pc}\,T'_{pc}}{T_{pc} + y_{\text{H}_2\text{S}}\,(1 - y_{\text{H}_2\text{S}})\,\varepsilon}
+\end{align}
+
+\subsubsection{Carr, Kobayashi e Burrows (1954)}
+
+Correcção directa das propriedades pseudo-críticas:
+
+\begin{align}
+  P'_{pc} &= P_{pc} - 440\,y_{\text{CO}_2} - 600\,y_{\text{H}_2\text{S}}
+             + 170\,y_{\text{N}_2} \\
+  T'_{pc} &= T_{pc} - 80\,y_{\text{CO}_2} + 130\,y_{\text{H}_2\text{S}}
+             - 250\,y_{\text{N}_2}
+\end{align}
+
+\subsection{Correlações para o Factor Z}
+
+As pressões e temperaturas pseudo-reduzidas são definidas como:
+
+\begin{equation}
+  P_{pr} = \frac{P}{P_{pc}}, \qquad T_{pr} = \frac{T}{T_{pc}}
+\end{equation}
+
+\subsubsection{Gás Ideal}
+
+\begin{equation}
+  Z = 1{,}0
+\end{equation}
+
+\subsubsection{Hall e Yarborough (1974)}
+
+O factor $Z$ é calculado iterativamente através da equação de estado de Starling e
+Carnahan. Define-se $t = 1/T_{pr}$ e resolve-se a equação implícita em $y$
+(factor de empacotamento):
+
+\begin{align}
+  F(y) &= -A\,P_{pr}
+           + \frac{y + y^2 + y^3 - y^4}{(1 - y)^3}
+           - (14{,}76\,t - 9{,}76\,t^2 + 4{,}58\,t^3)\,y^2 \nonumber\\
+         &\quad + (90{,}7\,t - 242{,}2\,t^2 + 42{,}4\,t^3)\,y^{(2{,}18 + 2{,}82\,t)}
+           = 0 \label{eq:hy_F}
+\end{align}
+
+\noindent onde $A = -0{,}06125\,t\,\exp(-1{,}2(1-t)^2)$. A solução usa o método de
+Newton-Raphson. O factor $Z$ é então:
+
+\begin{equation}\label{eq:hy_Z}
+  Z = \frac{-A\,P_{pr}}{y}
+\end{equation}
+
+\subsubsection{Dranchuk e Abou-Kassem (1975)}
+
+O método baseia-se na equação de estado de Benedict-Webb-Rubin modificada.
+Define-se $\rho_r = 0{,}27\,P_{pr}/(Z\,T_{pr})$ e a equação implícita em $Z$ é:
+
+\begin{align}
+  Z &= 1
+       + \left(A_1 + \frac{A_2}{T_{pr}} + \frac{A_3}{T_{pr}^3}
+               + \frac{A_4}{T_{pr}^4} + \frac{A_5}{T_{pr}^5}\right)\rho_r
+       + \left(A_6 + \frac{A_7}{T_{pr}} + \frac{A_8}{T_{pr}^2}\right)\rho_r^2 \nonumber\\
+     &\quad - A_9\!\left(\frac{A_7}{T_{pr}} + \frac{A_8}{T_{pr}^2}\right)\rho_r^5
+       + A_{10}\!\left(1 + A_{11}\rho_r^2\right)
+         \frac{\rho_r^2}{T_{pr}^3}\exp\!\left(-A_{11}\rho_r^2\right)
+         \label{eq:dak}
+\end{align}
+
+\noindent Os coeficientes são: $A_1 = 0{,}3265$, $A_2 = -1{,}0700$,
+$A_3 = -0{,}5339$, $A_4 = 0{,}01569$, $A_5 = -0{,}05165$,
+$A_6 = 0{,}5475$, $A_7 = -0{,}7361$, $A_8 = 0{,}1844$,
+$A_9 = 0{,}1056$, $A_{10} = 0{,}6134$, $A_{11} = 0{,}7210$.
+
+\subsection{Viscosidade do Gás}
+
+\subsubsection{Lee, González e Eakin (1966)}
+
+É a correlação de viscosidade mais utilizada em reservatórios de gás. A viscosidade
+$\mu_g$ em cP é:
+
+\begin{align}
+  \mu_g &= K \exp\!\left[X \left(\frac{\rho_g}{62{,}4}\right)^Y\right]
+            \times 10^{-4} \label{eq:lge}
+\end{align}
+
+\noindent onde a densidade do gás $\rho_g$ (lb/ft$^3$) é:
+
+\begin{equation}
+  \rho_g = \frac{P\,M_g}{Z\,R\,T}, \quad M_g = 28{,}97\,\gamma_g
+\end{equation}
+
+\noindent e os coeficientes dependentes da temperatura são:
+
+\begin{align}
+  K &= \frac{(9{,}4 + 0{,}02\,M_g)\,T^{1{,}5}}{209 + 19\,M_g + T} \\
+  X &= 3{,}5 + \frac{986}{T} + 0{,}01\,M_g \\
+  Y &= 2{,}4 - 0{,}2\,X
+\end{align}
+
+\noindent com $T$ em °R e $M_g$ a massa molecular do gás.
+
+\subsubsection{Lucas et al. (1981)}
+
+Correlação alternativa baseada nos estados correspondentes, válida para gases
+a altas pressões:
+
+\begin{equation}
+  \mu_g = \mu_1 \cdot f_P
+\end{equation}
+
+\noindent onde $\mu_1$ é a viscosidade a baixa pressão e $f_P$ o factor de
+correcção de pressão. Para $T_{pr} \leq 1{,}5$:
+
+\begin{equation}
+  \xi = 9{,}490 \left(\frac{T_{pc}}{M_g^3\,P_{pc}^4}\right)^{1/6}
+\end{equation}
+
+\begin{equation}
+  \mu_1 \xi = 0{,}807\,T_{pr}^{0{,}618}
+              - 0{,}357\exp(-0{,}449\,T_{pr})
+              + 0{,}340\exp(-4{,}058\,T_{pr})
+              + 0{,}018
+\end{equation}
+
+\subsection{Factor Volume de Formação e Factor de Expansão}
+
+O factor volume de formação do gás, $B_g$, relaciona o volume do gás à pressão
+e temperatura do reservatório com o seu volume a condições standard
+($P_{sc} = 14{,}696$\,psia, $T_{sc} = 519{,}67$\,°R):
+
+\begin{equation}\label{eq:Bg}
+  B_g = \frac{P_{sc}}{T_{sc}} \cdot \frac{Z\,T}{P}
+      = 0{,}02827 \cdot \frac{Z\,T}{P}
+        \quad \left[\text{ft}^3/\text{scf}\right]
+\end{equation}
+
+\noindent Em unidades de barril por Mscf:
+
+\begin{equation}
+  B_g = \frac{0{,}02827 \cdot Z\,T}{P} \times \frac{1000}{5{,}615}
+        \quad \left[\text{bbl/Mscf}\right]
+\end{equation}
+
+O factor de expansão do gás é o inverso de $B_g$:
+
+\begin{equation}\label{eq:Eg}
+  E_g = \frac{1}{B_g} = \frac{T_{sc}}{P_{sc}} \cdot \frac{P}{Z\,T}
+        \quad \left[\text{scf/ft}^3\right]
+\end{equation}
+
+% ==========================================================================
+\section{Metodologia Adoptada}
+% ==========================================================================
+
+O modelo foi implementado em Python 3, com uma arquitectura modular composta por
+quatro módulos independentes e uma interface gráfica principal.
+
+\subsection{Arquitectura do Programa}
+
+\begin{table}[H]
+  \centering
+  \caption{Estrutura modular do programa}
+  \label{tab:modulos}
+  \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Ficheiro} & \textbf{Módulo} & \textbf{Funcionalidade} \\
+    \midrule
+    \texttt{modules/properties.py}   & \texttt{modules.properties}
+      & Propriedades pseudo-críticas e correcções de acidez \\
+    \texttt{modules/correlations.py} & \texttt{modules.correlations}
+      & Correlações do factor Z (HY, DAK, gás ideal) \\
+    \texttt{modules/viscosidade.py}  & \texttt{modules.viscosidade}
+      & Viscosidade: Lee-González-Eakin, Lucas \\
+    \texttt{modules/volumetria.py}   & \texttt{modules.volumetria}
+      & Factor $B_g$ e factor $E_g$ em múltiplas unidades \\
+    \texttt{main.py}                 & —
+      & Interface gráfica (tkinter/ttk) + motor de cálculo \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Algoritmo de Hall-Yarborough}
+
+A equação~\eqref{eq:hy_F} é resolvida pelo método de Newton-Raphson:
+
+\begin{equation}
+  y_{k+1} = y_k - \frac{F(y_k)}{F'(y_k)}, \quad y_0 = 0{,}001
+\end{equation}
+
+com tolerância de convergência $|F(y)| < 10^{-10}$ e máximo de 200 iterações.
+A derivada analítica $F'(y)$ é calculada explicitamente para robustez numérica.
+
+\subsection{Algoritmo de Dranchuk-Abou-Kassem}
+
+A equação~\eqref{eq:dak} é resolvida por substituição directa (\textit{fixed-point
+iteration}), estimando inicialmente $Z = 1$ e actualizando a densidade reduzida:
+
+\begin{equation}
+  \rho_r^{(k)} = \frac{0{,}27\,P_{pr}}{Z^{(k)}\,T_{pr}}
+\end{equation}
+
+até que $|Z^{(k+1)} - Z^{(k)}| < 10^{-8}$, com máximo de 200 iterações.
+
+\subsection{Motor de Cálculo}
+
+A função \texttt{calcular\_resultados()} aceita os parâmetros de entrada
+(pressão, temperatura, $\gamma_g$, fracções de gases ácidos, tipo de correlações
+e unidades) e devolve uma lista de resultados para cada ponto de pressão:
+
+\begin{lstlisting}[caption={Assinatura da função principal de cálculo}]
+def calcular_resultados(
+    P_max, T_f, gama_g,
+    y_co2, y_h2s, y_n2,
+    P_min, n_int,
+    pc_ch, corr_ch, z_ch, visc_ch, bg_ch, eg_ch,
+):
+    # Retorna: (linhas, (Ppc, Tpc, Tpr))
+    # linhas: lista de (P, Z, mu_g, Bg, Eg)
+\end{lstlisting}
+
+% ==========================================================================
+\section{Descrição do Modelo Implementado}
+% ==========================================================================
+
+\subsection{Interface Gráfica}
+
+A interface foi desenvolvida em \texttt{tkinter/ttk} com tema \textit{clam} e paleta
+de cores ISPTEC (azul-marinho \texttt{\#1A3C5E} e dourado \texttt{\#C8861E}).
+
+\begin{table}[H]
+  \centering
+  \caption{Parâmetros configuráveis na interface gráfica}
+  \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Parâmetro} & \textbf{Tipo} & \textbf{Valores/Opções} \\
+    \midrule
+    Pressão (Psia)        & Entrada numérica  & — \\
+    Temperatura (°F)      & Entrada numérica  & — \\
+    Gravidade Específica (\%) & Entrada numérica & — \\
+    CO$_2$ (\%)           & Entrada numérica  & — \\
+    H$_2$S (\%)           & Entrada numérica  & — \\
+    N$_2$ (\%)            & Entrada numérica  & — \\
+    Pressão Mínima (Psia) & Entrada numérica  & — \\
+    Nº de Intervalos      & Entrada numérica  & — \\
+    P,T Pseudo-críticas   & Caixa de selecção & Standing Seco / Húmido / Sutton \\
+    Correcção de Acidez   & Caixa de selecção & Wichert-Aziz / Carr-KB / Nenhuma \\
+    Factor Z (método)     & Caixa de selecção & Hall-Yarborough / DAK \\
+    Viscosidade           & Caixa de selecção & Lee-González-Eakin / Lucas \\
+    Bg (unidades)         & Caixa de selecção & ft$^3$/scf / bbl/Mscf / m$^3$/m$^3$ \\
+    Eg (unidades)         & Caixa de selecção & scf/ft$^3$ / Mscf/bbl / m$^3$/m$^3$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Tabela de Resultados}
+
+Os resultados são apresentados numa grelha (\textit{Treeview}) com cinco colunas:
+pressão (Psia), factor Z, viscosidade (cP), $B_g$ e $E_g$ nas unidades seleccionadas.
+
+\subsection{Visualização Gráfica}
+
+A aplicação inclui uma janela de gráficos com 4 sub-gráficos (grade 2×2):
+\begin{enumerate}
+  \item Factor Z vs Pressão (comparação dos dois métodos + gás ideal);
+  \item Viscosidade $\mu_g$ vs Pressão;
+  \item Factor $B_g$ vs Pressão;
+  \item Factor $E_g$ vs Pressão.
+\end{enumerate}
+
+\subsection{Distribuição como Aplicação Windows}
+
+O programa foi empacotado como executável Windows (\texttt{.exe}) com PyInstaller 6,
+usando a opção \texttt{--onefile} (ficheiro único) e \texttt{--windowed} (sem consola),
+com um ícone personalizado ISPTEC.
+
+% ==========================================================================
+\section{Apresentação e Discussão dos Resultados}
+% ==========================================================================
+
+\subsection{Condições de Referência}
+
+Os resultados foram obtidos para as seguintes condições:
+\begin{defbox}
+  $\gamma_g = 0{,}75$, \quad $T = 150{,}0\,^{\circ}\text{F}$,\quad
+  $y_{\text{CO}_2} = 0{,}05$,\quad $y_{\text{H}_2\text{S}} = 0{,}10$,\quad
+  $y_{\text{N}_2} = 0{,}00$\\[4pt]
+  Correlação P,T pseudo-críticas: Standing (Gás Natural Seco)\\
+  Correcção de acidez: Wichert e Aziz\\[4pt]
+  $P_{pc}' = 630{,}07$\,psia, \quad $T_{pc}' = 383{,}98\,^{\circ}\text{R}$,
+  \quad $T_{pr} = 1{,}588$
+\end{defbox}
+
+\subsection{Tabela Comparativa de Resultados}
+
+\begin{table}[H]
+  \centering
+  \caption{Resultados para a faixa de pressão 3\,000–3\,300 Psia}
+  \label{tab:resultados}
+  \begin{tabular}{@{}S[table-format=4.0]
+                     S[table-format=1.6]
+                     S[table-format=1.6]
+                     S[table-format=1.6]
+                     S[table-format=1.6]@{}}
+    \toprule
+    {$P$ (Psia)} & {$Z$ (Hall-Yarborough)} & {$Z$ (DAK)}
+                 & {$\mu_g$ (cP)}          & {$B_g$ (ft$^3$/scf)} \\
+    \midrule
+    3300  & 0.850981  & 0.853426  & 0.023041  & 0.004446 \\
+    3250  & 0.847825  & 0.850361  & 0.022813  & 0.004498 \\
+    3200  & 0.844776  & 0.847396  & 0.022584  & 0.004552 \\
+    3150  & 0.841839  & 0.844535  & 0.022354  & 0.004608 \\
+    3100  & 0.839020  & 0.841782  & 0.022124  & 0.004666 \\
+    3050  & 0.836322  & 0.839141  & 0.021892  & 0.004728 \\
+    3000  & 0.833752  & 0.836618  & 0.021660  & 0.004792 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Análise dos Resultados}
+
+\subsubsection{Factor Z}
+
+Observa-se que o factor $Z$ aumenta ligeiramente com a redução da pressão para
+$T_{pr} = 1{,}588$ (região acima do ponto crítico). Este comportamento é típico de
+gases naturais a temperaturas elevadas. A diferença entre as correlações
+Hall-Yarborough e Dranchuk-Abou-Kassem é inferior a $0{,}003$ (0,3\%),
+indicando boa concordância para esta gama de pressões.
+
+\subsubsection{Viscosidade}
+
+A viscosidade do gás diminui com a redução da pressão, passando de
+$\mu_g = 0{,}0230$ cP a 3\,300 Psia para $\mu_g = 0{,}0217$ cP a 3\,000 Psia.
+Este comportamento reflecte a diminuição da densidade do gás com a pressão, que
+domina o efeito de colisões moleculares descrito pela correlação de
+Lee-González-Eakin.
+
+\subsubsection{Factor Volume de Formação}
+
+O factor $B_g$ aumenta com a redução da pressão, uma vez que o gás ocupa maior
+volume à pressão do reservatório para a mesma quantidade de gás à superfície.
+Esta relação é praticamente linear para a gama considerada, como seria de esperar
+da equação~\eqref{eq:Bg}.
+
+% ==========================================================================
+\section{Conclusões}
+% ==========================================================================
+
+O programa desenvolvido implementa com sucesso um conjunto abrangente de
+correlações para as propriedades de gases naturais, cumprindo os requisitos
+do Projecto Nº 1 da unidade curricular de Engenharia de Reservatórios I:
+
+\begin{enumerate}[leftmargin=1.5cm]
+  \item O factor de compressibilidade $Z$ foi implementado com três métodos:
+        Gás Ideal, Hall-Yarborough (1974) e Dranchuk-Abou-Kassem (1975).
+        A concordância entre os dois métodos iterativos é excelente ($< 0{,}3\%$
+        para as condições de referência).
+
+  \item As propriedades pseudo-críticas são estimadas por Standing (seco/húmido)
+        ou Sutton, com correcções de acidez por Wichert-Aziz ou Carr-Kobayashi-Burrows.
+
+  \item A viscosidade do gás é calculada pelas correlações de
+        Lee-González-Eakin (1966) e Lucas et al. (1981), com valores
+        típicos de 0{,}020–0{,}025 cP nas condições de reservatório analisadas.
+
+  \item O factor $B_g$ e o factor $E_g$ foram implementados em três sistemas
+        de unidades (campo americano, bbl/Mscf e SI).
+
+  \item A interface gráfica moderna facilita a análise paramétrica interactiva,
+        com visualização simultânea de $Z$, $\mu_g$, $B_g$ e $E_g$ vs pressão.
+
+  \item O programa foi distribuído como aplicação Windows autónoma
+        (\texttt{FactorZ\_GasNatural.exe}), não requerendo instalação de Python.
+\end{enumerate}
+
+% ==========================================================================
+\section{Referências Bibliográficas}
+% ==========================================================================
+
+\begin{enumerate}[label={[\arabic*]}, leftmargin=2cm]
+  \item Ahmed, T. (2010). \textit{Reservoir Engineering Handbook},
+        4ª edição, Gulf Professional Publishing.
+
+  \item Standing, M.B. \& Katz, D.L. (1942). Density of natural gases.
+        \textit{Trans. AIME}, 146, 140--149.
+
+  \item Hall, K.R. \& Yarborough, L. (1974). A new equation of state
+        for Z-factor calculations. \textit{Oil and Gas Journal}, 72(25), 82--92.
+
+  \item Dranchuk, P.M. \& Abou-Kassem, J.H. (1975). Calculation of Z-factors
+        for natural gases using equations of state.
+        \textit{Journal of Canadian Petroleum Technology}, 14(3), 34--36.
+
+  \item Lee, A.L., González, M.H. \& Eakin, B.E. (1966). The viscosity of
+        natural gases. \textit{Journal of Petroleum Technology}, 18(8), 997--1000.
+
+  \item Wichert, E. \& Aziz, K. (1972). Calculate Z's for sour gases.
+        \textit{Hydrocarbon Processing}, 51(5), 119--122.
+
+  \item Sutton, R.P. (1985). Compressibility factors for high-molecular-weight
+        reservoir gases. \textit{SPE 14265}.
+
+  \item Carr, N.L., Kobayashi, R. \& Burrows, D.B. (1954). Viscosity of hydrocarbon
+        gases under pressure. \textit{Trans. AIME}, 201, 264--272.
+
+  \item Lucas, K. (1981). \textit{Phase Equilibria and Fluid Properties in the
+        Chemical Industry}, DECHEMA, Frankfurt.
+\end{enumerate}
+
+\end{document}
