@@ -92,9 +92,13 @@ def calcular_resultados(
     """
     Calcular tabela de resultados para a grelha de pressões escolhida.
 
+    Calcula SEMPRE os dois métodos Z (Hall-Yarborough e Dranchuk-Abou-Kassem)
+    para comparação directa. O método seleccionado em z_ch é utilizado para
+    o cálculo de viscosidade, Bg e Eg.
+
     Returns:
         (linhas, (Ppc, Tpc, Tpr))
-        linhas: lista de (P, Z, mu [cP], Bg, Eg)
+        linhas: lista de (P, Z_hy, Z_dak, mu [cP], Bg, Eg)
     """
     T_R = T_f + 459.67
 
@@ -122,11 +126,12 @@ def calcular_resultados(
         P   = P_max - i * passo
         Ppr = P / Ppc
 
-        # Factor Z
-        if "Dranchuk" in z_ch:
-            Z = z_dranchuk_abou_kassem(Ppr, Tpr)
-        else:
-            Z = z_hall_yarborough(Ppr, Tpr)
+        # Calcular AMBOS os métodos Z sempre
+        Z_hy  = z_hall_yarborough(Ppr, Tpr)
+        Z_dak = z_dranchuk_abou_kassem(Ppr, Tpr)
+
+        # Usar o método seleccionado para viscosidade/Bg/Eg
+        Z = Z_dak if "Dranchuk" in z_ch else Z_hy
 
         # Viscosidade
         if "Lucas" in visc_ch:
@@ -136,7 +141,7 @@ def calcular_resultados(
 
         Bg = fn_bg(Z, T_R, P)
         Eg = fn_eg(Z, T_R, P)
-        linhas.append((P, Z, mu, Bg, Eg))
+        linhas.append((P, Z_hy, Z_dak, mu, Bg, Eg))
 
     return linhas, (Ppc, Tpc, Tpr)
 
@@ -373,8 +378,8 @@ class AplicacaoFactorZ(tk.Tk):
         self._lbl_info.grid(row=0, column=0, columnspan=2,
                              sticky="w", pady=(0, 6), padx=4)
 
-        self._cols = ("Pressão\n(Psia)", "Factor Z",
-                      "Viscosidade\n(cP)", "Bg", "Eg")
+        self._cols = ("Pressão\n(Psia)", "Hall-Yarborough",
+                      "Dranchuk", "Viscosidade\n(cP)", "Bg", "Eg")
         self.tree = ttk.Treeview(fr, columns=self._cols,
                                   show="headings", height=26)
         self._hdrs()
@@ -391,10 +396,9 @@ class AplicacaoFactorZ(tk.Tk):
     def _hdrs(self):
         bg_u = self.v.get("unid_bg", tk.StringVar(value=OPT_BG[0])).get()
         eg_u = self.v.get("unid_eg", tk.StringVar(value=OPT_EG[0])).get()
-        hdrs  = ["Pressão (Psia)", "Factor Z",
-                 "Viscosidade (cP)",
-                 f"Bg  ({bg_u})", f"Eg  ({eg_u})"]
-        widths = [100, 110, 120, 130, 130]
+        hdrs  = ["Pressão (Psia)", "Hall-Yarborough", "Dranchuk",
+                 "Viscosidade (cP)", f"Bg  ({bg_u})", f"Eg  ({eg_u})"]
+        widths = [95, 115, 115, 120, 120, 120]
         for col, hdr, w in zip(self._cols, hdrs, widths):
             self.tree.heading(col, text=hdr)
             self.tree.column(col, width=w, minwidth=70, anchor="center")
@@ -465,10 +469,10 @@ class AplicacaoFactorZ(tk.Tk):
         self._hdrs()
         for item in self.tree.get_children():
             self.tree.delete(item)
-        for i, (P, Z, mu, Bg, Eg) in enumerate(self._resultados):
+        for i, (P, Z_hy, Z_dak, mu, Bg, Eg) in enumerate(self._resultados):
             tag = "alt" if i % 2 else ""
             self.tree.insert("", "end", tags=(tag,),
-                values=(f"{P:.1f}", f"{Z:.6f}",
+                values=(f"{P:.1f}", f"{Z_hy:.6f}", f"{Z_dak:.6f}",
                         f"{mu:.6f}", f"{Bg:.6f}", f"{Eg:.4f}"))
 
         n = len(self._resultados)
@@ -489,27 +493,17 @@ class AplicacaoFactorZ(tk.Tk):
             messagebox.showwarning("matplotlib em falta",
                 "pip install matplotlib", parent=self); return
 
-        P   = [r[0] for r in self._resultados]
-        Zv  = [r[1] for r in self._resultados]
-        mu  = [r[2] for r in self._resultados]
-        Bg  = [r[3] for r in self._resultados]
-        Eg  = [r[4] for r in self._resultados]
+        P    = [r[0] for r in self._resultados]
+        Z_hy = [r[1] for r in self._resultados]
+        Z_dk = [r[2] for r in self._resultados]
+        mu   = [r[3] for r in self._resultados]
+        Bg   = [r[4] for r in self._resultados]
+        Eg   = [r[5] for r in self._resultados]
 
-        # Z comparativo (o outro método)
-        z_ch2 = (OPT_Z[1] if "Hall" in self.v["metodo_z"].get() else OPT_Z[0])
-        # recalcular pseudo-críticas para o gráfico
-        try:
-            T_R   = self._flt("temperatura", "") + 459.67
-            Tpr2  = T_R / self._Tpc
-            Z2 = []
-            for p_val, Zval in zip(P, Zv):
-                Ppr2 = p_val / self._Ppc
-                if "Dranchuk" in z_ch2:
-                    Z2.append(z_dranchuk_abou_kassem(Ppr2, Tpr2))
-                else:
-                    Z2.append(z_hall_yarborough(Ppr2, Tpr2))
-        except Exception:
-            Z2 = None
+        # Usar os dois Z já calculados (não precisa recalcular)
+        Zv = Z_hy if "Hall" in self.v["metodo_z"].get() else Z_dk
+        z_ch2 = OPT_Z[1] if "Hall" in self.v["metodo_z"].get() else OPT_Z[0]
+        Z2 = Z_dk if "Hall" in self.v["metodo_z"].get() else Z_hy
 
         bg_u = self.v["unid_bg"].get()
         eg_u = self.v["unid_eg"].get()
@@ -539,7 +533,7 @@ class AplicacaoFactorZ(tk.Tk):
         # ── Z-factor ──────────────────────────────────────────────────
         ax = axes[0, 0]
         ax.plot(P, Zv, color=C["blue"], label=zm, **lw)
-        if Z2:
+        if Z2 is not None:
             ax.plot(P, Z2, color=C["purple"],
                     linestyle="-.", linewidth=1.8, label=z_ch2)
         ax.plot(P, [z_ideal()] * len(P), color=C["green"],
